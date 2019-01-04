@@ -199,7 +199,7 @@ rng-tools
 rfkill
 sane-utils
 scdaemon
-scribus
+scribus-ng
 seahorse
 seahorse-daemon
 seahorse-nautilus

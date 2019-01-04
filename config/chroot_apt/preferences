@@ -159,3 +159,7 @@ Pin-Priority: -10
 Package: electrum python3-electrum python3-jsonrpclib-pelix python3-pyaes
 Pin: release o=Debian,n=stretch-backports
 Pin-Priority: 999
+
+Package: scribus-ng scribus-ng-data
+Pin: release o=Debian,n=experimental
+Pin-Priority: 999
