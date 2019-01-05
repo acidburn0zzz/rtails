@@ -194,7 +194,6 @@ pulseaudio
 pulseaudio-utils
 pwgen
 p7zip-full
-qt-at-spi
 rng-tools
 rfkill
 sane-utils
@@ -274,7 +273,6 @@ xserver-xorg-video-amdgpu
 ### Input methods
 ibus-gtk
 ibus-gtk3
-ibus-qt4
 ## Chinese
 ibus-pinyin
 ## Japanese
