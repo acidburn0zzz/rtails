@@ -1,0 +1,11 @@
+Even if cryptsetup switched to LUKS2 by default in buster, UDisks2 didn't; so let's pick that version ourselves.
+--- /usr/share/perl5/Tails/Persistence/Setup.pm
++++ /usr/share/perl5/Tails/Persistence/Setup.pm
+@@ -571,6 +571,7 @@ method create_persistent_encrypted_filesystem (
+     my $fsoptions = {
+         %{$self->persistence_filesystem_options},
+         'encrypt.passphrase' => $opts->{passphrase},
++        'encrypt.type'       => 'luks2',
+     };
+ 
+     $self->udisks_service->get_object($self->persistence_partition)
