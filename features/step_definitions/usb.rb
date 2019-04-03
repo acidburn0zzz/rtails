@@ -379,6 +379,11 @@ Then /^a Tails persistence partition exists on USB drive "([^"]+)"$/ do |name|
     luks_dev = "/dev/mapper/#{name}"
   end
 
+  # Check LUKS1 vs. LUKS2:
+  luks_info = $vm.execute("cryptsetup status #{luks_dev}").stdout
+  assert(luks_info.match("^ +type: +LUKS2$"),
+         "Device #{luks_dev} doesn't appear to be LUKS2")
+
   # Adapting check_part_integrity() seems like a bad idea so here goes
   info = $vm.execute("udisksctl info --block-device '#{luks_dev}'").stdout
   assert info.match("^    CryptoBackingDevice: +'/[a-zA-Z0-9_/]+'$")
