@@ -692,6 +692,20 @@ EOF
       end
     end
     @display.start
+    # In #11888 we made the remote shell move from serial transport to
+    # virtio. Since then we've occassionally seen the remote shell not
+    # responding after restoring a snapshot.
+    if not($vm.remote_shell_is_up?)
+      @restore_snapshot_tries ||= 0
+      @restore_snapshot_tries += 1
+      if @restore_snapshot_tries <= 3
+        debug_log("The remote shell is down after restoring snapshot. " +
+                  "Retrying... (attempt #{@restore_snapshot_tries} of 3)")
+        restore_snapshot(name)
+      end
+    else
+      @restore_snapshot_tries = 0
+    end
   end
 
   def VM.remove_snapshot(name)
