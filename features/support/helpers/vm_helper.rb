@@ -482,10 +482,12 @@ class VM
 
   def remote_shell_is_up?
     msg = 'hello?'
-    Timeout::timeout(3) do
+    timeout = 3
+    Timeout::timeout(timeout) do
       execute_successfully("echo '#{msg}'").stdout.chomp == msg
     end
   rescue
+    debug_log("The remote shell failed to respond within #{timeout} seconds")
     false
   end
 
