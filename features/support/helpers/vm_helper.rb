@@ -480,8 +480,9 @@ class VM
     return execute(cmd, options)
   end
 
-  def remote_shell_is_up?(timeout = 3)
+  def remote_shell_is_up?
     msg = 'hello?'
+    timeout = 3
     Timeout::timeout(timeout) do
       execute_successfully("echo '#{msg}'").stdout.chomp == msg
     end
@@ -694,7 +695,7 @@ EOF
     # In #11888 we made the remote shell move from serial transport to
     # virtio. Since then we've occassionally seen the remote shell not
     # responding after restoring a snapshot.
-    if not($vm.remote_shell_is_up?(30))
+    if not($vm.remote_shell_is_up?)
       @restore_snapshot_tries ||= 0
       @restore_snapshot_tries += 1
       if @restore_snapshot_tries <= 3
