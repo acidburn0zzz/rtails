@@ -17,7 +17,6 @@ use Carp;
 use Carp::Assert;
 use Cwd;
 use Digest::SHA;
-use File::Temp qw{tempfile};
 use Function::Parameters;
 use HTTP::Request;
 use Path::Tiny;
@@ -25,7 +24,7 @@ use String::Errf qw{errf};
 use Tails::IUK::LWP::UserAgent::WithProgress;
 use Tails::IUK::Utils qw{space_available_in};
 use Types::Path::Tiny qw{AbsPath};
-use Types::Standard qw{Enum Int Str};
+use Types::Standard qw{Enum InstanceOf Int Object Str};
 
 use namespace::clean;
 
@@ -65,10 +64,67 @@ option 'size' => (
     format   => 's',
 );
 
+option 'max_retries' => (
+    is        => 'ro',
+    isa       => Int,
+    format    => 's',
+    default   => sub {
+        my $self = shift;
+        if ($ENV{HARNESS_ACTIVE}) {
+            $self->has_first_byte
+                ? 1  # in this case we are testing resuming a download
+                : 0 # in other cases, let's things speed up and abort early
+        } else {
+            6
+        }
+    },
+);
+
+has 'ua' => (
+    is  => 'lazy',
+    isa => InstanceOf['LWP::UserAgent'],
+);
+
+# Test suite only!
+# In unpack('H*', $data) format
+option 'first_byte' => (
+    is        => 'ro',
+    isa       => Str,
+    format    => 's',
+    predicate => 1,
+);
+
 
 =head1 METHODS
 
 =cut
+
+method _build_ua () {
+    my $ua;
+    if ($ENV{HARNESS_ACTIVE} && $self->has_first_byte) {
+        # When running under the test suite and --first_byte is
+        # passed, simulate a HTTP server that only sends the first
+        # byte of the requested file, for the first download attempt:
+        # this allows exercising this class' ability to resume an
+        # interrupted download.
+        require Test::LWP::UserAgent;
+        Test::LWP::UserAgent->import;
+        $ua = Test::LWP::UserAgent->new;
+        $self->patch_response_handler($ua);
+    } else {
+        $ua = Tails::IUK::LWP::UserAgent::WithProgress->new(ssl_opts => {
+            verify_hostname => 0,
+            SSL_verify_mode => 0,
+        });
+    }
+    unless ($ENV{HARNESS_ACTIVE} or $ENV{DISABLE_PROXY}) {
+        $ua->proxy([qw(http https)] => 'socks://127.0.0.1:9062');
+    }
+    $ua->protocols_allowed([qw(http https)]);
+    $ua->max_size($self->size);
+
+    return $ua;
+}
 
 method fatal (@msg) {
     Tails::IUK::Utils::fatal(msg => \@msg);
@@ -89,21 +145,33 @@ method check_available_space () {
     ));
 }
 
+method patch_response_handler (Object $ua) {
+    $ua->map_response(
+        qr{},
+        sub {
+            # Disable this mapped response, so it does not trigger
+            # for subsequent download attempts, that will instead
+            # go directly to the test web server
+            $ua->unmap_all;
+            $ua->network_fallback(1);
+            # Return the mocked response
+            HTTP::Response->new(
+                200, 'OK',
+                HTTP::Headers->new(),
+                pack('H*', $self->first_byte)
+            );
+        }
+    );
+}
+
 method run () {
     $self->check_available_space;
 
-    my $ua = Tails::IUK::LWP::UserAgent::WithProgress->new(ssl_opts => {
-        verify_hostname => 0,
-        SSL_verify_mode => 0,
-    });
-    unless ($ENV{HARNESS_ACTIVE} or $ENV{DISABLE_PROXY}) {
-        $ua->proxy([qw(http https)] => 'socks://127.0.0.1:9062');
-    }
-    $ua->protocols_allowed([qw(http https)]);
     my $req = HTTP::Request->new('GET', $self->uri);
 
-    my ($temp_fh, $temp_filename) = tempfile;
-    close $temp_fh;
+    my $temp_file = Path::Tiny->tempfile;
+    my $temp_fh = $temp_file->opena_raw;
+    $temp_fh->autoflush(1);
 
     sub clean_fatal {
         my $self   = shift;
@@ -112,38 +180,71 @@ method run () {
         $self->fatal(@_);
     }
 
-    $ua->max_size($self->size);
-    my $res = $ua->request($req, $temp_filename);
+    my $retries = 0;
+    my $sleep = 1;
+    my $success;
+    while ($retries <= $self->max_retries) {
+        if ($retries) {
+            sleep $sleep;
+            $sleep *= 2;
+            my $range_start = -s $temp_fh;
+            say STDERR "Resuming download after $range_start bytes (retry no. $retries)";
+            $req->header(Range => "bytes=${range_start}-");
+        }
 
-    defined $res or clean_fatal($self, $temp_filename, sprintf(
-        "Could not download '%s' to '%s': undefined result",
-        $self->uri, $temp_filename,
-    ));
+        $retries++;
+        my $res = $self->ua->request($req, sub { print $temp_fh shift; });
 
-    for my $lwp_failure_header (qw{Client-Aborted X-Died}) {
-        my $header = $res->header($lwp_failure_header);
-        ! defined $header or clean_fatal($self, $temp_filename, sprintf(
-            "Could not download '%s' to '%s' (%s): %s",
-            $self->uri, $temp_filename, $lwp_failure_header, $header,
-        ));
+        unless (defined $res) {
+            warn(sprintf(
+                "Could not download '%s' to '%s': undefined result",
+                $self->uri, $temp_file,
+            ));
+            next;
+        }
+
+        for my $lwp_failure_header (qw{Client-Aborted X-Died}) {
+            my $header = $res->header($lwp_failure_header);
+            if (defined $header) {
+                warn(sprintf(
+                    "Could not download '%s' to '%s' (%s): %s",
+                    $self->uri, $temp_file, $lwp_failure_header, $header,
+                ));
+                next;
+            }
+        }
+
+        unless ($res->is_success) {
+            warn(sprintf(
+                "Could not download '%s' to '%s', request failed:\n%s\n",
+                $self->uri, $temp_file, $res->status_line,
+            ));
+            next;
+        }
+
+        if (-s $temp_file != $self->size) {
+            warn(sprintf(
+                "The file '%s' was downloaded but its size (%d) should be %d",
+                $self->uri, -s $temp_file, $self->size,
+            ));
+            next;
+        }
+
+        $temp_fh->close;
+        $success = 1;
+        last;
     }
 
-    $res->is_success or clean_fatal($self, $temp_filename, sprintf(
-        "Could not download '%s' to '%s', request failed:\n%s\n",
-        $self->uri, $temp_filename, $res->status_line,
-    ));
-
-    -s $temp_filename == $self->size or clean_fatal(
-        $self, $temp_filename, sprintf(
-            "The file '%s' was downloaded but its size (%d) should be %d",
-            $self->uri, -s $temp_filename, $self->size,
+    $success or clean_fatal($self, $temp_file, sprintf(
+        "Could not download '%s' to '%s'",
+        $self->uri, $temp_file,
     ));
 
     my $sha = Digest::SHA->new(256);
-    $sha->addfile($temp_filename);
+    $sha->addfile($temp_file->stringify);
     my $actual_hash = $sha->hexdigest;
     $actual_hash eq $self->hash_value or clean_fatal(
-        $self, $temp_filename, sprintf(
+        $self, $temp_file, sprintf(
             "The file '%s' was downloaded but its hash is not correct:\n"
                 . "  - expected: %s\n"
                 . "  - actual:   %s",
@@ -152,7 +253,7 @@ method run () {
             $actual_hash,
     ));
 
-    rename($temp_filename, $self->output_file);
+    $temp_file->move($self->output_file);
     # autodie is supposed to throw an exception on rename error,
     # but one can't be too careful.
     assert(-e $self->output_file);
