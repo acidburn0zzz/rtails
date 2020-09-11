@@ -71,6 +71,8 @@ When /^I start Thunderbird$/ do
   # respecitve snakeoil SSL cert, so we have to import it.
   if ENV['JENKINS']
     thunderbird_install_host_snakeoil_ssl_cert
+    $config['Thunderbird']['address'] = `hostname`.chomp + '.lizard'
+    $config['Thunderbird']['password'] = 'test'
   end
   step 'I start "Thunderbird" via GNOME Activities Overview'
   try_for(60) { thunderbird_main }
