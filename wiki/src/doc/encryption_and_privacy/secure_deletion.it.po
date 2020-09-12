@@ -7,18 +7,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-10-10 11:28+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-04-23 16:49+0000\n"
+"PO-Revision-Date: 2020-08-19 19:29+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Securely delete files and clean diskspace\"]]\n"
+msgid "[[!meta title=\"Securely deleting files and clean diskspace\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -33,7 +35,7 @@ msgstr "<a id=\"why\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Why use secure deletion?\n"
+msgid "Why use secure deletion?"
 msgstr ""
 
 #. type: Plain text
@@ -84,7 +86,7 @@ msgstr "<a id=\"usb_and_ssd\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Warning about USB sticks and solid-state disks\n"
+msgid "Warning about USB sticks and solid-state disks"
 msgstr ""
 
 #. type: Plain text
@@ -102,7 +104,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Securely delete files\n"
+msgid "Securely delete files"
 msgstr ""
 
 #. type: Plain text
@@ -125,7 +127,7 @@ msgstr "</div>\n"
 
 #. type: Bullet: '  1. '
 msgid "Open the <span class=\"application\">Files</span> browser."
-msgstr ""
+msgstr "Apri il navigatore di <span class=\"application\">File</span>."
 
 #. type: Bullet: '  1. '
 msgid "Navigate to the folder containing the files that you want to delete."
@@ -164,7 +166,7 @@ msgstr "<a id=\"clean_disk_space\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Securely clean available disk space\n"
+msgid "Securely clean available disk space"
 msgstr ""
 
 #. type: Plain text
@@ -244,14 +246,13 @@ msgstr "<a id=\"clean_disk_space\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Securely erasing an entire device\n"
+msgid "Securely erasing an entire device"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<div class=\"caution\">\n"
+#, no-wrap
 msgid "<div class=\"note\">\n"
-msgstr "<div class=\"caution\">\n"
+msgstr "<div class=\"note\">\n"
 
 #. type: Plain text
 #, no-wrap

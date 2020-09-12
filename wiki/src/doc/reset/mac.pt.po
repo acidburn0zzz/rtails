@@ -6,22 +6,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-07-31 21:51+0000\n"
-"PO-Revision-Date: 2018-02-24 17:18+0000\n"
-"Last-Translator: Tails translators <amnesia@boum.org>\n"
-"Language-Team: Portuguese "
-"<http://translate.tails.boum.org/projects/tails/reset_mac/pt/>\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2020-04-12 16:10+0200\n"
+"PO-Revision-Date: 2020-08-31 23:30+0000\n"
+"Last-Translator: Weblate Admin <tails-translations@boum.org>\n"
+"Language-Team: Portuguese <http://translate.tails.boum.org/projects/tails/"
+"reset_mac/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.10.1\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Resetting a USB stick using macOS\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Como resetar um pendrive USB usando macOS\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,10 +40,8 @@ msgid ""
 "<strong>You might overwrite any hard disk on the computer.</strong> If at some\n"
 "point you are not sure about which device to choose, stop proceeding.\n"
 msgstr ""
-"<strong>Você pode sobrescrever qualquer disco rígido no seu "
-"computador.</strong> Se em algum\n"
-"ponto você não tiver certeza de qual dispositivo escolher, interrompa o "
-"procedimento.\n"
+"<strong>Você pode sobrescrever qualquer disco rígido no seu computador.</strong> Se em algum\n"
+"ponto você não tiver certeza de qual dispositivo escolher, interrompa o procedimento.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -57,7 +56,7 @@ msgstr ""
 
 #. type: Bullet: '2.  '
 msgid "Start <span class=\"application\">Disk Utility</span>."
-msgstr ""
+msgstr "Inicie o <span class=\"application\">Utilitário de Disco</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -65,13 +64,12 @@ msgid ""
 "    A list of all the storage devices on the computer appears in the left pane\n"
 "    of the window.\n"
 msgstr ""
-"    Uma lista com todos os dispositivos de armazenamento conectados ao "
-"computador aparecerá no\n"
+"    Uma lista com todos os dispositivos de armazenamento conectados ao computador aparecerá no\n"
 "    painel esquedo da janela.\n"
 
 #. type: Bullet: '3.  '
 msgid "Plug the USB stick that you want to reset."
-msgstr ""
+msgstr "Conecte o pen drive que você quer resetar"
 
 #. type: Plain text
 #, no-wrap
@@ -79,6 +77,8 @@ msgid ""
 "    A new device appears in the list of storage devices. This new device\n"
 "    corresponds to the USB stick that you plugged in. Click on it.\n"
 msgstr ""
+"    Um novo dispositivo aparece na lista de dispositivos de armazenamento. Este novo dispositivo\n"
+"    corresponde ao pen drive que você conectou. Clique nele.\n"
 
 #. type: Bullet: '4.  '
 msgid ""
@@ -126,21 +126,21 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!toggleable id=\"format\" text=\"\"\"\n"
-msgstr ""
+msgstr "[[!toggleable id=\"format\" text=\"\"\"\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<span class=\"hide\">[[!toggle id=\"format\" text=\"\"]]</span>\n"
-msgstr ""
+msgstr "<span class=\"hide\">[[!toggle id=\"format\" text=\"\"]]</span>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Troubleshooting\n"
-msgstr "Resolução de problemas\n"
+msgid "Troubleshooting"
+msgstr "Solução de problemas"
 
 #. type: Title -
 #, no-wrap
-msgid "Format using the command line\n"
+msgid "Format using the command line"
 msgstr ""
 
 #. type: Plain text
@@ -169,7 +169,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "       diskutil list\n"
-msgstr ""
+msgstr "       diskutil list\n"
 
 #. type: Plain text
 #, no-wrap

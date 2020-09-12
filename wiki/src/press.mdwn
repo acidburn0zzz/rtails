@@ -1,4 +1,5 @@
 [[!meta title="Press and media information"]]
+[[!meta stylesheet="hide-breadcrumbs" rel="stylesheet" title=""]]
 
 [[!toc levels=1]]
 
@@ -29,7 +30,6 @@ Quick links to better understand Tails
 ======================================
 
 * [[About Tails|about]] for a quick overview
-* [Tor overview](https://www.torproject.org/about/overview.html.en)
 * More details about the [[features and software|doc/about/features]] included in Tails
 * Our [[design document|contribute/design]] about Tails specification, threat model and implementation
 * Our [[documentation|doc]] explaining in details how to use Tails
@@ -42,14 +42,15 @@ mentioned regularly in the press and in research papers. This list is
 not comprehensive, but illustrates some of the significant articles
 that have been published about Tails.
 
-2019
+2020
 ----
 
-[[!inline pages="press/media_appearances_2019" raw="yes" sort="age"]]
+[[!inline pages="press/media_appearances_2020" raw="yes" sort="age"]]
 
 Older media appearances
 ----------------------
 
+* [[!toggle id="media_appearances_2019" text="2019"]]
 * [[!toggle id="media_appearances_2018" text="2018"]]
 * [[!toggle id="media_appearances_2017" text="2017"]]
 * [[!toggle id="media_appearances_2016" text="2016"]]
@@ -58,6 +59,16 @@ Older media appearances
 * [[!toggle id="media_appearances_2013" text="2013"]]
 * [[!toggle id="media_appearances_2012" text="2012"]]
 * [[!toggle id="media_appearances_2011" text="2011"]]
+
+[[!toggleable id="media_appearances_2019" text="""
+<span class="hide">[[!toggle id="media_appearances_2019" text=""]]</span>
+
+2019
+----
+
+[[!inline pages="press/media_appearances_2019" raw="yes" sort="age"]]
+
+"""]]
 
 [[!toggleable id="media_appearances_2018" text="""
 <span class="hide">[[!toggle id="media_appearances_2018" text=""]]</span>

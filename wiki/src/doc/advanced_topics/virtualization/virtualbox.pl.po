@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2018-05-02 13:27+0000\n"
+"POT-Creation-Date: 2020-09-04 13:14+0000\n"
 "PO-Revision-Date: 2018-07-02 08:36+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,9 +35,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/advanced_topics/virtualization.caution\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"doc/advanced_topics/virtualization.caution.pl\" raw=\"yes\""
-" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/advanced_topics/virtualization.caution.pl\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -58,7 +56,7 @@ msgstr "<div class=\"caution\">\n"
 msgid ""
 "For security reasons, we recommend you to use only the <span\n"
 "class=\"application\">Open Source Edition</span>, though it does not\n"
-"allow to use a persistent volume.\n"
+"allow use of a Persistent Storage.\n"
 msgstr ""
 
 #. type: Plain text
@@ -84,13 +82,13 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<p>Make sure to understand the security implications of [[accessing\n"
-"internal hard disks|encryption_and_privacy/your_data_wont_be_saved_unless_explicitly_asked]]\n"
+"internal hard disks|internal_hard_disk]]\n"
 "from Tails before using this feature.</p>\n"
 msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Security considerations for Windows and macOS\n"
+msgid "Security considerations for Windows and macOS"
 msgstr ""
 
 #. type: Plain text
@@ -109,7 +107,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Installation\n"
+msgid "Installation"
 msgstr ""
 
 #. type: Plain text
@@ -131,7 +129,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Running Tails from an ISO image\n"
+msgid "Running Tails from an ISO image"
 msgstr ""
 
 #. type: Plain text
@@ -219,3 +217,55 @@ msgstr ""
 #. type: Bullet: '  1. '
 msgid "Click **Start**."
 msgstr ""
+
+msgid ""
+"     <div class=\"bug\"><p><span class=\"application\">VirtualBox</span> "
+"guest\n"
+"     modules allow for additional features when using Tails in a virtual\n"
+"     machine: shared folders, resizable display, shared clipboard, etc.</p>\n"
+msgstr ""
+"     <div class=\"bug\"><p><span class=\"application\">VirtualBox</span>\n"
+"     Gastmodule erlauben Ihnen weitere Funktionen, wenn Sie Tails in einer "
+"virtuellen Maschine\n"
+"     verwenden: verteilte Ordner, größenveränderbarer Bildschirm, gemeinsame "
+"Zwischenablage, usw.</p>\n"
+
+msgid ""
+"     <p>But due to <a href=\"https://www.virtualbox.org/ticket/11037\">a bug "
+"in\n"
+"     <span class=\"application\">VirtualBox</span></a>, the resizable "
+"display\n"
+"     and shared clipboard only work in Tails if the virtual machine is "
+"configured to\n"
+"     have a 32-bit processor. The shared folders work both on 32-bit and\n"
+"     64-bit guests.</p></div>\n"
+msgstr ""
+"     <p>Aber aufgrund <a href=\"https://www.virtualbox.org/"
+"ticket/11037\">eines Bugs in\n"
+"     <span class=\"application\">VirtualBox</span></a> funktionieren die "
+"größenveränderbare\n"
+"     Anzeige und gemeinsame Zwischenablage in Tails nur, wenn die virtuelle "
+"Maschine so konfiguriert\n"
+"     wurde, dass sie einen 32-Bit Prozessor hat. Die Gemeinsamen Ordner "
+"funktionieren sowohl mit 32-Bit\n"
+"     als auch 64-Bit Gästen.</p></div>\n"
+
+msgid ""
+"  1. In the **Memory size** screen:\n"
+"     - Allocate at least 2048 MB of RAM.\n"
+"     - Click **Next**.\n"
+"  1. In the **Hard drive** screen:\n"
+"     - Choose **Do not add a virtual hard drive**.\n"
+"     - Click **Create**.\n"
+"     - Click **Continue** in the warning dialog about creating a virtual\n"
+"       machine without a hard drive.\n"
+msgstr ""
+"  1. In dem Fenster **Speichergröße**:\n"
+"     - Weisen Sie mindestens 2048 MB Hauptspeicher (RAM) zu.\n"
+"     - Klicken Sie auf **Weiter**.\n"
+"  1. In dem Fenster **Platte**:\n"
+"     - Wählen Sie **Keine Festplatte**.\n"
+"     - Klicken Sie auf **Erzeugen**.\n"
+"     - Klicken Sie in dem Warnfenster zum Erstellen einer virtuellen "
+"Maschine ohne\n"
+"       Festplatte auf **Fortfahren**.\n"

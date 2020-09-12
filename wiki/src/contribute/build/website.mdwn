@@ -15,6 +15,8 @@ changes will apply on the website.
 Build the website in Linux
 ==========================
 
+If you are in Tails, see the [[dedicated instructions|website#tails]].
+
 1. Update the list of available packages:
 
         sudo apt update
@@ -27,27 +29,23 @@ Build the website in Linux
            libyaml-libyaml-perl \
            libyaml-syck-perl \
            perlmagick \
-           po4a/stretch \
+           po4a \
            ruby
-
-   You need to install ikiwiki version 3.20170111~bpo8+1 or newer.
-   In Debian this version is currently available in Stretch and
-   jessie-backports.
 
 3. Clone our main [[Git repository|git]]:
 
-        git clone https://git-tails.immerda.ch/tails
+        git clone https://gitlab.tails.boum.org/tails/tails.git
 
 [[!inline pages="contribute/build/website/src.inline" raw="yes" sort="age"]]
 
-4. Build the website:
+5. Build the website:
 
         cd tails && \
         ./build-website
 
 [[!inline pages="contribute/build/website/languages.inline" raw="yes" sort="age"]]
 
-5. You can now browse your local copy of the website in the following folder:
+6. You can now browse your local copy of the website in the following folder:
 
    <span class="filename">config/chroot_local-includes/usr/share/doc/tails/website/</span>
 
@@ -56,13 +54,12 @@ Build the website in Linux
 Build the website in Tails
 ==========================
 
-1. [[Create and configure|doc/first_steps/persistence/configure]] a persistent volume and activate the following features:
+1. [[Create and configure|doc/first_steps/persistence/configure]] a Persistent Storage and turn on the following features:
 
    - Personal Data
-   - APT Packages
-   - APT Lists
+   - Additional Software
 
-2. Restart Tails, [[enable the persistence|doc/first_steps/persistence/use]], and [[set up an administration password|doc/first_steps/startup_options/administration_password]].
+2. Restart Tails, [[unlock the Persistent Storage|doc/first_steps/persistence/use]], and [[set up an administration password|doc/first_steps/welcome_screen/administration_password]].
 
 3. Update the list of available packages:
 
@@ -82,7 +79,7 @@ Build the website in Tails
 5. Clone our main [[Git repository|git]] in the <span class="filename">Persistent</span> folder:
 
         cd ~/Persistent/ && \
-        git clone https://git-tails.immerda.ch/tails
+        git clone https://gitlab.tails.boum.org/tails/tails.git
 
 [[!inline pages="contribute/build/website/src.inline" raw="yes" sort="age"]]
 

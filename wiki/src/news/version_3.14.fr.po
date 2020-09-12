@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2019-06-02 18:13+0000\n"
-"PO-Revision-Date: 2020-01-11 13:26+0000\n"
+"PO-Revision-Date: 2020-02-12 11:27+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -157,7 +157,7 @@ msgstr "<a id=\"noscript\"></a>\n"
 #. type: Title ##
 #, no-wrap
 msgid "Fixed problems"
-msgstr "Problèmes résolus"
+msgstr "Problèmes corrigés"
 
 #. type: Bullet: '- '
 msgid ""
@@ -265,10 +265,10 @@ msgstr "Réinstallez votre clé USB en utilisant la même méthode d'installatio
 #. type: Bullet: '1. '
 msgid ""
 "Start Tails for the first time and [[set up an administration password|doc/"
-"first_steps/startup_options/administration_password]]."
+"first_steps/welcome_screen/administration_password]]."
 msgstr ""
 "Démarrez Tails une première fois et [[définissez un mot de passe "
-"d'administration|doc/first_steps/startup_options/administration_password]]."
+"d'administration|doc/first_steps/welcome_screen/administration_password]]."
 
 #. type: Bullet: '1. '
 msgid ""

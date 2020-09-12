@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-12-16 15:52+0000\n"
-"PO-Revision-Date: 2019-12-27 00:25+0000\n"
+"POT-Creation-Date: 2020-04-23 16:49+0000\n"
+"PO-Revision-Date: 2020-08-17 10:29+0000\n"
 "Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/"
 "first_stepsindex/es/>\n"
@@ -22,6 +22,11 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"OpenPGP Applet\"]]\n"
 msgstr "[[!meta title=\"Applet de OpenPGP\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -82,12 +87,6 @@ msgstr ""
 "decrypt_verify]]"
 
 #. type: Plain text
-msgid ""
-"Note that the applet doesn't manage your keys, that is done by Seahorse."
-msgstr ""
-"Ten en cuenta que este programa no gestiona tus claves. Eso lo hace Seahorse."
-
-#. type: Plain text
 #, no-wrap
 msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
@@ -95,13 +94,75 @@ msgstr "<div class=\"caution\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>If you have GnuPG keys stored in Persistence since before Tails 4.1\n"
+"<p>If you have GnuPG keys stored in your Persistent Storage since before Tails 4.1\n"
 "(December 2019), you should [[update your OpenPGP keyserver\n"
 "configuration|doc/encryption_and_privacy/openpgp_keyserver]] to use safe\n"
 "keyservers.</p>\n"
 msgstr ""
+"<p>Si tienes claves GnuPG almacenadas en tu Almacenamiento Persistente desde "
+"antes de Tails 4.1\n"
+"(Diciembre de 2019), deberías [[actualizar tu configuración del servidor "
+"OpenPGP|doc/encryption_and_privacy/openpgp_keyserver]] para usar servidores "
+"seguros.</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "</div>\n"
 msgstr "</div>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Managing your OpenPGP keys"
+msgstr "Gestionar tus llaves OpenPGP"
+
+#. type: Plain text
+msgid ""
+"You can manage your OpenPGP keys using the *Passwords and Keys* utility, "
+"also called *Seahorse*."
+msgstr ""
+"Puedes gestionar tus llaves OpenPGP usando la utilidad *Contraseñas y claves*"
+" ('passwords and keys' en inglés), también llamada *Seahorse*."
+
+#. type: Plain text
+msgid "To open the *Passwords and Keys* utility, you can either:"
+msgstr "Para abrir la aplicación *Contraseñas y claves*, puedes:"
+
+#. type: Bullet: '* '
+msgid "Click on *OpenPGP Applet* and choose **Manage Keys**."
+msgstr "Haz click en el *OpenPGP applet* y elige **Administrar claves**."
+
+#. type: Bullet: '* '
+msgid ""
+"Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Passwords and Keys**."
+msgstr ""
+
+#. type: Plain text
+msgid "To list the public OpenPGP keys in your keyring:"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose **GnuPG keys** in the sidebar of the **Passwords and Keys** utility."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"import\"></a>\n"
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Importing new OpenPGP public keys"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!inline pages=\"doc/encryption_and_privacy/gpgapplet.warning\" raw=\"yes\" sort=\"age\"]]\n"
+msgid "[[!inline pages=\"support/known_issues/import_broken_in_seahorse.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/encryption_and_privacy/gpgapplet.warning.es\" raw=\"yes\" sort=\"age\"]]\n"
+
+#~ msgid ""
+#~ "Note that the applet doesn't manage your keys, that is done by Seahorse."
+#~ msgstr ""
+#~ "Ten en cuenta que este programa no gestiona tus claves. Eso lo hace "
+#~ "Seahorse."

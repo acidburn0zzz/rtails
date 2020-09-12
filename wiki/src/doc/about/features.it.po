@@ -6,15 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: revisione ignifugo\n"
-"POT-Creation-Date: 2020-01-07 17:53+0100\n"
-"PO-Revision-Date: 2016-07-14 13:07+0200\n"
-"Last-Translator: \n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2020-08-14 22:57+0000\n"
+"PO-Revision-Date: 2020-08-14 10:54+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -33,8 +35,9 @@ msgstr ""
 "(Buster)."
 
 #. type: Title =
-#, no-wrap
-msgid "Included software\n"
+#, fuzzy, no-wrap
+#| msgid "Included software\n"
+msgid "Included software"
 msgstr "Software incluso\n"
 
 #. type: Bullet: '* '
@@ -48,8 +51,9 @@ msgstr ""
 "introduction_to_gnome_and_the_tails_desktop]])"
 
 #. type: Title -
-#, no-wrap
-msgid "Networking\n"
+#, fuzzy, no-wrap
+#| msgid "Networking\n"
+msgid "Networking"
 msgstr "Connessioni\n"
 
 #. type: Plain text
@@ -82,14 +86,12 @@ msgstr "Connessioni\n"
 msgid ""
 "* [Tor](https://www.torproject.org) with:\n"
 "  - [[stream isolation|contribute/design/stream_isolation]]\n"
-"  - regular, obfs2, obfs3, obfs4, and ScrambleSuit bridges support\n"
+"  - regular, obfs3, and obfs4 bridges support\n"
 "  - the Onion Circuits graphical frontend ([[More...|doc/anonymous_internet/tor_status#circuits]])\n"
 "* [NetworkManager](http://projects.gnome.org/NetworkManager/) for easy\n"
 "  network configuration ([[More...|doc/anonymous_internet/networkmanager]])\n"
-"* [Tor Browser](https://www.torproject.org/projects/torbrowser.html.en) ([[More...|doc/anonymous_internet/Tor_Browser]]), a web\n"
+"* [Tor Browser](https://www.torproject.org) ([[More...|doc/anonymous_internet/Tor_Browser]]), a web\n"
 "  browser based on [Mozilla Firefox](http://getfirefox.com) and modified to protect your anonymity with:\n"
-"  - [Torbutton](https://www.torproject.org/docs/torbutton/) for anonymity\n"
-"    and protection against evil JavaScript\n"
 "  - all cookies are treated as session cookies by default;\n"
 "  - [HTTPS Everywhere](https://www.eff.org/https-everywhere)\n"
 "    transparently enables SSL-encrypted connections to a great number\n"
@@ -131,8 +133,8 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Desktop edition\n"
-msgstr "Edizione Desktop\n"
+msgid "Desktop edition"
+msgstr "Edizione Desktop"
 
 #. type: Bullet: '* '
 msgid ""
@@ -203,9 +205,10 @@ msgid ""
 msgstr ""
 
 #. type: Title -
-#, no-wrap
-msgid "Encryption and privacy\n"
-msgstr "Cifratura e privacy\n"
+#, fuzzy, no-wrap
+#| msgid "Encryption and privacy\n"
+msgid "Encryption and privacy"
+msgstr "Cifratura e privacy"
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -305,8 +308,9 @@ msgstr ""
 "(guarda per i file con l'estensione '.packages')"
 
 #. type: Title =
-#, no-wrap
-msgid "Additional software\n"
+#, fuzzy, no-wrap
+#| msgid "Additional software\n"
+msgid "Additional software"
 msgstr "Software aggiuntivo\n"
 
 #. type: Plain text
@@ -316,11 +320,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"Using the <span class=\"guilabel\">Additional Software</span>\n"
-"persistence feature, additional software can even be installed\n"
-"automatically every time you start Tails.\n"
+"To install additional software automatically when starting Tails, use the "
+"[[Additional Software|doc/first_steps/persistence/"
+"configure#additional_software]] feature of the Persistent Storage."
 msgstr ""
 
 #. type: Plain text
@@ -329,8 +332,9 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#, no-wrap
-msgid "Additional features\n"
+#, fuzzy, no-wrap
+#| msgid "Additional features\n"
+msgid "Additional features"
 msgstr "Caratteristiche aggiuntive\n"
 
 #. type: Bullet: '* '
@@ -387,8 +391,9 @@ msgstr ""
 "fisicamente staccato"
 
 #. type: Title =
-#, no-wrap
-msgid "Multilingual support\n"
+#, fuzzy, no-wrap
+#| msgid "Multilingual support\n"
+msgid "Multilingual support"
 msgstr "Supporto multilingua\n"
 
 # Controllare i nomi delle lingue!!!

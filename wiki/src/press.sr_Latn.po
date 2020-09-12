@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-01-24 10:23+0000\n"
-"PO-Revision-Date: 2018-10-26 13:26+0000\n"
-"Last-Translator: Weblate Admin <admin@example.com>\n"
+"POT-Creation-Date: 2020-08-14 22:57+0000\n"
+"PO-Revision-Date: 2020-03-07 13:28+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.19.1\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -26,12 +26,17 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!toc levels=1]]\n"
+msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=1]]\n"
+msgstr "[[!toc levels=1]]\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Announcements and press releases\n"
+msgid "Announcements and press releases"
 msgstr ""
 
 #. type: Plain text
@@ -76,15 +81,11 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Quick links to better understand Tails\n"
+msgid "Quick links to better understand Tails"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[About Tails|about]] for a quick overview"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[Tor overview](https://www.torproject.org/about/overview.html.en)"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -105,7 +106,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Media appearances\n"
+msgid "Media appearances"
 msgstr ""
 
 #. type: Plain text
@@ -117,19 +118,20 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "2019\n"
+msgid "2020"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!inline pages=\"press/media_appearances_2019\" raw=\"yes\" sort=\"age\"]]\n"
+msgid "[[!inline pages=\"press/media_appearances_2020\" raw=\"yes\" sort=\"age\"]]\n"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid ""
-"Older media appearances\n"
-"----------------------\n"
+msgid "Older media appearances"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[!toggle id=\"media_appearances_2019\" text=\"2019\"]]"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -166,6 +168,26 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "[[!toggleable id=\"media_appearances_2019\" text=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<span class=\"hide\">[[!toggle id=\"media_appearances_2019\" text=\"\"]]</span>\n"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "2019"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"press/media_appearances_2019\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid "[[!toggleable id=\"media_appearances_2018\" text=\"\"\"\n"
 msgstr ""
 
@@ -176,7 +198,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "2018\n"
+msgid "2018"
 msgstr ""
 
 #. type: Plain text
@@ -196,7 +218,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "2017\n"
+msgid "2017"
 msgstr ""
 
 #. type: Plain text
@@ -216,7 +238,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "2016\n"
+msgid "2016"
 msgstr ""
 
 #. type: Plain text
@@ -236,7 +258,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "2015\n"
+msgid "2015"
 msgstr ""
 
 #. type: Plain text
@@ -256,7 +278,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "2014\n"
+msgid "2014"
 msgstr ""
 
 #. type: Plain text
@@ -276,7 +298,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "2013\n"
+msgid "2013"
 msgstr ""
 
 #. type: Plain text
@@ -296,7 +318,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "2012\n"
+msgid "2012"
 msgstr ""
 
 #. type: Plain text
@@ -316,7 +338,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "2011\n"
+msgid "2011"
 msgstr ""
 
 #. type: Plain text
@@ -326,7 +348,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Awards\n"
+msgid "Awards"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -363,7 +385,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Conferences\n"
+msgid "Conferences"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -430,7 +452,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Films and videos\n"
+msgid "Films and videos"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -470,7 +492,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Books, booklets, and guide\n"
+msgid "Books, booklets, and guide"
 msgstr ""
 
 #. type: Bullet: '* '

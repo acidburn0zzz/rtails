@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-12-16 15:52+0000\n"
-"PO-Revision-Date: 2015-10-17 07:36+0000\n"
-"Last-Translator: sprint5 <translation5@451f.org>\n"
+"POT-Creation-Date: 2020-04-23 16:49+0000\n"
+"PO-Revision-Date: 2020-08-19 08:29+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Persian <http://weblate.451f.org:8889/projects/tails/"
 "gpgapplet/fa/>\n"
 "Language: fa\n"
@@ -17,12 +17,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.4-dev\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"OpenPGP Applet\"]]\n"
 msgstr "[[!meta title=\"برنامک اپن‌پی‌جی‌پی تیلز\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -83,20 +88,14 @@ msgstr ""
 "decrypt_verify]]"
 
 #. type: Plain text
-msgid ""
-"Note that the applet doesn't manage your keys, that is done by Seahorse."
-msgstr ""
-"در خاطر داشته باشید که کلیدهای شما توسط Seahorse مدیریت می‌شود، نه برنامک."
-
-#. type: Plain text
 #, no-wrap
 msgid "<div class=\"caution\">\n"
-msgstr ""
+msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>If you have GnuPG keys stored in Persistence since before Tails 4.1\n"
+"<p>If you have GnuPG keys stored in your Persistent Storage since before Tails 4.1\n"
 "(December 2019), you should [[update your OpenPGP keyserver\n"
 "configuration|doc/encryption_and_privacy/openpgp_keyserver]] to use safe\n"
 "keyservers.</p>\n"
@@ -105,4 +104,59 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Managing your OpenPGP keys"
 msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can manage your OpenPGP keys using the *Passwords and Keys* utility, "
+"also called *Seahorse*."
+msgstr ""
+
+#. type: Plain text
+msgid "To open the *Passwords and Keys* utility, you can either:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Click on *OpenPGP Applet* and choose **Manage Keys**."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Passwords and Keys**."
+msgstr ""
+
+#. type: Plain text
+msgid "To list the public OpenPGP keys in your keyring:"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose **GnuPG keys** in the sidebar of the **Passwords and Keys** utility."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"import\"></a>\n"
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Importing new OpenPGP public keys"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"support/known_issues/import_broken_in_seahorse.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"support/known_issues/import_broken_in_seahorse.inline.fa\" "
+"raw=\"yes\" sort=\"age\"]]\n"
+
+#~ msgid ""
+#~ "Note that the applet doesn't manage your keys, that is done by Seahorse."
+#~ msgstr ""
+#~ "در خاطر داشته باشید که کلیدهای شما توسط Seahorse مدیریت می‌شود، نه برنامک."

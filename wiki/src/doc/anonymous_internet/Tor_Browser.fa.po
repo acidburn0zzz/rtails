@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-10-10 11:28+0200\n"
-"PO-Revision-Date: 2019-08-27 06:00+0000\n"
+"POT-Creation-Date: 2020-08-25 02:53+0000\n"
+"PO-Revision-Date: 2020-09-05 06:31+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Persian <http://weblate.451f.org:8889/projects/tails/"
 "tor_browser/fa/>\n"
@@ -17,12 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Browsing the web with Tor Browser\"]]\n"
 msgstr "[[!meta title=\"وب‌گردی با مرورگر تور\"]]\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!toc levels=2]]\n"
+msgid "[[!toc levels=1]]\n"
+msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -32,7 +38,7 @@ msgstr "[[!meta title=\"وب‌گردی با مرورگر تور\"]]\n"
 #| "protect your anonymity. Given the popularity of Firefox, you might have used it\n"
 #| "before and its user interface is like any other modern web browser.\n"
 msgid ""
-"<span class=\"application\">[Tor Browser](https://www.torproject.org/projects/torbrowser.html.en)</span> is a web\n"
+"<span class=\"application\">[Tor Browser](https://www.torproject.org)</span> is a web\n"
 "browser based on [Mozilla Firefox](http://getfirefox.com) but configured\n"
 "to protect your privacy.\n"
 msgstr ""
@@ -86,13 +92,8 @@ msgstr "بعضی سوالات متداول در مورد این مروگر را 
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!toc levels=2]]\n"
-msgstr "[[!toc levels=2]]\n"
-
-#. type: Plain text
-#, no-wrap
 msgid "<div class=\"tip\">\n"
-msgstr ""
+msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -109,13 +110,8 @@ msgstr "</div>\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"confinement\"></a>\n"
-msgstr "<a id=\"confinement\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "AppArmor confinement\n"
-msgstr "محافظت AppArmor\n"
+msgid "<h1 id=\"confinement\">AppArmor confinement, downloading, and uploading files</h1>\n"
+msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -149,9 +145,9 @@ msgstr "<div class=\"note\">\n"
 #| "denied</span> errors, for example if you try to download files to the\n"
 #| "<span class=\"filename\">Home</span> folder.\n"
 msgid ""
-"This is why, for example, you might face <span class=\"guilabel\">Permission\n"
-"denied</span> errors if you try to download files to the\n"
-"<span class=\"filename\">Home</span> folder.\n"
+"<p>This is why, for example, you might face <em>Permission\n"
+"denied</em> errors if you try to download files to the\n"
+"<em>Home</em> folder.</p>\n"
 msgstr ""
 "به همین دلیل ممکن است پیغام‌های خطای <span class=\"guilabel\">منع دسترسی</span>\n"
 "دریافت کنید؛ برای نمونه وقتی تلاش می‌کنید فایلی را در پوشهٔ \n"
@@ -180,19 +176,26 @@ msgstr ""
 "فایل آپلود کنید، ابتدا آن‌ها را در آن پوشه کپی کنید.\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "- If you have activated the <span\n"
+#| "class=\"guilabel\">[[Personal\n"
+#| "Data|doc/first_steps/persistence/configure#personal_data]]</span>\n"
+#| "persistence feature, then you can also use the <span\n"
+#| "class=\"filename\">Tor Browser</span> folder that is located in the\n"
+#| "<span class=\"filename\">Persistent</span> folder. In that case, the\n"
+#| "content of this folder is saved and remains available across separate\n"
+#| "working sessions.\n"
 msgid ""
-"- If you have activated the <span\n"
-"class=\"guilabel\">[[Personal\n"
-"Data|doc/first_steps/persistence/configure#personal_data]]</span>\n"
-"persistence feature, then you can also use the <span\n"
-"class=\"filename\">Tor Browser</span> folder that is located in the\n"
-"<span class=\"filename\">Persistent</span> folder. In that case, the\n"
-"content of this folder is saved and remains available across separate\n"
-"working sessions.\n"
+"- If you turned on the [[Personal Data|doc/first_steps/persistence/"
+"configure#personal_data]] feature of the Persistent Storage, you can also "
+"use the *Persistent/Tor Browser* folder to download and upload files from "
+"*Tor Browser*. The content of the *Persistent/Tor Browser* folder is saved "
+"across different working sessions."
 msgstr ""
 "- اگر ویژگی مانای <span\n"
-"class=\"guilabel\">[[اطلاعات شخصی|doc/first_steps/persistence/configure#personal_data]]</span>\n"
+"class=\"guilabel\">[[اطلاعات شخصی|doc/first_steps/persistence/"
+"configure#personal_data]]</span>\n"
 "را فعال کرده باشید، می‌توانید از پوشهٔ <span\n"
 "class=\"filename\">مرورگر تور</span> موجود در پوشهٔ\n"
 "<span class=\"filename\">مانا</span> نیز استفاده کنید.\n"
@@ -202,28 +205,16 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>To be able to download files larger than the available RAM, you need\n"
-"to activate the <span class=\"guilabel\">[[Personal\n"
-"Data|doc/first_steps/persistence/configure#personal_data]]</span>\n"
-"persistence feature.</p>\n"
+"<p>To prevent Tails from running out of memory and crashing, download\n"
+"very big files to the <em>Persistent/Tor Browser</em> folder.\n"
+"All the files that you download outside of the Persistent Storage are\n"
+"stored in memory (RAM), which is more limited.</p>\n"
 msgstr ""
-"<p>برای این که بتوانید فایل‌های بزرگ‌تر از حافظهٔ تصادفی موجود را دانلود کنید، باید\n"
-"ویژگی مانای <span class=\"guilabel\">[[اطلاعات \n"
-"شخصی|doc/first_steps/persistence/configure#personal_data]]</span>\n"
-"را فعال کنید.</p>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "<a id=\"https-everywhere\"></a>\n"
-msgid ""
-"<a id=\"https\"></a>\n"
-"<a id=\"https-everywhere\"></a>\n"
-msgstr "<a id=\"https-everywhere\"></a>\n"
-
-#. type: Title =
-#, fuzzy, no-wrap
 #| msgid "HTTPS Everywhere\n"
-msgid "HTTPS encryption with HTTPS Everywhere\n"
+msgid "<h1 id=\"https-everywhere\">HTTPS encryption with HTTPS Everywhere</h1>\n"
 msgstr "اچ‌تی‌تی‌پی‌اس همه‌جا\n"
 
 #. type: Plain text
@@ -371,18 +362,9 @@ msgstr ""
 "[سوالات متداول «همه‌جا اچ‌تی‌تی‌پی‌اس»](https://www.eff.org/https-everywhere/faq/)"
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"torbutton\"></a>\n"
-msgstr "<a id=\"torbutton\"></a>\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "<a id=\"javascript\"></a>\n"
-msgstr "<a id=\"javascript\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Protection against dangerous JavaScript\n"
+#, fuzzy, no-wrap
+#| msgid "Protection against dangerous JavaScript\n"
+msgid "<h1 id=\"javascript\">Protection against dangerous JavaScript</h1>\n"
 msgstr "محافظت در برابر جاوااسکریپت‌های خطرناک\n"
 
 #. type: Plain text
@@ -416,7 +398,7 @@ msgstr ""
 msgid ""
 "<p>To understand better the behavior of <span class=\"application\">Tor\n"
 "Browser</span>, for example, regarding JavaScript and cookies, you can\n"
-"refer to the <a href=\"https://www.torproject.org/projects/torbrowser/design/\">\n"
+"refer to the <a href=\"https://2019.www.torproject.org/projects/torbrowser/design/\">\n"
 "<span class=\"application\">Tor Browser</span> design document</a>.</p>\n"
 msgstr ""
 "<p>برای درک بهتر رفتار <span class=\"application\">مرورگر تور\n"
@@ -427,16 +409,8 @@ msgstr ""
 #. type: Plain text
 #, fuzzy, no-wrap
 #| msgid "<a id=\"security_slider\"></a>\n"
-msgid ""
-"<a id=\"security_slider\"></a>\n"
-"<a id=\"security_level\"></a>\n"
+msgid "<h1 id=\"security-level\">Security level</h1>\n"
 msgstr "<a id=\"security_slider\"></a>\n"
-
-#. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Security slider\n"
-msgid "Security level\n"
-msgstr "زبانهٔ امنیتی\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -472,17 +446,10 @@ msgstr "[[!img noscript.png link=no alt=\"\"]]\n"
 #. type: Plain text
 #, fuzzy, no-wrap
 #| msgid "<a id=\"security_slider\"></a>\n"
-msgid ""
-"<a id=\"circuit_view\"></a>\n"
-"<a id=\"new_circuit\"></a>\n"
+msgid "<h1 id=\"circuit-view\">Tor circuit</h1>\n"
 msgstr ""
 "<a id=\"circuit_view\"></a>\n"
 "<a id=\"new_circuit\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tor circuit\n"
-msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -518,7 +485,7 @@ msgstr ""
 #| msgid "<span class=\"guilabel\">New Identity</span> feature\n"
 msgid ""
 "Click on the\n"
-"<span class=\"guilabel\">[[New Circuit for this Site|Tor_Browser#new_circuit]]</span> button\n"
+"<span class=\"guilabel\">[[New Circuit for this Site|Tor_Browser#circuit-view]]</span> button\n"
 "to use a different circuit.\n"
 msgstr "ویژگی <span class=\"guilabel\">هویت جدید</span>\n"
 
@@ -531,13 +498,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"new_identity\"></a>\n"
-msgstr "<a id=\"new_identity\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "<span class=\"guilabel\">New Identity</span> feature\n"
+#, fuzzy, no-wrap
+#| msgid "<span class=\"guilabel\">New Identity</span> feature\n"
+msgid "<h1 id=\"new-identity\"><span class=\"guilabel\">New Identity</span> feature</h1>\n"
 msgstr "ویژگی <span class=\"guilabel\">هویت جدید</span>\n"
 
 #. type: Plain text
@@ -604,21 +567,21 @@ msgid "<p>Restart Tails instead.</p>\n"
 msgstr "<p>بهتر است در عوض تیلز را خاموش و دوباره راه‌اندازی کنید.</p>\n"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "For more details, see the [design and implementation of the Tor Browser]"
+#| "(https://www.torproject.org/projects/torbrowser/design/#new-identity)."
 msgid ""
 "For more details, see the [design and implementation of the Tor Browser]"
-"(https://www.torproject.org/projects/torbrowser/design/#new-identity)."
+"(https://2019.www.torproject.org/projects/torbrowser/design/#new-identity)."
 msgstr ""
 "برای جزییات بیشتر رجوع کنید به [سند طراحی و اجرای مرورگر تور](https://www."
 "torproject.org/projects/torbrowser/design/#new-identity)."
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"noscript\"></a>\n"
-msgstr "<a id=\"noscript\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "NoScript to have even more control over JavaScript\n"
+#, fuzzy, no-wrap
+#| msgid "NoScript to have even more control over JavaScript\n"
+msgid "<h1 id=\"noscript\">NoScript to have even more control over JavaScript</h1>\n"
 msgstr "«نواسکریپت» برای کنترل بیشتر روی جاوااسکریپت‌ها\n"
 
 #. type: Plain text
@@ -659,14 +622,92 @@ msgstr ""
 "برای کسب اطلاعات بیشتر در این مورد به  [تارنمای](http://noscript.net/) "
 "نواسکریپت و بخش [features](http://noscript.net/ویژگی‌های) آن رجوع کنید."
 
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "<a id=\"torbutton\"></a>\n"
+msgid "<h1 id=\"letterboxing\">Letterboxing</h1>\n"
+msgstr "<a id=\"torbutton\"></a>\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!img noscript.png link=no alt=\"\"]]\n"
+msgid "[[!img letter-boxing.png link=no alt=\"\"]]\n"
+msgstr "[[!img noscript.png link=no alt=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"The letterboxing feature of <span class=\"application\">Tor Browser</span> helps\n"
+"to prevent websites from identifying your browser based on the size of its window.\n"
+"Without letterboxing, websites could use\n"
+"the size of the browser window to track visitors or weaken your anonymity.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"The letterboxing feature of <span class=\"application\">Tor Browser</span> works\n"
+"by adding gray margins to the browser window when the window is resized. The\n"
+"webpage remains as close as possible to the desired size without revealing the\n"
+"actual size of the window.\n"
+msgstr ""
+
+#~ msgid "<a id=\"confinement\"></a>\n"
+#~ msgstr "<a id=\"confinement\"></a>\n"
+
+#~ msgid ""
+#~ "<a id=\"https\"></a>\n"
+#~ "<a id=\"https-everywhere\"></a>\n"
+#~ msgstr ""
+#~ "<a id=\"https\"></a>\n"
+#~ "<a id=\"https-everywhere\"></a>\n"
+
+#~ msgid "<a id=\"javascript\"></a>\n"
+#~ msgstr "<a id=\"javascript\"></a>\n"
+
 #, fuzzy
-#~| msgid "To change the value of the security slider, click on the [[!img torbutton.png link=no class=symbolic alt=\"green onion\"]] button and choose **Privacy and Security Settings**."
+#~| msgid "Security slider\n"
+#~ msgid "Security level"
+#~ msgstr "زبانهٔ امنیتی\n"
+
+#~ msgid "<a id=\"new_identity\"></a>\n"
+#~ msgstr "<a id=\"new_identity\"></a>\n"
+
+#~ msgid "<a id=\"noscript\"></a>\n"
+#~ msgstr "<a id=\"noscript\"></a>\n"
+
+#~ msgid "<a id=\"torbutton\"></a>\n"
+#~ msgstr "<a id=\"torbutton\"></a>\n"
+
+#~ msgid "AppArmor confinement\n"
+#~ msgstr "محافظت AppArmor\n"
+
+#~ msgid ""
+#~ "<p>To be able to download files larger than the available RAM, you need\n"
+#~ "to activate the <span class=\"guilabel\">[[Personal\n"
+#~ "Data|doc/first_steps/persistence/configure#personal_data]]</span>\n"
+#~ "persistence feature.</p>\n"
+#~ msgstr ""
+#~ "<p>برای این که بتوانید فایل‌های بزرگ‌تر از حافظهٔ تصادفی موجود را دانلود "
+#~ "کنید، باید\n"
+#~ "ویژگی مانای <span class=\"guilabel\">[[اطلاعات \n"
+#~ "شخصی|doc/first_steps/persistence/configure#personal_data]]</span>\n"
+#~ "را فعال کنید.</p>\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "To change the value of the security slider, click on the [[!img "
+#~| "torbutton.png link=no class=symbolic alt=\"green onion\"]] button and "
+#~| "choose **Privacy and Security Settings**."
 #~ msgid ""
 #~ "To switch to a new identity, click on the\n"
 #~ "[[!img torbutton.png link=\"no\" class=\"symbolic\" alt=\"\"]] button\n"
 #~ "on the right of the address bar\n"
 #~ "and choose <span class=\"guilabel\">New Identity</span>.\n"
-#~ msgstr "برای تغییر میزان زبانهٔ امنیتی روی دکمهٔ [[!img torbutton.png link=no class=symbolic alt=\"پیاز سبز\"]] کلیک و **تنظیمات امنیت و حریم خصوصی** را انتخاب کنید."
+#~ msgstr ""
+#~ "برای تغییر میزان زبانهٔ امنیتی روی دکمهٔ [[!img torbutton.png link=no "
+#~ "class=symbolic alt=\"پیاز سبز\"]] کلیک و **تنظیمات امنیت و حریم خصوصی** "
+#~ "را انتخاب کنید."
 
 #~ msgid "[[!img https-everywhere.jpg link=no alt=\"\"]]\n"
 #~ msgstr "[[!img https-everywhere.jpg link=no alt=\"\"]]\n"

@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-01-24 10:23+0000\n"
-"PO-Revision-Date: 2019-03-23 10:04+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"POT-Creation-Date: 2020-08-14 22:57+0000\n"
+"PO-Revision-Date: 2020-08-16 20:30+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/press/"
 "es/>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.10.1\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -25,13 +25,19 @@ msgstr "[[!meta title=\"Prensa e información de medios de comunicación\"]]\n"
 
 #. type: Plain text
 #, no-wrap
+msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr ""
+"[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
 msgid "[[!toc levels=1]]\n"
 msgstr "[[!toc levels=1]]\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Announcements and press releases\n"
-msgstr "Anuncios y notas de prensa\n"
+msgid "Announcements and press releases"
+msgstr "Anuncios y notas de prensa"
 
 #. type: Plain text
 msgid ""
@@ -88,17 +94,12 @@ msgstr "</div>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Quick links to better understand Tails\n"
-msgstr "Links rápidos para entender Tails\n"
+msgid "Quick links to better understand Tails"
+msgstr "Links rápidos para entender Tails"
 
 #. type: Bullet: '* '
 msgid "[[About Tails|about]] for a quick overview"
 msgstr "[[Acerca de Tails|about]] si quieres una explicación rápida"
-
-#. type: Bullet: '* '
-msgid "[Tor overview](https://www.torproject.org/about/overview.html.en)"
-msgstr ""
-"[Introducción a Tor](https://www.torproject.org/about/overview.html.en)"
 
 #. type: Bullet: '* '
 msgid ""
@@ -123,8 +124,8 @@ msgstr "Nuestra [[documentación|doc]] que explica en detalle cómo usar Tails"
 
 #. type: Title =
 #, no-wrap
-msgid "Media appearances\n"
-msgstr "Apariciones en los medios de comunicación\n"
+msgid "Media appearances"
+msgstr "Apariciones en los medios de comunicación"
 
 #. type: Plain text
 msgid ""
@@ -138,23 +139,23 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "2019\n"
-msgstr "2019\n"
+msgid "2020"
+msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!inline pages=\"press/media_appearances_2019\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"press/media_appearances_2019\" raw=\"yes\" sort=\"age\"]]\n"
+#, fuzzy, no-wrap
+msgid "[[!inline pages=\"press/media_appearances_2020\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"press/media_appearances_2020\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
-#, no-wrap
-msgid ""
-"Older media appearances\n"
-"----------------------\n"
-msgstr ""
-"Apariciones anteriores en la prensa\n"
-"-------------------------------------\n"
+#, fuzzy
+msgid "Older media appearances"
+msgstr "Apariciones en los medios de comunicación\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+msgid "[[!toggle id=\"media_appearances_2019\" text=\"2019\"]]"
+msgstr "[[!toggle id=\"media_appearances_2018\" text=\"2018\"]]"
 
 #. type: Bullet: '* '
 msgid "[[!toggle id=\"media_appearances_2018\" text=\"2018\"]]"
@@ -189,6 +190,26 @@ msgid "[[!toggle id=\"media_appearances_2011\" text=\"2011\"]]"
 msgstr "[[!toggle id=\"media_appearances_2011\" text=\"2011\"]]"
 
 #. type: Plain text
+#, fuzzy, no-wrap
+msgid "[[!toggleable id=\"media_appearances_2019\" text=\"\"\"\n"
+msgstr "[[!toggleable id=\"media_appearances_2018\" text=\"\"\"\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+msgid "<span class=\"hide\">[[!toggle id=\"media_appearances_2019\" text=\"\"]]</span>\n"
+msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2018\" text=\"\"]]</span>\n"
+
+#. type: Title -
+#, fuzzy, no-wrap
+msgid "2019"
+msgstr "2019\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"press/media_appearances_2019\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"press/media_appearances_2019\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
 #, no-wrap
 msgid "[[!toggleable id=\"media_appearances_2018\" text=\"\"\"\n"
 msgstr "[[!toggleable id=\"media_appearances_2018\" text=\"\"\"\n"
@@ -196,14 +217,12 @@ msgstr "[[!toggleable id=\"media_appearances_2018\" text=\"\"\"\n"
 #. type: Plain text
 #, no-wrap
 msgid "<span class=\"hide\">[[!toggle id=\"media_appearances_2018\" text=\"\"]]</span>\n"
-msgstr ""
-"<span class=\"hide\">[[!toggle id=\"media_appearances_2018\" text=\"\""
-"]]</span>\n"
+msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2018\" text=\"\"]]</span>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "2018\n"
-msgstr "2018\n"
+msgid "2018"
+msgstr "2018"
 
 #. type: Plain text
 #, no-wrap
@@ -222,8 +241,8 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2017\" text=\"\"]]
 
 #. type: Title -
 #, no-wrap
-msgid "2017\n"
-msgstr "2017\n"
+msgid "2017"
+msgstr "2017"
 
 #. type: Plain text
 #, no-wrap
@@ -242,8 +261,8 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2016\" text=\"\"]]
 
 #. type: Title -
 #, no-wrap
-msgid "2016\n"
-msgstr "2016\n"
+msgid "2016"
+msgstr "2016"
 
 #. type: Plain text
 #, no-wrap
@@ -262,8 +281,8 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2015\" text=\"\"]]
 
 #. type: Title -
 #, no-wrap
-msgid "2015\n"
-msgstr "2015\n"
+msgid "2015"
+msgstr "2015"
 
 #. type: Plain text
 #, no-wrap
@@ -282,8 +301,8 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2014\" text=\"\"]]
 
 #. type: Title -
 #, no-wrap
-msgid "2014\n"
-msgstr "2014\n"
+msgid "2014"
+msgstr "2014"
 
 #. type: Plain text
 #, no-wrap
@@ -302,8 +321,8 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2013\" text=\"\"]]
 
 #. type: Title -
 #, no-wrap
-msgid "2013\n"
-msgstr "2013\n"
+msgid "2013"
+msgstr "2013"
 
 #. type: Plain text
 #, no-wrap
@@ -322,8 +341,8 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2012\" text=\"\"]]
 
 #. type: Title -
 #, no-wrap
-msgid "2012\n"
-msgstr "2012\n"
+msgid "2012"
+msgstr "2012"
 
 #. type: Plain text
 #, no-wrap
@@ -342,8 +361,8 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2011\" text=\"\"]]
 
 #. type: Title -
 #, no-wrap
-msgid "2011\n"
-msgstr "2011\n"
+msgid "2011"
+msgstr "2011"
 
 #. type: Plain text
 #, no-wrap
@@ -352,8 +371,8 @@ msgstr "[[!inline pages=\"press/media_appearances_2011\" raw=\"yes\" sort=\"age\
 
 #. type: Title =
 #, no-wrap
-msgid "Awards\n"
-msgstr "Premios\n"
+msgid "Awards"
+msgstr "Premios"
 
 #. type: Bullet: '* '
 msgid ""
@@ -406,8 +425,8 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Conferences\n"
-msgstr "Conferencias\n"
+msgid "Conferences"
+msgstr "Conferencias"
 
 #. type: Bullet: '* '
 msgid ""
@@ -503,8 +522,8 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Films and videos\n"
-msgstr "Películas y videos\n"
+msgid "Films and videos"
+msgstr "Películas y videos"
 
 #. type: Bullet: '* '
 msgid ""
@@ -558,8 +577,8 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Books, booklets, and guide\n"
-msgstr "Libros, folletos y guías\n"
+msgid "Books, booklets, and guide"
+msgstr "Libros, folletos y guías"
 
 #. type: Bullet: '* '
 msgid ""
@@ -665,3 +684,65 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "[CryptoParty handbook](https://www.cryptoparty.in/tails)."
 msgstr "[CryptoParty handbook](https://www.cryptoparty.in/tails)."
+
+#, fuzzy
+#~| msgid "[Tor overview](https://www.torproject.org/about/overview.html.en)"
+#~ msgid ""
+#~ "[Tor overview](https://2019.www.torproject.org/about/overview.html.en)"
+#~ msgstr ""
+#~ "[Introducción a Tor](https://www.torproject.org/about/overview.html.en)"
+
+#~ msgid "Announcements and press releases\n"
+#~ msgstr "Anuncios y notas de prensa\n"
+
+#~ msgid "Quick links to better understand Tails\n"
+#~ msgstr "Links rápidos para entender Tails\n"
+
+#~ msgid "Media appearances\n"
+#~ msgstr "Apariciones en los medios de comunicación\n"
+
+#~ msgid ""
+#~ "Older media appearances\n"
+#~ "----------------------\n"
+#~ msgstr ""
+#~ "Apariciones anteriores en la prensa\n"
+#~ "-------------------------------------\n"
+
+#~ msgid "2018\n"
+#~ msgstr "2018\n"
+
+#~ msgid "2017\n"
+#~ msgstr "2017\n"
+
+#~ msgid "2016\n"
+#~ msgstr "2016\n"
+
+#~ msgid "2015\n"
+#~ msgstr "2015\n"
+
+#~ msgid "2014\n"
+#~ msgstr "2014\n"
+
+#~ msgid "2013\n"
+#~ msgstr "2013\n"
+
+#~ msgid "2012\n"
+#~ msgstr "2012\n"
+
+#~ msgid "2011\n"
+#~ msgstr "2011\n"
+
+#~ msgid "Awards\n"
+#~ msgstr "Premios\n"
+
+#~ msgid "Conferences\n"
+#~ msgstr "Conferencias\n"
+
+#~ msgid "Films and videos\n"
+#~ msgstr "Películas y videos\n"
+
+#~ msgid "Books, booklets, and guide\n"
+#~ msgstr "Libros, folletos y guías\n"
+
+#~ msgid "2019\n"
+#~ msgstr "2019\n"

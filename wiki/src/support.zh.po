@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-12-24 10:35+0000\n"
+"POT-Creation-Date: 2020-05-24 06:37+0000\n"
 "PO-Revision-Date: 2018-03-15 16:57+0000\n"
 "Last-Translator: Weblate Admin <admin@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,9 +23,14 @@ msgstr ""
 msgid "[[!meta title=\"Support\"]]\n"
 msgstr ""
 
-#. type: Title =
+#. type: Plain text
 #, no-wrap
-msgid "Search the documentation\n"
+msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr ""
+
+#. type: Title =
+#, fuzzy, no-wrap
+msgid "Search the documentation"
 msgstr "搜寻文件\n"
 
 #. type: Plain text
@@ -53,8 +58,8 @@ msgid "[[Visit Tails documentation|doc]]"
 msgstr "[[查看 Tails 文档|doc]]"
 
 #. type: Title =
-#, no-wrap
-msgid "Learn how to use Tails\n"
+#, fuzzy, no-wrap
+msgid "Learn how to use Tails"
 msgstr "学习如何使用 Tails\n"
 
 #. type: Plain text
@@ -63,8 +68,8 @@ msgid "[[!inline pages=\"support/learn/intro.inline\" raw=\"yes\" sort=\"age\"]]
 msgstr "[[!inline pages=\"support/learn/intro.inline.zh\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title =
-#, no-wrap
-msgid "Frequently asked questions\n"
+#, fuzzy, no-wrap
+msgid "Frequently asked questions"
 msgstr "常见问答集\n"
 
 #. type: Plain text
@@ -72,8 +77,8 @@ msgid "Search our list of [[frequently asked questions|faq]]."
 msgstr "找找看我们的 [[问答集|faq]]列表。"
 
 #. type: Title =
-#, no-wrap
-msgid "Upgrade\n"
+#, fuzzy, no-wrap
+msgid "Upgrade"
 msgstr "升级\n"
 
 #. type: Plain text
@@ -84,8 +89,8 @@ msgid ""
 msgstr "确认使用最新版本， [[升级|doc/upgrade]] 或可解决你的问题。"
 
 #. type: Title =
-#, no-wrap
-msgid "Check if the problem is already known\n"
+#, fuzzy, no-wrap
+msgid "Check if the problem is already known"
 msgstr "检查看看这个问题是否已被知道了\n"
 
 #. type: Plain text
@@ -97,17 +102,15 @@ msgid "The [[list of known issues|support/known_issues]]"
 msgstr "[[已知的问题列表|support/known_issues]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid ""
-"The [list of things that will be in the next release](https://redmine.tails."
-"boum.org/code/projects/tails/issues?query_id=327)"
+"The [[!tails_gitlab groups/tails/-/milestones desc=\"list of things that "
+"will be fixed or improved in the next release\"]]"
 msgstr ""
-"[下个发布版本中会处理的事件清单](https://labs.riseup.net/code/projects/tails/"
-"issues?query_id=111)"
 
 #. type: Bullet: '  - '
-msgid "The [[!tails_redmine desc=\"rest of our open tickets on Redmine\"]]"
-msgstr ""
+#, fuzzy
+msgid "The [[!tails_gitlab desc=\"rest of our open issues on GitLab\"]]"
+msgstr "[[!tails_redmine desc=\"rest of our open tickets on Redmine\"]]"
 
 #. type: Plain text
 #, no-wrap
@@ -156,8 +159,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "  <p>If you would like to see a new feature in Tails,\n"
-"  search the [[!tails_redmine desc=\"open tickets in Redmine\"]] first,\n"
-"  and file a new ticket in there if no existing one matches your needs.</p>\n"
+"  search the [[!tails_gitlab desc=\"open issues in GitLab\"]] first,\n"
+"  and file a new issue on GitLab if no existing one matches your needs.</p>\n"
 msgstr ""
 
 #. type: Plain text
@@ -179,3 +182,26 @@ msgstr ""
 #, no-wrap
 msgid "  [[!inline pages=\"support/talk\" raw=\"yes\" sort=\"age\"]]\n"
 msgstr "  [[!inline pages=\"support/talk.zh\" raw=\"yes\" sort=\"age\"]]\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The [list of things that will be in the next release](https://redmine."
+#~ "tails.boum.org/code/projects/tails/issues?query_id=327)"
+#~ msgstr ""
+#~ "[下个发布版本中会处理的事件清单](https://labs.riseup.net/code/projects/"
+#~ "tails/issues?query_id=111)"
+
+#~ msgid "Search the documentation\n"
+#~ msgstr "搜寻文件\n"
+
+#~ msgid "Learn how to use Tails\n"
+#~ msgstr "学习如何使用 Tails\n"
+
+#~ msgid "Frequently asked questions\n"
+#~ msgstr "常见问答集\n"
+
+#~ msgid "Upgrade\n"
+#~ msgstr "升级\n"
+
+#~ msgid "Check if the problem is already known\n"
+#~ msgstr "检查看看这个问题是否已被知道了\n"

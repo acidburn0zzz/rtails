@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-08-29 15:15+0200\n"
-"PO-Revision-Date: 2019-10-24 10:21+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"POT-Creation-Date: 2020-04-23 16:49+0000\n"
+"PO-Revision-Date: 2020-03-08 15:36+0000\n"
+"Last-Translator: Halley Pacheco de Oliveira <halley.oliveira@protonmail."
+"com>\n"
 "Language-Team: Portuguese <http://translate.tails.boum.org/projects/tails/"
 "electrum/pt/>\n"
 "Language: pt\n"
@@ -17,17 +18,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Exchange bitcoins using Electrum\"]]\n"
+msgid "[[!meta title=\"Exchanging bitcoins using Electrum\"]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!toc levels=\"2\"]]\n"
-msgstr ""
+msgstr "[[!toc levels=\"2\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -79,24 +80,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<div class=\"tip\">\n"
-msgid "<div class=\"bug\">\n"
-msgstr "<div class=\"tip\">\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!inline pages=\"doc/anonymous_internet/electrum/phishing.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"doc/anonymous_internet/electrum/phishing.inline.pt\" raw=\""
-"yes\" sort=\"age\"]]\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "</div>\n"
-msgstr "</div>\n"
-
-#. type: Plain text
 #, no-wrap
 msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
@@ -116,6 +99,11 @@ msgid ""
 "<span class=\"application\">Electrum</span> automatically generates new\n"
 "addresses for you to use.</p>\n"
 msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -142,12 +130,12 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Recovering your wallet from its seed\n"
+msgid "Recovering your wallet from its seed"
 msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Backing up your seed\n"
+msgid "Backing up your seed"
 msgstr ""
 
 #. type: Plain text
@@ -165,9 +153,9 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Activate the [[<span class=\"guilabel\">Bitcoin Client</span> persistence "
-"feature|doc/first_steps/persistence/configure/#bitcoin]] to store your "
-"bitcoin wallet and preferences across separate working sessions."
+"Turn on the [[Bitcoin Client|doc/first_steps/persistence/configure#bitcoin]] "
+"feature of the Persistent Storage to store your bitcoin wallet and "
+"preferences across separate working sessions."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -179,11 +167,11 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<a name=\"corrupted\"></a>\n"
-msgstr ""
+msgstr "<a name=\"corrupted\"></a>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Fixing a corrupted wallet\n"
+msgid "Fixing a corrupted wallet"
 msgstr ""
 
 #. type: Plain text
@@ -230,3 +218,9 @@ msgid ""
 "When creating a new wallet choose <span class=\"guilabel\">I already have a "
 "seed</span> and specify the seed of your wallet."
 msgstr ""
+
+#~ msgid "<div class=\"bug\">\n"
+#~ msgstr "<div class=\"bug\">\n"
+
+#~ msgid "[[!inline pages=\"doc/anonymous_internet/electrum/phishing.inline\" raw=\"yes\" sort=\"age\"]]\n"
+#~ msgstr "[[!inline pages=\"doc/anonymous_internet/electrum/phishing.inline.pt\" raw=\"yes\" sort=\"age\"]]\n"

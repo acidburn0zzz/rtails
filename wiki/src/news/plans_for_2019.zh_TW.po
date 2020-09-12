@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-12-22 18:55+0000\n"
-"PO-Revision-Date: 2019-11-21 13:21+0000\n"
+"POT-Creation-Date: 2020-04-12 16:10+0200\n"
+"PO-Revision-Date: 2020-08-14 11:06+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -69,8 +69,8 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "New features\n"
-msgstr ""
+msgid "New features"
+msgstr "新功能"
 
 #. type: Plain text
 msgid ""
@@ -98,7 +98,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Adoption\n"
+msgid "Adoption"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -116,7 +116,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Under the hood\n"
+msgid "Under the hood"
 msgstr ""
 
 #. type: Plain text

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-10-31 11:29+0000\n"
+"POT-Creation-Date: 2020-08-11 01:29+0000\n"
 "PO-Revision-Date: 2018-11-06 19:28+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Tails Chinese translators <jxt@twngo.xyz>\n"
@@ -45,6 +45,18 @@ msgstr ""
 #, no-wrap
 msgid "</div>\n"
 msgstr "</div>\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+msgid "<div class=\"clone\">\n"
+msgstr "<div class=\"step-image\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>If you are already in Tails, go directly to step 3:\n"
+"<a href=\"#verify-other\">Verify that the other Tails is up-to-date</a>.</p>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -185,8 +197,23 @@ msgid "[[!img install/inc/infography/restart-on-upgrade-usb.png link=\"no\" clas
 msgstr ""
 
 #. type: Plain text
+#, fuzzy, no-wrap
+msgid "<h2>Make the computer start on the USB stick</h2>\n"
+msgstr "利用第一支 USB 隨身碟來重啟電腦。"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+msgid "<div class=\"windows upgrade-windows\">\n"
+msgstr "   <div class=\"mac-usb mac-clone\">\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/windows_boot_menu.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "   [[!img install/inc/qrcodes/tails_boum_org_install_debian_usb.png class=\"debian qrcode\" link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
 #, no-wrap
-msgid "<div class=\"windows linux expert install-clone upgrade-clone upgrade-tails upgrade-windows upgrade-linux\">\n"
+msgid "<div class=\"linux expert install-clone upgrade-clone upgrade-tails upgrade-linux\">\n"
 msgstr ""
 
 #. type: Plain text
@@ -206,159 +233,121 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<h2 id=\"greeter\">Tails Greeter</h2>\n"
+msgid "<h2 id=\"troubleshooting\">Troubleshooting</h2>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<ul>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<li class=\"windows upgrade-windows\">\n"
+"<p>If no Boot Menu appears, or if your USB stick is not listed in the Boot\n"
+"Menu, refer to the [[instructions on starting Tails using the Boot Menu\n"
+"key|doc/first_steps/start/pc#boot-menu-key]].</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<li class=\"linux expert install-clone upgrade-clone upgrade-tails upgrade-linux\">\n"
+"<p>If none of the possible Boot Menu keys from the previous technique work, or\n"
+"if your USB stick is not listed in the Boot Menu, refer to the\n"
+"[[troubleshooting instructions about Tails not starting at\n"
+"all|doc/first_steps/start/pc#not-at-all]].</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p class=\"windows upgrade-windows linux expert install-clone upgrade-clone upgrade-tails upgrade-linux\">If your USB stick is listed in the Boot Menu but the Boot Loader does not appear, or if Tails fails to start after the Boot Loader:</p>\n"
+"<p class=\"mac mac-clone upgrade-mac\">If your USB stick appears in the list of startup disks but the Boot Loader does not appear, or if Tails fails to start after the Boot Loader:</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "   [[!img install/inc/qrcodes/tails_boum_org_install_debian_usb.png class=\"debian qrcode\" link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+msgid ""
+"<p>If your computer still does not display the Boot Loader, it might currently be impossible to start Tails on your computer.</p>\n"
+"</li>\n"
+msgstr ""
+"   <div class=\"bug mac-dvd\">\n"
+"   <p>如果電腦無法利用 Tails DVD 啟動，那麼它可能\n"
+"   無法在Mac 電腦上使用 Tails。</p>\n"
+"   </div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>If the computer stops responding or displays other error messages before\n"
+"getting to the Welcome Screen, refer to\n"
+"<span class=\"windows upgrade-windows linux expert install-clone upgrade-clone upgrade-tails upgrade-linux\">[[the troubleshooting section about Tails not starting after the Boot Loader|doc/first_steps/start/pc#not-entirely]].</span>\n"
+"<span class=\"mac mac-clone upgrade-mac\">[[the troubleshooting section about Tails not starting after the Boot Loader|doc/first_steps/start/mac#not-entirely]].</span></p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>If the computer displays the error message\n"
+"<span class=\"guilabel\">Error starting GDM with your graphics\n"
+"card</span>, refer to our [[list of known issues with graphics\n"
+"cards|support/known_issues/graphics]].</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</ul>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"tip windows upgrade-windows\">\n"
+"<p>Starting the computer using a Boot Menu key can be faster than\n"
+"starting the computer on Windows first and then on Tails. We\n"
+"recommend you learn how to [[start Tails using the Boot Menu\n"
+"key|doc/first_steps/start/pc#boot-menu-key]] if you use Tails\n"
+"regularly.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"greeter\"></a>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"welcome-screen\">Welcome Screen</h2>\n"
 msgstr ""
 
 #. type: Bullet: '1. '
-#, fuzzy
-msgid ""
-"One to two minutes after the <span class=\"application\">Boot Loader Menu</"
-"span>, another screen called <span class=\"application\">Tails Greeter</"
-"span> appears."
+msgid "One to two minutes after the Boot Loader, the Welcome Screen appears."
 msgstr ""
-"   以下部份適用於<span class=\"application\">Boot Loader Menu</span>出現時，"
-"但不是\n"
-"   啟動 Taisl 出現<span class=\"application\">Tails Greeter</span>。\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"   <div class=\"note\">\n"
-"   <p>If the computer display the error message\n"
-"   <span class=\"guilabel\">Error starting GDM with your graphics\n"
-"   card</span>, refer to our [[list of known issues with graphics\n"
-"   cards|support/known_issues/graphics]].</p>\n"
+msgid "   [[!img doc/first_steps/welcome_screen/welcome-screen.png link=\"no\" alt=\"Welcome to Tails!\"]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   <p>If the computer stops responding or displays other error messages before\n"
-"   getting to <span class=\"application\">Tails Greeter</span>, refer to\n"
-"   [[!toggle id=\"not_entirely\" text=\"the troubleshooting section about\n"
-"   Tails not starting entirely\"]].</p>\n"
-"   </div>\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "   [[!toggleable id=\"not_entirely\" text=\"\"\"\n"
-msgstr "   [[!toggleable id=\"not_entirely\" text=\"\"\"\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "   <span class=\"hide\">[[!toggle id=\"not_entirely\" text=\"\"]]</span>\n"
-msgstr "   <span class=\"hide\">[[!toggle id=\"not_entirely\" text=\"\"]]</span>\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"   Troubleshooting\n"
-"   ---------------\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"   Tails does not start entirely\n"
-"   -----------------------------\n"
-msgstr ""
-"   Tails 完全無法啟動\n"
-"   -----------------------------\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"   The following section applies if the <span class=\"application\">Boot Loader Menu</span> appears but not\n"
-"   <span class=\"application\">Tails Greeter</span> when starting Tails.\n"
-msgstr ""
-"   以下部份適用於<span class=\"application\">Boot Loader Menu</span>出現時，但不是\n"
-"   啟動 Taisl 出現<span class=\"application\">Tails Greeter</span>。\n"
-
-#. type: Bullet: '   1. '
-msgid "Restart the computer on the first USB stick."
-msgstr "利用第一支 USB 隨身碟來重啟電腦。"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"   1. In the <span class=\"application\">Boot Loader Menu</span>, choose the\n"
-"   <span class=\"guilabel\">Troubleshooting Mode</span>\n"
-"   which might work better on some computers.\n"
-msgstr ""
-"   1. 在<span class=\"application\">Boot Loader Menu</span>，選擇\n"
-"   <span class=\"guilabel\">Troubleshooting Mode</span>\n"
-"   它通常可在某些電腦上更順利運行。\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"   1. If the <span class=\"guilabel\">Troubleshooting Mode</span> does not work\n"
-"   better, restart the computer again on the first USB stick.\n"
-msgstr ""
-"   1. 如果<span class=\"guilabel\">Troubleshooting Mode</span>無法運作\n"
-"   利用第一支隨身碟重新啟動電腦。\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"   1. In the <span class=\"application\">Boot Loader Menu</span>, press\n"
-"   <span class=\"keycap\">TAB</span>. A command line with a list\n"
-"   of boot options appears at the bottom of the screen.\n"
-msgstr ""
-"   1. 在<span class=\"application\">Boot Loader Menu</span>中，按\n"
-"   <span class=\"keycap\">TAB</span>鍵。帶有開機選項的\n"
-"   指令列會出現在螢幕下方。\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "      [[!img doc/first_steps/startup_options/boot-menu-with-options.png link=\"no\" alt=\"Black screen with Tails artwork and list of boot options\"]]\n"
-msgstr ""
-
-#. type: Bullet: '   1. '
-msgid ""
-"Press the <span class=\"keycap\">Backspace</span> key several times to "
-"remove the <span class=\"code\">quiet</span> option from the command line."
-msgstr ""
-"多次按<span class=\"keycap\">Backspace</span> 鍵以自指令列移除<span class="
-"\"code\">quiet</span>選項。"
-
-#. type: Bullet: '   1. '
-msgid ""
-"If Tails previously failed to start and displayed the <span class=\"code"
-"\">Probing EDD (edd=off to disable)...</span> error, then type `edd=off` to "
-"add this option to the command line."
-msgstr ""
-"如果 Tails 之前無法啟動以及顯示<span class=\"code\">Probing EDD (edd=off to "
-"disable)...</span> 錯誤，請輸入 `edd=off` 新增到指令列中。"
-
-#. type: Bullet: '   1. '
-msgid "Type `debug nosplash` to add these options to the command line."
-msgstr "輸入 `debug nosplash` 新增這些選項到文字指令列。"
-
-#. type: Bullet: '   1. '
-msgid "To start Tails, press <span class=\"keycap\">Enter</span>."
-msgstr "要啟動 Tails，請按住 <span class=\"keycap\">Enter</span>鍵。"
-
-#. type: Bullet: '   1. '
-#, fuzzy
-msgid ""
-"Hopefully, error messages now appear when starting Tails. You can [[send "
-"them to our help desk by email|support/talk]], for example by taking a "
-"picture of the last screen and error messages."
-msgstr ""
-"現在錯誤的訊息會在啟動  Tails 時出現，你可以 [[把這些資料寄給我們的支援小組|"
-"support/talk]]，例如寄來最後畫面或錯誤訊息的照片。"
-
-#. type: Plain text
-#, no-wrap
-msgid "   [[!img doc/first_steps/startup_options/tails-greeter-welcome-to-tails.png link=\"no\" alt=\"Tails Greeter: 'Welcome to Tails!'\"]]\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"1. In <span class=\"application\">Tails Greeter</span>, select your language and\n"
+"1. In the Welcome Screen, select your language and\n"
 "keyboard layout in the <span class=\"guilabel\">Language & Region</span> section.\n"
 "Click <span class=\"button\">Start Tails</span>.\n"
 msgstr ""
@@ -371,6 +360,131 @@ msgstr ""
 #, no-wrap
 msgid "   [[!img install/inc/screenshots/desktop.png link=\"no\" alt=\"Tails desktop\"]]\n"
 msgstr ""
+
+#, fuzzy
+#| msgid ""
+#| "   Troubleshooting\n"
+#| "   ---------------\n"
+msgid "   Troubleshooting\n"
+msgstr ""
+"   Fehlerbehebung\n"
+"   ---------------\n"
+
+#~ msgid "   [[!toggleable id=\"not_entirely\" text=\"\"\"\n"
+#~ msgstr "   [[!toggleable id=\"not_entirely\" text=\"\"\"\n"
+
+#~ msgid ""
+#~ "   <span class=\"hide\">[[!toggle id=\"not_entirely\" text=\"\"]]</span>\n"
+#~ msgstr ""
+#~ "   <span class=\"hide\">[[!toggle id=\"not_entirely\" text=\"\"]]</span>\n"
+
+#, fuzzy
+#~ msgid "   Tails does not start entirely\n"
+#~ msgstr ""
+#~ "   Tails 完全無法啟動\n"
+#~ "   -----------------------------\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "   The following section applies if the Boot Loader appears but not\n"
+#~ "   the Welcome Screen when starting Tails.\n"
+#~ msgstr ""
+#~ "   以下部份適用於<span class=\"application\">Boot Loader Menu</span>出現"
+#~ "時，但不是\n"
+#~ "   啟動 Taisl 出現<span class=\"application\">Tails Greeter</span>。\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "   1. In the Boot Loader, choose the\n"
+#~ "   <span class=\"guilabel\">Troubleshooting Mode</span>\n"
+#~ "   which might work better on some computers.\n"
+#~ msgstr ""
+#~ "   1. 在<span class=\"application\">Boot Loader Menu</span>，選擇\n"
+#~ "   <span class=\"guilabel\">Troubleshooting Mode</span>\n"
+#~ "   它通常可在某些電腦上更順利運行。\n"
+
+#~ msgid ""
+#~ "   1. If the <span class=\"guilabel\">Troubleshooting Mode</span> does "
+#~ "not work\n"
+#~ "   better, restart the computer again on the first USB stick.\n"
+#~ msgstr ""
+#~ "   1. 如果<span class=\"guilabel\">Troubleshooting Mode</span>無法運作\n"
+#~ "   利用第一支隨身碟重新啟動電腦。\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "           [[!img doc/advanced_topics/boot_options/grub-with-options.png "
+#~ "link=\"no\" alt=\"GRUB with a list of\n"
+#~ "           options starting with 'setparams Tails'\"]]\n"
+#~ msgstr ""
+#~ "      [[!img doc/advanced_topics/boot_options/grub-with-options.png link="
+#~ "\"no\"]]\n"
+
+#~ msgid ""
+#~ "Press the <span class=\"keycap\">Backspace</span> key several times to "
+#~ "remove the <span class=\"code\">quiet</span> option from the command line."
+#~ msgstr ""
+#~ "多次按<span class=\"keycap\">Backspace</span> 鍵以自指令列移除<span class="
+#~ "\"code\">quiet</span>選項。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Type <span class=\"code\">debug nosplash</span> to add these options to "
+#~ "the command line."
+#~ msgstr "輸入 `debug nosplash` 新增這些選項到文字指令列。"
+
+#, fuzzy
+#~ msgid ""
+#~ "           Then type `edd=off` to add this option to the command line.\n"
+#~ msgstr "輸入 `debug nosplash` 新增這些選項到文字指令列。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Hopefully, new error messages now appear when starting Tails. You can "
+#~ "[[send them to our help desk by email|support/talk]], for example by "
+#~ "taking a picture of the last screen and error messages."
+#~ msgstr ""
+#~ "現在錯誤的訊息會在啟動  Tails 時出現，你可以 [[把這些資料寄給我們的支援小"
+#~ "組|support/talk]]，例如寄來最後畫面或錯誤訊息的照片。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Press <span class=\"keycap\">Tab</span>. A command line with a list of "
+#~ "boot options appears at the bottom of the screen."
+#~ msgstr ""
+#~ "   1. 在<span class=\"application\">Boot Loader Menu</span>中，按\n"
+#~ "   <span class=\"keycap\">TAB</span>鍵。帶有開機選項的\n"
+#~ "   指令列會出現在螢幕下方。\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "           [[!img doc/advanced_topics/boot_options/syslinux-with-options."
+#~ "png link=\"no\" alt=\"SYSLINUX with\n"
+#~ "           a list of options starting with '/live/vmlinuz' at the bottom"
+#~ "\"]]\n"
+#~ msgstr ""
+#~ "      [[!img doc/advanced_topics/boot_options/syslinux-with-options.png "
+#~ "link=\"no\"]]\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "           Then type <span class=\"code\">edd=off</span> to add this "
+#~ "option to the command line.\n"
+#~ msgstr "輸入 `debug nosplash` 新增這些選項到文字指令列。"
+
+#, fuzzy
+#~ msgid "Press <span class=\"keycap\">Enter</span> to start Tails."
+#~ msgstr "要啟動 Tails，請按住 <span class=\"keycap\">Enter</span>鍵。"
+
+#, fuzzy
+#~ msgid ""
+#~ "One to two minutes after the <span class=\"application\">Boot Loader "
+#~ "Menu</span>, another screen called <span class=\"application\">Tails "
+#~ "Greeter</span> appears."
+#~ msgstr ""
+#~ "   以下部份適用於<span class=\"application\">Boot Loader Menu</span>出現"
+#~ "時，但不是\n"
+#~ "   啟動 Taisl 出現<span class=\"application\">Tails Greeter</span>。\n"
 
 #~ msgid ""
 #~ "If the error message is <span class=\"code\">/bin/sh: can't access tty; "
@@ -443,8 +557,21 @@ msgstr ""
 #~ "   <p class=\"upgrade-tails\">當中介的 USB 隨身碟接上時，先卸下你的 Tails "
 #~ "USB 隨身碟。</p>\n"
 
+#~ msgid "Switch on the computer."
+#~ msgstr "Schalten Sie den Computer ein."
+
 #~ msgid "   </div>\n"
 #~ msgstr "   </div>\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "If the computer starts on Tails, the <span class=\"application\">Boot "
+#~ "Loader Menu</span> appears and Tails starts automatically after 4 seconds."
+#~ "</p>"
+#~ msgstr ""
+#~ "   以下部份適用於<span class=\"application\">Boot Loader Menu</span>出現"
+#~ "時，但不是\n"
+#~ "   啟動 Taisl 出現<span class=\"application\">Tails Greeter</span>。\n"
 
 #, fuzzy
 #~ msgid ""
@@ -499,6 +626,18 @@ msgstr ""
 
 #, fuzzy
 #~ msgid ""
+#~ "   [[!img install/inc/screenshots/bios_boot_menu.png link=\"no\" alt="
+#~ "\"\"]]\n"
+#~ msgstr ""
+#~ "   [[!img install/inc/qrcodes/tails_boum_org_install_mac_usb.png class="
+#~ "\"mac-usb qrcode\" link=\"no\" alt=\"\"]]\n"
+
+#, fuzzy
+#~ msgid "Shut down the computer."
+#~ msgstr "Schalten Sie den Computer ein."
+
+#, fuzzy
+#~ msgid ""
 #~ "   <div class=\"bug\">\n"
 #~ "   <p>If none of these options work, we are sorry but you might not be\n"
 #~ "   able to use Tails on this computer.</p>\n"
@@ -511,15 +650,13 @@ msgstr ""
 
 #, fuzzy
 #~ msgid ""
-#~ "   <div class=\"bug mac mac-clone\">\n"
-#~ "   <p>If your computer fails to start on the USB stick, then it might\n"
-#~ "   currently be impossible to start Tails on your Mac model.</p>\n"
-#~ "   </div>\n"
+#~ "     [[!img install/inc/screenshots/tails_boot_menu.png link=\"no\" alt="
+#~ "\"Black screen with Tails artwork. Boot Loader Menu with two options "
+#~ "'Tails' and 'Tails (Troubleshooting Mode)'.\"]]\n"
 #~ msgstr ""
-#~ "   <div class=\"bug mac-dvd\">\n"
-#~ "   <p>如果電腦無法利用 Tails DVD 啟動，那麼它可能\n"
-#~ "   無法在Mac 電腦上使用 Tails。</p>\n"
-#~ "   </div>\n"
+#~ "     [[!img install/inc/screenshots/tails_boot_menu.png link=\"no\" alt="
+#~ "\"Schwarzer Bildschirm mit Tails-Hintergrund. 'Boot-Menü' mit den "
+#~ "Optionen 'Live' und 'Live (failsafe)'.\"]]\n"
 
 #~ msgid ""
 #~ "After 30&ndash;60 seconds, another screen called <span class=\"application"
@@ -527,3 +664,11 @@ msgstr ""
 #~ msgstr ""
 #~ "大約 30&ndash;60 秒之後， 會出現另一個 <span class=\"application\">Tails "
 #~ "Greeter</span> 畫面。"
+
+#~ msgid ""
+#~ "If Tails previously failed to start and displayed the <span class=\"code"
+#~ "\">Probing EDD (edd=off to disable)...</span> error, then type `edd=off` "
+#~ "to add this option to the command line."
+#~ msgstr ""
+#~ "如果 Tails 之前無法啟動以及顯示<span class=\"code\">Probing EDD (edd=off "
+#~ "to disable)...</span> 錯誤，請輸入 `edd=off` 新增到指令列中。"

@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2019-12-10 18:44+0000\n"
-"PO-Revision-Date: 2019-11-24 08:40+0000\n"
-"Last-Translator: anonymous <amnesia@boum.org>\n"
+"PO-Revision-Date: 2020-08-14 21:29+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: \n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -153,9 +153,12 @@ msgid ""
 "  [[tails-ux@boum.org|about/contact#tails-ux]] to participate in future\n"
 "  designs!\n"
 msgstr ""
-"Questo è stato un lungo processo, iniziato tre anni fa con il gruppo UX di\n"
-"[NUMA Paris](https://paris.numa.co/) e guidato solo da volontari. Unisciti a noi\n"
-"[[tails-ux@boum.org|about/contact#tails-ux]] per partecipare alle discussioni di design\n"
+"  Questo è stato un lungo processo, iniziato tre anni fa con il gruppo UX "
+"di\n"
+"[NUMA Paris](https://paris.numa.co/) e guidato solo da volontari. Unisciti a "
+"noi\n"
+"[[tails-ux@boum.org|about/contact#tails-ux]] per partecipare alle "
+"discussioni di design\n"
 "future!\n"
 
 #. type: Plain text
@@ -511,7 +514,7 @@ msgstr ""
 msgid ""
 "Start the operating system you want to use *Tails Installer* on.<br /> If "
 "you want to use *Tails Installer* in Tails 3.0, [[set up an administration "
-"password|doc/first_steps/startup_options/administration_password]]."
+"password|doc/first_steps/welcome_screen/administration_password]]."
 msgstr ""
 
 #. type: Plain text
@@ -605,7 +608,9 @@ msgstr "Tails 3.1 è [[prevista|contribute/calendar]] per l'8 agosto."
 
 #. type: Plain text
 msgid "Have a look at our [[!tails_roadmap]] to see where we are heading to."
-msgstr "Dai uno sguardo alla [[!tails_roadmap]] per sapere a cosa puntiamo."
+msgstr ""
+"Dai un'occhiata alla nostra [[tabella di marcia|contribute/roadmap]] (in "
+"inglese) per sapere a cosa stiamo lavorando."
 
 #. type: Plain text
 #, no-wrap

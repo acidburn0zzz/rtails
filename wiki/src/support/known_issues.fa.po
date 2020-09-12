@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-11-13 16:46+0000\n"
-"PO-Revision-Date: 2019-10-23 11:50+0000\n"
+"POT-Creation-Date: 2020-08-25 02:53+0000\n"
+"PO-Revision-Date: 2020-08-19 08:30+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Persian <http://weblate.451f.org:8889/projects/tails/"
 "known_issues/fa/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -26,7 +26,7 @@ msgstr "[[!meta title=\"مشکلات شناخته‌شده\"]]\n"
 
 #. type: Plain text
 msgid ""
-"- For issues with graphics cards, see our [[know issues with graphics cards|"
+"- For issues with graphics cards, see our [[known issues with graphics cards|"
 "known_issues/graphics]].  - To learn what you can do with Tails, refer to "
 "our [[documentation|doc]].  - For more general questions about Tails, refer "
 "to our [[FAQ|support/faq]]."
@@ -37,11 +37,10 @@ msgstr ""
 msgid "[[!toc levels=3]]\n"
 msgstr "[[!toc levels=3]]\n"
 
-#. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Problems starting Tails\n"
-msgid "Problems starting Tails\n"
-msgstr "مشکلات هنگام راه‌اندازی تیلز\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"problems-starting-tails\">Problems starting Tails</h1>\n"
+msgstr ""
 
 #. type: Plain text
 msgid ""
@@ -54,25 +53,16 @@ msgstr ""
 "doc/first_steps/bug_reporting#does_not_start]] را ببینید."
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"problematic-usb-sticks\"></a>\n"
+#, fuzzy, no-wrap
+#| msgid "<a id=\"problematic-usb-sticks\"></a>\n"
+msgid "<h2 id=\"problematic-usb-sticks\">Problematic USB sticks</h2>\n"
 msgstr "<a id=\"problematic-usb-sticks\"></a>\n"
 
-#. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Problematic USB sticks\n"
-msgid "Problematic USB sticks\n"
-msgstr "درایوهای یواس‌بی مشکل‌دار\n"
-
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"pny\"></a>\n"
+#, fuzzy, no-wrap
+#| msgid "<a id=\"pny\"></a>\n"
+msgid "<h3 id=\"pny\">PNY</h3>\n"
 msgstr "<a id=\"pny\"></a>\n"
-
-#. type: Title ###
-#, no-wrap
-msgid "PNY"
-msgstr "PNY"
 
 #. type: Plain text
 #, no-wrap
@@ -120,15 +110,10 @@ msgstr ""
 "احتمال توقف نصب با آن‌ها وجود دارد."
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"aegis\"></a>\n"
-msgstr "<a id=\"aegis\"></a>\n"
-
-#. type: Title ###
 #, fuzzy, no-wrap
-#| msgid "Aegis Secure Key USB 2.0"
-msgid "Aegis Secure Key"
-msgstr "Aegis Secure Key USB 2.0"
+#| msgid "<a id=\"aegis\"></a>\n"
+msgid "<h3 id=\"aegis\">Aegis Secure Key</h3>\n"
+msgstr "<a id=\"aegis\"></a>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -178,44 +163,29 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "<a id=\"xorg-driver\"></a>\n"
-msgid ""
-"<a id=\"datatraveler-2000\"></a>\n"
-"<a id=\"datatraveler-100-g3\"></a>\n"
+msgid "<h3 id=\"datatraveler-2000\">Kingston DataTraveler 2000, Kingston DataTraveler 100 G3</h3>\n"
 msgstr "<a id=\"xorg-driver\"></a>\n"
-
-#. type: Title ###
-#, no-wrap
-msgid "Kingston DataTraveler 2000, Kingston DataTraveler 100 G3"
-msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "<!--\n"
 "Last updated: 2018-09-18\n"
+"Success report received on 2020-01-04\n"
 "-->\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Starting Tails from a Kingston DataTraveler 2000 or DataTraveler 100G3 "
-"doesn't work."
+"Starting Tails from a Kingston DataTraveler 2000 or DataTraveler 100G3 may "
+"not work."
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"mac\"></a>\n"
+#, fuzzy, no-wrap
+#| msgid "<a id=\"mac\"></a>\n"
+msgid "<h2 id=\"mac\">Mac</h2>\n"
 msgstr "<a id=\"mac\"></a>\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"Mac\n"
-"---\n"
-msgstr ""
-"مک\n"
-"---\n"
 
 #. type: Plain text
 #, no-wrap
@@ -232,12 +202,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #, fuzzy
-#| msgid ""
-#| "Any Mac with 32-bit EFI may not succeed in booting Tails USB stick "
-#| "created by Tails Installer. You can check if a given Mac is 32-bit or 64-"
-#| "bit EFI on that list: <https://www.everymac.com/mac-answers/snow-leopard-"
-#| "mac-os-x-faq/mac-os-x-snow-leopard-64-bit-macs-64-bit-efi-boot-in-64-bit-"
-#| "mode.html>"
 msgid ""
 "Any Mac with 32-bit EFI might not start on Tails.  You can check if a given "
 "Mac is 32-bit or 64-bit EFI on that list: <https://www.everymac.com/mac-"
@@ -251,15 +215,14 @@ msgstr ""
 "in-64-bit-mode.html>"
 
 #. type: Bullet: '* '
-msgid "MacBook Air Retina 2019"
+msgid "MacBook Air Retina 2018 and 2019"
 msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/first_steps/startup_options#boot_menu]]."
 msgid ""
 "  To start Tails successfully, [[add the following boot option when\n"
-"  starting Tails|doc/first_steps/startup_options/#boot_loader_menu]]:\n"
+"  starting Tails|doc/advanced_topics/boot_options]]:\n"
 msgstr "گزینهٔ `i915.modeset=0 rootpw=pass` را در [[فهرست راه‌اندازی|doc/first_steps/startup_options#boot_menu]] اضافه کنید."
 
 #. type: Plain text
@@ -286,10 +249,9 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/first_steps/startup_options#boot_menu]]."
 msgid ""
 "  If Tails fails to start, [[add the following boot option when\n"
-"  starting Tails|doc/first_steps/startup_options/#boot_loader_menu]]:\n"
+"  starting Tails|doc/advanced_topics/boot_options]]:\n"
 msgstr "گزینهٔ `i915.modeset=0 rootpw=pass` را در [[فهرست راه‌اندازی|doc/first_steps/startup_options#boot_menu]] اضافه کنید."
 
 #. type: Plain text
@@ -303,10 +265,9 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/first_steps/startup_options#boot_menu]]."
 msgid ""
 "  To make the display work properly, [[add the following boot option when\n"
-"  starting Tails|doc/first_steps/startup_options/#boot_loader_menu]]:\n"
+"  starting Tails|doc/advanced_topics/boot_options]]:\n"
 msgstr "گزینهٔ `i915.modeset=0 rootpw=pass` را در [[فهرست راه‌اندازی|doc/first_steps/startup_options#boot_menu]] اضافه کنید."
 
 #. type: Plain text
@@ -323,9 +284,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #, fuzzy
-#| msgid ""
-#| "Mac Pro Tower and MacBook Pro 4,1 (both from early 2008) and MacBook Pro "
-#| "8,2 (late 2011) fail to boot from a USB stick created by Tails Installer."
 msgid ""
 "Mac Pro Tower and MacBook Pro 4,1 (both from early 2008)  fail to start on "
 "Tails."
@@ -337,25 +295,12 @@ msgstr ""
 #. type: Plain text
 #, fuzzy, no-wrap
 #| msgid "<a id=\"pny\"></a>\n"
-msgid "<a id=\"pc\">\n"
+msgid "<h2 id=\"pc\">PC</h2>\n"
 msgstr "<a id=\"pny\"></a>\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"PC\n"
-"--\n"
-msgstr ""
-
-#. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"pny\"></a>\n"
-msgid "<a id=\"lockup\"></a>\n"
-msgstr "<a id=\"pny\"></a>\n"
-
-#. type: Title ###
-#, no-wrap
-msgid "\"Soft lockup\" error"
+msgid "<h3 id=\"lockup\">\"Soft lockup\" error</h3>\n"
 msgstr ""
 
 #. type: Plain text
@@ -377,12 +322,9 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#| "first_steps/startup_options#boot_menu]]."
 msgid ""
 "To start Tails successfully, [[add the following boot option when starting "
-"Tails|doc/first_steps/startup_options/#boot_loader_menu]]:"
+"Tails|doc/advanced_topics/boot_options]]:"
 msgstr ""
 "گزینهٔ `i915.modeset=0 rootpw=pass` را در [[فهرست راه‌اندازی|doc/first_steps/"
 "startup_options#boot_menu]] اضافه کنید."
@@ -394,14 +336,7 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "<a id=\"switchable_graphics_black_screen\"></a>\n"
-msgid "<a id=\"sg-black-screen\"></a>\n"
-msgstr "<a id=\"switchable_graphics_black_screen\"></a>\n"
-
-#. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Acer Travelmate 8573T-254G50M\n"
-msgid "Acer Travelmate 8573T-254G50M"
+msgid "<h3 id=\"sg-black-screen\">Acer Travelmate 8573T-254G50M</h3>\n"
 msgstr "Acer Travelmate 8573T-254G50M\n"
 
 #. type: Plain text
@@ -414,9 +349,6 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "Booting from DVD works fine, but does not start on USB sticks created "
-#| "using Tails Installer."
 msgid "Booting from DVD works fine, but does not start from USB sticks."
 msgstr ""
 "راه‌اندازی از دی‌وی‌دی به خوبی انجام می‌شود، اما راه‌اندازی از درایوهای یواس‌بی "
@@ -430,11 +362,10 @@ msgstr ""
 "این مشکل ممکن است در تیلز ۱٫۱ و نسخه‌های جدیدتر از آن حل شده باشد. لطفاً نتایج "
 "آزمایش‌های خود در این مورد را به ما گزارش دهید."
 
-#. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Acer Aspire 5315-ICL50\n"
-msgid "Acer Aspire 5315-ICL50"
-msgstr "Acer Aspire 5315-ICL50\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h3 id=\"aspire-5315-icl50\">Acer Aspire 5315-ICL50</h3>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -446,33 +377,22 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "Does not start on USB sticks created using Tails Installer."
 msgid "Does not start on USB sticks."
 msgstr "راه‌اندازی از درایوهای یواس‌بی ایجادشده توسط نصب‌کنندهٔ تیلز انجام نمی‌شود."
 
-#. type: Title ###
+#. type: Plain text
 #, no-wrap
-msgid "AMD Ryzen with Vega graphics cards"
+msgid "<h3 id=\"amd-ryzen-vega-graphics\">AMD Ryzen with Vega graphics cards</h3>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "See [[support/known_issues/graphics#amd-vega]]."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"<!--\n"
-"Last updated: 2019-11-01\n"
-"-->\n"
+msgid "<h3 id=\"asus-vivobook-x202e\">ASUS VivoBook X202E</h3>\n"
 msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    iommu=soft\n"
-msgstr ""
-
-#. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "ASUS VivoBook X202E\n"
-msgid "ASUS VivoBook X202E"
-msgstr "ASUS VivoBook X202E\n"
 
 #. type: Plain text
 #, no-wrap
@@ -490,9 +410,9 @@ msgstr ""
 "برای راه‌اندازی تیلز باید پشتیبانی از Legacy فعال شود. برای فعال کردن "
 "پشتیبانی راه‌اندازی legacy «'Launch CSM» را زیر (فهرست) راه‌اندازی فعال کنید."
 
-#. type: Title ###
+#. type: Plain text
 #, no-wrap
-msgid "Dell Chromebook LULU"
+msgid "<h3 id=\"dell-chromebook-lulu\">Dell Chromebook LULU</h3>\n"
 msgstr ""
 
 #. type: Plain text
@@ -508,11 +428,10 @@ msgstr ""
 msgid "    nomodeset\n"
 msgstr ""
 
-#. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Dell Inc. Latitude E6430 and E6230\n"
-msgid "Dell Latitude E5250"
-msgstr "Dell Inc. Latitude E6430 and E6230\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h3 id=\"dell-latitude-e5250\">Dell Latitude E5250</h3>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -524,14 +443,12 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "Does not start on USB sticks created using Tails Installer."
 msgid "Does not start on Tails USB sticks."
 msgstr "راه‌اندازی از درایوهای یواس‌بی ایجادشده توسط نصب‌کنندهٔ تیلز انجام نمی‌شود."
 
-#. type: Title ###
+#. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Dell Inc. Latitude E6430 and E6230\n"
-msgid "Dell Latitude E6430 and E6230"
+msgid "<h3 id=\"dell-latitude-e6430\">Dell Latitude E6430 and E6230</h3>\n"
 msgstr "Dell Inc. Latitude E6430 and E6230\n"
 
 #. type: Plain text
@@ -558,15 +475,13 @@ msgstr ""
 "راه‌های پیرامونی (دست‌کم با بایوس نسخه‌های A09، A11 و A12): تنها کافی است دکمهٔ "
 "Enter را بزنید و راه‌اندازی ادامه پیدا می‌کند."
 
-#. type: Title ###
+#. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Dell XPS L702X/03RG89, Samsung RV520, Samsung Series 7 Chronos\n"
-msgid "Dell XPS L702X/03RG89, Samsung RV520, Samsung Series 7 Chronos"
+msgid "<h3 id=\"dell-xps-l702x\">Dell XPS L702X/03RG89, Samsung RV520, Samsung Series 7 Chronos</h3>\n"
 msgstr "Dell XPS L702X/03RG89, Samsung RV520, Samsung Series 7 Chronos\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Dell XPS L702X/03RG89, Samsung RV520, Samsung Series 7 Chronos\n"
 msgid ""
 "<!--\n"
 "Last updated:\n"
@@ -578,10 +493,6 @@ msgstr "Dell XPS L702X/03RG89, Samsung RV520, Samsung Series 7 Chronos\n"
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "We were reported that the legacy BIOS shipped on these systems doesn't "
-#| "know how to deal with the GPT partition scheme installed by Tails "
-#| "Installer."
 msgid ""
 "We were reported that the legacy BIOS shipped on these systems doesn't know "
 "how to deal with the GPT partition scheme used in Tails."
@@ -597,10 +508,9 @@ msgstr ""
 "<https://www.dell.com/community/Laptops-General-Read-Only/GPT-Bootable-Bios-"
 "Optimus-Switch-Are-Necessary-For-L502x-L702x/m-p/3699920>"
 
-#. type: Title ###
+#. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "HP Compaq dc5750 Microtower\n"
-msgid "HP Compaq dc5750 Microtower"
+msgid "<h3 id=\"hp-compaq-dc5750\">HP Compaq dc5750 Microtower</h3>\n"
 msgstr "HP Compaq dc5750 Microtower\n"
 
 #. type: Plain text
@@ -614,15 +524,13 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "Does not start Tails 1.2.3 created using Tails Installer."
 msgid "Does not start Tails 1.2.3."
 msgstr "تیلز ۱٫۲٫۲ که با نصب‌کنندهٔ تیلز ایجاد شده باشد راه‌اندازی نمی‌شود."
 
-#. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Compaq 615\n"
-msgid "HP Compaq 615"
-msgstr "Compaq 615\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h3 id=\"hp-compaq-615\">HP Compaq 615</h3>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -635,9 +543,6 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "You need to update the firmware to its latest version in order to start "
-#| "from a device installed using Tails Installer."
 msgid ""
 "You need to update the firmware to its latest version in order to start from "
 "a USB stick."
@@ -645,11 +550,10 @@ msgstr ""
 "برای راه‌اندازی از دستگاه نصب‌شده توسط نصب‌کنندهٔ تیلز باید سفت‌افزار را به آخرین "
 "نسخهٔ آن ارتقاء دهید."
 
-#. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Compaq 615\n"
-msgid "HP Compaq CQ60-214DX"
-msgstr "Compaq 615\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h3 id=\"hp-compaq-cq60-214dx\">HP Compaq CQ60-214DX</h3>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -662,15 +566,13 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "See also [[!tails_ticket 6397]]."
 msgid "Tails 3.3 does not start."
 msgstr "همچنین رجوع کنید به [[!tails_ticket 6397]]."
 
-#. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "HP Pavilion dv7\n"
-msgid "HP Pavilion 15-ab277ca"
-msgstr "HP Pavilion dv7\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h3 id=\"hp-pavilion-15-ab277ca\">HP Pavilion 15-ab277ca</h3>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -685,11 +587,10 @@ msgstr ""
 msgid "Tails 3.3 restarts during startup and never starts successfully."
 msgstr ""
 
-#. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "HP ProBook\n"
-msgid "HP ProBook"
-msgstr "HP ProBook\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h3 id=\"hp-probook\">HP ProBook</h3>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -712,6 +613,10 @@ msgid "That workaround applied to, at least, the following HP ProBook:"
 msgstr ""
 
 #. type: Bullet: '* '
+msgid "5330m"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid "4330s"
 msgstr ""
 
@@ -719,11 +624,10 @@ msgstr ""
 msgid "6560b"
 msgstr ""
 
-#. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Lenovo IdeaPad Y410p\n"
-msgid "Lenovo IdeaPad Y410p"
-msgstr "Lenovo IdeaPad Y410p\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h3 id=\"lenovo-ideapad-y410p\">Lenovo IdeaPad Y410p</h3>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -739,11 +643,10 @@ msgid "Does not start Tails 1.1 from USB installed manually in Linux."
 msgstr ""
 "تیلز ۱٫۱ را از درایو یواس‌بی که روی لینوکس دستی نصب شده باشد راه‌اندازی نمی‌کند."
 
-#. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Lenovo IdeaPad z585\n"
-msgid "Lenovo IdeaPad z585"
-msgstr "Lenovo IdeaPad z585\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h3 id=\"lenovo-ideapad-z585\">Lenovo IdeaPad z585</h3>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -756,14 +659,31 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "Goes back continuously to boot menu on Tails installed on DVD."
-msgid "Goes back continuously to Boot Loader Menu on Tails installed on DVD."
+msgid "Goes back continuously to Boot Loader on Tails installed on DVD."
 msgstr "روی تیلز نصب‌شده روی دی‌وی‌دی مدام به فهرست راه‌اندازی بازمی‌گردد."
 
-#. type: Title ###
+#. type: Plain text
+#, no-wrap
+msgid "<h3 id=\"microsoft-surface-laptop-3\">Microsoft Surface Laptop 3</h3>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<!--\n"
+"Last updated: 2020-07-03\n"
+"-->\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The keyboard and mouse do not work on this laptop.  If you find a "
+"workaround, please let us know."
+msgstr ""
+
+#. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Clevo W258CU, ThinkPad X121e, T420i, T410, T520, W520, T530, E325, and E530\n"
-msgid "Clevo W258CU, ThinkPad X121e, T420i, T410, T520, W520, T530, T60, E325, and E530"
+msgid "<h3 id=\"clevo-w258cu\">Clevo W258CU, ThinkPad X121e, T420i, T410, T520, W520, T530, T60, E325, and E530</h3>\n"
 msgstr "Clevo W258CU, ThinkPad X121e, T420i, T410, T520, W520, T530, E325, و E530\n"
 
 #. type: Plain text
@@ -791,17 +711,14 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "These machines do not start on USB sticks created using Tails USB "
-#| "Installer, due to a firmware limitation."
 msgid "These machines do not start on USB sticks due to a firmware limitation."
 msgstr ""
 "این دستگاه‌ها به دلیل یک محدودیت سفت‌افزاری با درایو یواس‌بی ایجادشده توسط "
 "نصب‌کنندهٔ تیلز راه‌اندازی نمی‌شوند."
 
-#. type: Title ###
+#. type: Plain text
 #, no-wrap
-msgid "System76 Oryx Pro"
+msgid "<h3 id=\"system76-oryx-pro\">System76 Oryx Pro</h3>\n"
 msgstr ""
 
 #. type: Plain text
@@ -821,15 +738,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"wi-fi\"></a>\n"
-msgstr "<a id=\"wi-fi\"></a>\n"
-
-#. type: Title =
 #, fuzzy, no-wrap
-#| msgid "Wi-Fi issues\n"
-msgid "Wi-Fi issues\n"
-msgstr "مشکلات وای‌فای\n"
+#| msgid "<a id=\"wi-fi\"></a>\n"
+msgid "<h1 id=\"wi-fi\">Wi-Fi issues</h1>\n"
+msgstr "<a id=\"wi-fi\"></a>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -843,14 +755,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"wi-fi\"></a>\n"
-msgid "<a id=\"wi-fi-workarounds\"></a>\n"
-msgstr "<a id=\"wi-fi\"></a>\n"
-
-#. type: Title -
 #, no-wrap
-msgid "Knowing the model of your Wi-Fi interface\n"
+msgid "<h2 id=\"wi-fi-workarounds\">Knowing the model of your Wi-Fi interface</h2>\n"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -861,13 +767,12 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "       lspci -nn | grep Network\n"
 msgid "       lspci -v | grep \"Network controller\"\n"
 msgstr "       lspci -nn | grep Network\n"
 
-#. type: Title -
+#. type: Plain text
 #, no-wrap
-msgid "88W8897 [AVASTAR] 802.11ac Wireless\n"
+msgid "<h2 id=\"88w8897\">88W8897 [AVASTAR] 802.11ac Wireless</h2>\n"
 msgstr ""
 
 #. type: Plain text
@@ -887,13 +792,13 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "If you experience this problem, you can try to [[disable MAC address "
-"spoofing|doc/first_steps/startup_options/mac_spoofing]] that sometimes fixes "
+"spoofing|doc/first_steps/welcome_screen/mac_spoofing]] that sometimes fixes "
 "it."
 msgstr ""
 
-#. type: Title -
+#. type: Plain text
 #, no-wrap
-msgid "RTL8723BE PCIe Wireless Network Adapter\n"
+msgid "<h2 id=\"rtl8723be\">RTL8723BE PCIe Wireless Network Adapter</h2>\n"
 msgstr ""
 
 #. type: Plain text
@@ -914,9 +819,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "You can to [[add the following boot options when starting Tails|doc/"
-"first_steps/startup_options/#boot_loader_menu]] until you find a combination "
-"that works for you. The exact combination of options that works depends on "
-"the computer:"
+"advanced_topics/boot_options]] until you find a combination that works for "
+"you. The exact combination of options that works depends on the computer:"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -944,14 +848,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"broadcom-sta-dkms\"></a>\n"
-msgstr "<a id=\"broadcom-sta-dkms\"></a>\n"
-
-#. type: Title -
 #, fuzzy, no-wrap
-#| msgid "Broadcom Wi-Fi network interface needing `broadcom-sta-dkms`\n"
-msgid "Broadcom Wi-Fi network interface needing `broadcom-sta-dkms`\n"
+msgid "<h2 id=\"broadcom-sta-dkms\">Broadcom Wi-Fi network interface needing <code>broadcom-sta-dkms</code></h2>\n"
 msgstr "رابط شبکهٔ وای‌فای Broadcam نیازمند به `broadcom-sta-dkms\n"
 
 #. type: Plain text
@@ -978,13 +876,6 @@ msgstr "راه‌انداز `wl` در تیلز آورده نشده، چون ما
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "2. Verify if your device is in the list of devices supported by the "
-#| "`broadcom-sta-dkms`\n"
-#| "package on the corresponding [Debian wiki page](https://wiki.debian.org/"
-#| "wl).\n"
-#| "If you find your device in the list of supported devices, then it is\n"
-#| "impossible to use your Wi-Fi card in Tails.\n"
 msgid ""
 "You device requires the `wl` driver if it is in the list of devices "
 "supported by the `broadcom-sta-dkms` package on the corresponding [Debian "
@@ -998,9 +889,9 @@ msgstr ""
 "اگر دستگاهتان را در فهرست این دستگاه‌ها یافتید، آن‌گاه \n"
 "استفاده از کارت وای‌فای شما در تیلز غیرممکن است.\n"
 
-#. type: Title ##
+#. type: Plain text
 #, no-wrap
-msgid "Lenovo Legion Y530"
+msgid "<h2 id=\"lenovo-legion-y530\">Lenovo Legion Y530</h2>\n"
 msgstr ""
 
 #. type: Plain text
@@ -1017,12 +908,9 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#| "first_steps/startup_options#boot_menu]]."
 msgid ""
 "To fix this issue, [[add the following boot option when starting Tails|doc/"
-"first_steps/startup_options/#boot_loader_menu]]:"
+"advanced_topics/boot_options]]:"
 msgstr ""
 "گزینهٔ `i915.modeset=0 rootpw=pass` را در [[فهرست راه‌اندازی|doc/first_steps/"
 "startup_options#boot_menu]] اضافه کنید."
@@ -1032,30 +920,39 @@ msgstr ""
 msgid "    modprobe.blacklist=ideapad_laptop\n"
 msgstr ""
 
-#. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Security issues\n"
-msgid "Security issues\n"
-msgstr "مسائل امنیتی\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"rtl8821ce\">RTL8821CE</h2>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"video-memory\"></a>\n"
-msgstr "<a id=\"video-memory\"></a>\n"
+msgid ""
+"<!--\n"
+"Last updated: 2020-02-21\n"
+"-->\n"
+msgstr ""
 
-#. type: Title -
+#. type: Plain text
+msgid "The Realtek RTL8821CE Wi-Fi adapter is not supported in Linux yet."
+msgstr ""
+
+#. type: Plain text
+msgid "This problem is tracked by [[!debbug 917941]]."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"security-issues\">Security issues</h1>\n"
+msgstr ""
+
+#. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Tails does not erase video memory\n"
-msgid "Tails does not erase video memory\n"
+msgid "<h2 id=\"video-memory\">Tails does not erase video memory</h2>\n"
 msgstr "تیلز حافظهٔ ویدیویی را پاک نمی‌کند\n"
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "Tails doesn't erase the [[!wikipedia Video_RAM_(dual-ported_DRAM) desc="
-#| "\"video memory\"]] yet.  When one uses Tails, then restarts the computer "
-#| "into another operating system, that other operating system can see what "
-#| "has been displayed on the screen within Tails."
 msgid ""
 "Tails doesn't erase the [[!wikipedia Video_RAM_(dual-ported_DRAM) desc="
 "\"video memory\"]] yet.  When one uses Tails, then restarts the computer "
@@ -1083,7 +980,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<!--\n"
-msgstr ""
+msgstr "<!--\n"
 
 #. type: Plain text
 msgid ""
@@ -1098,13 +995,11 @@ msgstr "<a id=\"fingerprint\"></a>\n"
 
 #. type: Title =
 #, fuzzy, no-wrap
-#| msgid "Fingerprint\n"
-msgid "Browser fingerprint\n"
+msgid "Browser fingerprint"
 msgstr "اثر انگشت\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "<!-- The fingerprints of <span class=\"application\">Tor Browser</span> in Tails and on other operating systems are different: -->\n"
 msgid ""
 "There are known differences between the fingerprints of <span\n"
 "class=\"application\">Tor Browser</span> inside and outside of Tails:\n"
@@ -1119,18 +1014,26 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "-->\n"
+msgstr "-->\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"other-issues\">Other issues</h1>\n"
 msgstr ""
 
-#. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Other issues\n"
-msgid "Other issues\n"
-msgstr "مسائل دیگر\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"openpgp-import\">Importing OpenPGP public keys using the <span class=\"application\">Passwords and Keys</span> utility does nothing</h2>\n"
+msgstr ""
 
-#. type: Title -
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"support/known_issues/import_broken_in_seahorse.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"support/known_issues/import_broken_in_seahorse.inline.fa\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Boot menu has display issues\n"
-msgid "Boot Loader Menu has display issues\n"
+msgid "<h2 id=\"boot-loader-display-issues\">Boot Loader has display issues</h2>\n"
 msgstr "مشکلاتی در نمایش فهرست راه‌اندازی وجود دارد\n"
 
 #. type: Plain text
@@ -1149,26 +1052,23 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "Since Tails 1.1, one some hardware (ThinkPad X230, MacBook Pro 8,1), the "
-#| "boot menu is not displayed properly. Tails starts fine, though."
 msgid ""
 "Since Tails 1.1, on some hardware (ThinkPad X230, MacBook Pro 8,1), the Boot "
-"Loader Menu is not displayed properly. Tails starts fine, though."
+"Loader is not displayed properly. Tails starts fine, though."
 msgstr ""
 "از تیلز ۱٫۱ به بعد، فهرست راه‌اندازی روی بعضی سخت‌افزارها (ThinkPad X230، "
 "MacBook Pro 8,1) به خوبی نشان داده نمی‌شود. اما تیلز بدون مشکل راه‌اندازی "
 "می‌شود."
 
-#. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Touchpad configurations\n"
-msgid "Touchpad configurations\n"
-msgstr "پیکربندی حس‌گر لمسی\n"
-
-#. type: Title ###
+#. type: Plain text
 #, no-wrap
-msgid "Acer TravelMate B113 - ETPS/2 Elantech Touchpad"
+msgid "<h2 id=\"touchpad-configurations\">Touchpad configurations</h2>\n"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "Acer TravelMate B113 - ETPS/2 Elantech Touchpad"
+msgid "<h3 id=\"acer-travelmate-b113\">Acer TravelMate B113 - ETPS/2 Elantech Touchpad</h3>\n"
 msgstr "Acer TravelMate B113 - ETPS/2 Elantech Touchpad"
 
 #. type: Plain text
@@ -1197,9 +1097,9 @@ msgstr ""
 "    synclient FingerLow=1;\n"
 "    synclient FingerHigh=1;\n"
 
-#. type: Title ###
+#. type: Plain text
 #, no-wrap
-msgid "Acer C720 - Cypress APA Touchpad"
+msgid "<h3 id=\"acer-c720\">Acer C720 - Cypress APA Touchpad</h3>\n"
 msgstr ""
 
 #. type: Plain text
@@ -1217,27 +1117,18 @@ msgid ""
 "    synclient FingerHigh=5;\n"
 msgstr ""
 
-#. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Bluetooth devices don't work\n"
-msgid "Bluetooth devices don't work\n"
-msgstr "دستگاه بلوتوث کار نمی‌کند\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"bluetooth-devices-dont-work\">Bluetooth devices don't work</h2>\n"
+msgstr ""
 
 #. type: Plain text
 msgid "Bluetooth is not enabled in Tails for security reasons."
 msgstr "بلوتوث به دلایل امنیتی روی تیلز فعال نشده است."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"automatic_upgrade_fails\"></a>\n"
-msgid ""
-"<a id=\"automatic_upgrade_fails\"></a>\n"
-"<a id=\"partial-upgrade\"></a>\n"
-msgstr "<a id=\"automatic_upgrade_fails\"></a>\n"
-
-#. type: Title -
 #, no-wrap
-msgid "Tails fails to start or behaves weirdly after an automatic upgrade\n"
+msgid "<h2 id=\"automatic-upgrade-fails\">Tails fails to start or behaves weirdly after an automatic upgrade</h2>\n"
 msgstr ""
 
 #. type: Plain text
@@ -1269,9 +1160,6 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "To fix this problem, you can [[update your Tails manually|doc/first_steps/"
-#| "upgrade/#manual]]."
 msgid ""
 "To fix this problem, you can [[update your Tails manually|doc/upgrade/"
 "#manual]]."
@@ -1280,34 +1168,26 @@ msgstr ""
 "upgrade/#manual]]."
 
 #. type: Plain text
-msgid "Note that your Persistent Volume will be safely preserved."
+#, fuzzy
+msgid "Note that your Persistent Storage will be safely preserved."
 msgstr "در نظر داشته باشید که درایو مانای شما امن خواهد بود."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"sandisk\"></a>\n"
-msgid "<a id=\"persistence-disappears\"></a>\n"
-msgstr "<a id=\"sandisk\"></a>\n"
-
-#. type: Title -
 #, no-wrap
-msgid "Persistent folder disappears and persistent feature configurations do not load\n"
+msgid "<h2 id=\"persistence-disappears\"><em>Persistent</em> folder disappears and data of the Persistent Storage is unavailable</h2>\n"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"Sometimes, the <span class=\"filename\">Persistent</span> folder is missing and\n"
-"the configurations for persistent features do not load.\n"
+"Sometimes, the *Persistent* folder is missing and all the data of the "
+"Persistent Storage is unavailable."
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"Most likely this means that the <span class=\"filename\">persistence.conf</span>\n"
-"file has disappeared. However, the files in the\n"
-"<span class=\"filename\">Persistent</span> folder and the persistent feature\n"
-"configurations should still be saved.\n"
+"Most likely this means that the *persistence.conf* file has disappeared. "
+"However, the files in the *Persistent* folder and all the other data in the "
+"Persistent Storage should still exist."
 msgstr ""
 
 #. type: Plain text
@@ -1316,8 +1196,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Enable your encrypted persistent storage in <span class=\"application"
-"\">Tails Greeter</span> when you start Tails."
+"Unlock the Persistent Storage in the Welcome Screen when starting Tails."
 msgstr ""
 
 #. type: Plain text
@@ -1333,7 +1212,13 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid ""
 "If you are asked to enter a passphrase, enter the same passphrase that you "
-"used to unlock your persistent storage."
+"use to unlock your Persistent Storage."
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid ""
+"Turn on the features of the Persistent Storage that you had turned on "
+"previously."
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -1341,46 +1226,30 @@ msgid "Click <span class=\"button\">Save</span>, then restart Tails."
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"Your <span class=\"filename\">Persistent</span> folder and persistent feature\n"
-"configurations should be restored.\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "<a id=\"restart-shell\"></a>\n"
-msgstr "<a id=\"restart-shell\"></a>\n"
-
-#. type: Title ##
-#, no-wrap
-msgid "Icons and information located on the top right corner of the screen disappeared"
+"Your *Persistent* folder and all the data of the Persistent Storage should "
+"be restored."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Sometimes, some of the icons located on the top right corner of the screen "
-"are not displayed entirely, or at all. For example, the icon that allows to "
-"change to another keyboard layout may be hidden. Other information, such as "
-"the clock, may not be visible."
+"If the above instructions do not fix the problem, you might need to fix the "
+"ownership of TailsData_unlocked."
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"Press <span class=\"keycap\">Alt+F2</span> and type `r` to restart GNOME\n"
-"Shell, which often solves this problem.\n"
+"To fix the ownership of TailsData_unlocked, set an administration password "
+"and execute the following command in a terminal:"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy
-#| msgid "See also [[!tails_ticket 6397]]."
-msgid "See [[!tails_ticket 10576]] for more details."
-msgstr "همچنین رجوع کنید به [[!tails_ticket 6397]]."
+msgid "`sudo chown root:root /live/persistence/TailsData_unlocked`"
+msgstr ""
 
-#. type: Title -
+#. type: Plain text
 #, no-wrap
-msgid "Some languages do not have the correct keyboard layout set by default\n"
+msgid "<h2 id=\"languages-incorrect-keyboard-layout\">Some languages do not have the correct keyboard layout set by default</h2>\n"
 msgstr ""
 
 #. type: Plain text
@@ -1393,14 +1262,14 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"When selecting some languages in the Tails Greeter, the default associated "
+"When selecting some languages in the Welcome Screen, the default associated "
 "keyboard layout fallbacks to US."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"To use the right keyboard layout during a session, set it in the Tails "
-"Greeter after having set the language. When the desktop has started, apply "
+"To use the right keyboard layout during a session, set it in the Welcome "
+"Screen after having set the language. When the desktop has started, apply "
 "the keyboard layout by clicking on the `en` systray icon."
 msgstr ""
 
@@ -1411,9 +1280,9 @@ msgid ""
 "and `YUE`."
 msgstr ""
 
-#. type: Title ##
+#. type: Plain text
 #, no-wrap
-msgid "The OpenPGP passphrase prompt steals the keyboard and mouse focus"
+msgid "<h2 id=\"openpgp-prompt-steals-focus\">The OpenPGP passphrase prompt steals the keyboard and mouse focus</h2>\n"
 msgstr ""
 
 #. type: Plain text
@@ -1430,9 +1299,10 @@ msgstr ""
 #| "Execute the following command in a [[terminal|doc/first_steps/"
 #| "introduction_to_gnome_and_the_tails_desktop#terminal]]:"
 msgid ""
-"This happens when one has enabled the GnuPG persistence feature before Tails "
-"2.3. To fix this problem, execute the following command in a [[terminal|doc/"
-"first_steps/introduction_to_gnome_and_the_tails_desktop#terminal]]:"
+"This happens when the GnuPG feature of the Persistent Storage was turned on "
+"before Tails 2.3. To fix this problem, execute the following command in a "
+"[[terminal|doc/first_steps/"
+"introduction_to_gnome_and_the_tails_desktop#terminal]]:"
 msgstr ""
 "این فرمان را در یک [[پایانه|doc/first_steps/"
 "introduction_to_gnome_and_the_tails_desktop#terminal]] اجرا کنید:"
@@ -1443,14 +1313,8 @@ msgid "\techo \"no-grab\" >> ~/.gnupg/gpg-agent.conf\n"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"mac\"></a>\n"
-msgid "<a id=\"utc\"></a>\n"
-msgstr "<a id=\"mac\"></a>\n"
-
-#. type: Title ##
 #, no-wrap
-msgid "Problems when the system clock goes backwards"
+msgid "<h2 id=\"utc\">Problems when the system clock goes backwards</h2>\n"
 msgstr ""
 
 #. type: Plain text
@@ -1476,7 +1340,7 @@ msgid ""
 "<ul>\n"
 "<li>The <span class=\"guimenu\">Applications</span> menu might stop\n"
 "working.</li>\n"
-"<li>[[Connecting to Tor using `obfs4` bridges|doc/first_steps/startup_options/bridge_mode]]\n"
+"<li>[[Connecting to Tor using `obfs4` bridges|doc/first_steps/welcome_screen/bridge_mode]]\n"
 "might be impossible and <span class=\"application\">Tor Launcher</span>\n"
 "might get stuck on <span class=\"guilabel\">Loading Network\n"
 "Consensus</span>.</li>\n"
@@ -1490,11 +1354,10 @@ msgid ""
 "System_time#UTC_in_Windows)."
 msgstr ""
 
-#. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Lenovo IdeaPad Y410p\n"
-msgid "Lenovo ThinkPad 11e"
-msgstr "Lenovo IdeaPad Y410p\n"
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"lenovo-thinkpad-11e\">Lenovo ThinkPad 11e</h2>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -1513,12 +1376,9 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#| "first_steps/startup_options#boot_menu]]."
 msgid ""
 "To fix this problem, [[add the following boot option when starting Tails|doc/"
-"first_steps/startup_options/#boot_loader_menu]]:"
+"advanced_topics/boot_options]]:"
 msgstr ""
 "گزینهٔ `i915.modeset=0 rootpw=pass` را در [[فهرست راه‌اندازی|doc/first_steps/"
 "startup_options#boot_menu]] اضافه کنید."
@@ -1528,25 +1388,9 @@ msgstr ""
 msgid "    intel_idle.max_cstate=1\n"
 msgstr ""
 
-#. type: Title ##
-#, no-wrap
-msgid "Electrum is outdated and cannot connect to servers"
-msgstr ""
-
 #. type: Plain text
 #, no-wrap
-msgid "[[!inline pages=\"doc/anonymous_internet/electrum/phishing.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-
-#. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"mac\"></a>\n"
-msgid "<a id=\"usb-gigabyte\"></a>\n"
-msgstr "<a id=\"mac\"></a>\n"
-
-#. type: Title ##
-#, no-wrap
-msgid "USB devices are not working on some [GIGABYTE](https://www.gigabyte.com/) motherboards"
+msgid "<h2 id=\"usb-gigabyte\">USB devices are not working on some <a href=\"https://www.gigabyte.com/\">GIGABYTE</a> motherboards</h2>\n"
 msgstr ""
 
 #. type: Plain text
@@ -1585,12 +1429,9 @@ msgstr ""
 
 #. type: Bullet: '- '
 #, fuzzy
-#| msgid ""
-#| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#| "first_steps/startup_options#boot_menu]]."
 msgid ""
-"[[Add the following boot option when starting Tails|doc/first_steps/"
-"startup_options/#boot_loader_menu]]:"
+"[[Add the following boot option when starting Tails|doc/advanced_topics/"
+"boot_options]]:"
 msgstr ""
 "گزینهٔ `i915.modeset=0 rootpw=pass` را در [[فهرست راه‌اندازی|doc/first_steps/"
 "startup_options#boot_menu]] اضافه کنید."
@@ -1608,6 +1449,265 @@ msgstr ""
 msgid "Some of these workarounds may disable some of the USB ports."
 msgstr ""
 
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"graphics-corruption-tor-browser\">Graphics corruption in Tor Browser and Thunderbird</h2>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<!--\n"
+"Last updated: 2020-02-22\n"
+"-->\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"On some computers, _Tor Browser_ and _Thunderbird_ are displayed incorrectly:"
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid "The application window is initially empty and white."
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid "The icons and menus only appear when hovered by the mouse."
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid "The contents of the window is only displayed in stripes when scrolling."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+msgid ""
+"To workaround this issue, [[add the following boot option when starting "
+"Tails|doc/advanced_topics/boot_options]]:"
+msgstr ""
+"گزینهٔ `i915.modeset=0 rootpw=pass` را در [[فهرست راه‌اندازی|doc/first_steps/"
+"startup_options#boot_menu]] اضافه کنید."
+
+#. type: Plain text
+#, no-wrap
+msgid "    intel_iommu=off\n"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+msgid "This problem affects at least the following computers:"
+msgstr "این مشکل روی این سخت‌افزارها گزارش شده:"
+
+#. type: Bullet: ' - '
+msgid "MacBookPro11,5"
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid "other MacBooks with a Radeon R9 graphics adapter"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h3 id=\"acer-swift-3\">Acer Swift 3</h3>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In order to allow Tails to use all available memory, start Tails from the "
+"*F2 EFI setup* firmware entry."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Problems starting Tails"
+#~ msgstr "مشکلات هنگام راه‌اندازی تیلز\n"
+
+#, fuzzy
+#~ msgid "Problematic USB sticks"
+#~ msgstr "درایوهای یواس‌بی مشکل‌دار\n"
+
+#~ msgid "PNY"
+#~ msgstr "PNY"
+
+#, fuzzy
+#~ msgid "Aegis Secure Key"
+#~ msgstr "Aegis Secure Key USB 2.0"
+
+#, fuzzy
+#~ msgid "<a id=\"pc\">\n"
+#~ msgstr "<a id=\"pny\"></a>\n"
+
+#, fuzzy
+#~ msgid "<a id=\"lockup\"></a>\n"
+#~ msgstr "<a id=\"pny\"></a>\n"
+
+#, fuzzy
+#~ msgid "<a id=\"sg-black-screen\"></a>\n"
+#~ msgstr "<a id=\"switchable_graphics_black_screen\"></a>\n"
+
+#, fuzzy
+#~ msgid "Acer Aspire 5315-ICL50"
+#~ msgstr "Acer Aspire 5315-ICL50\n"
+
+#, fuzzy
+#~ msgid "ASUS VivoBook X202E"
+#~ msgstr "ASUS VivoBook X202E\n"
+
+#, fuzzy
+#~ msgid "Dell Latitude E5250"
+#~ msgstr "Dell Inc. Latitude E6430 and E6230\n"
+
+#, fuzzy
+#~ msgid "HP Compaq 615"
+#~ msgstr "Compaq 615\n"
+
+#, fuzzy
+#~ msgid "HP Compaq CQ60-214DX"
+#~ msgstr "Compaq 615\n"
+
+#, fuzzy
+#~ msgid "HP Pavilion 15-ab277ca"
+#~ msgstr "HP Pavilion dv7\n"
+
+#, fuzzy
+#~ msgid "HP ProBook"
+#~ msgstr "HP ProBook\n"
+
+#, fuzzy
+#~ msgid "Lenovo IdeaPad Y410p"
+#~ msgstr "Lenovo IdeaPad Y410p\n"
+
+#, fuzzy
+#~ msgid "Lenovo IdeaPad z585"
+#~ msgstr "Lenovo IdeaPad z585\n"
+
+#, fuzzy
+#~ msgid "Wi-Fi issues"
+#~ msgstr "مشکلات وای‌فای\n"
+
+#, fuzzy
+#~ msgid "<a id=\"wi-fi-workarounds\"></a>\n"
+#~ msgstr "<a id=\"wi-fi\"></a>\n"
+
+#~ msgid "<a id=\"broadcom-sta-dkms\"></a>\n"
+#~ msgstr "<a id=\"broadcom-sta-dkms\"></a>\n"
+
+#, fuzzy
+#~ msgid "Broadcom Wi-Fi network interface needing `broadcom-sta-dkms`"
+#~ msgstr "رابط شبکهٔ وای‌فای Broadcam نیازمند به `broadcom-sta-dkms\n"
+
+#, fuzzy
+#~ msgid "Security issues"
+#~ msgstr "مسائل امنیتی\n"
+
+#~ msgid "<a id=\"video-memory\"></a>\n"
+#~ msgstr "<a id=\"video-memory\"></a>\n"
+
+#, fuzzy
+#~ msgid "Tails does not erase video memory"
+#~ msgstr "تیلز حافظهٔ ویدیویی را پاک نمی‌کند\n"
+
+#, fuzzy
+#~ msgid "Other issues"
+#~ msgstr "مسائل دیگر\n"
+
+#, fuzzy
+#~| msgid "<a id=\"aegis\"></a>\n"
+#~ msgid "<a id=\"openpgp-import\"></a>\n"
+#~ msgstr "<a id=\"aegis\"></a>\n"
+
+#, fuzzy
+#~ msgid "Boot Loader has display issues"
+#~ msgstr "مشکلاتی در نمایش فهرست راه‌اندازی وجود دارد\n"
+
+#, fuzzy
+#~ msgid "Touchpad configurations"
+#~ msgstr "پیکربندی حس‌گر لمسی\n"
+
+#, fuzzy
+#~ msgid "Bluetooth devices don't work"
+#~ msgstr "دستگاه بلوتوث کار نمی‌کند\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "<a id=\"automatic_upgrade_fails\"></a>\n"
+#~ "<a id=\"partial-upgrade\"></a>\n"
+#~ msgstr "<a id=\"automatic_upgrade_fails\"></a>\n"
+
+#, fuzzy
+#~ msgid "<a id=\"persistence-disappears\"></a>\n"
+#~ msgstr "<a id=\"sandisk\"></a>\n"
+
+#, fuzzy
+#~ msgid "<a id=\"utc\"></a>\n"
+#~ msgstr "<a id=\"mac\"></a>\n"
+
+#, fuzzy
+#~ msgid "Lenovo ThinkPad 11e"
+#~ msgstr "Lenovo IdeaPad Y410p\n"
+
+#, fuzzy
+#~ msgid "<a id=\"usb-gigabyte\"></a>\n"
+#~ msgstr "<a id=\"mac\"></a>\n"
+
+#~ msgid "<a id=\"restart-shell\"></a>\n"
+#~ msgstr "<a id=\"restart-shell\"></a>\n"
+
+#, fuzzy
+#~ msgid "See [[!tails_ticket 10576]] for more details."
+#~ msgstr "همچنین رجوع کنید به [[!tails_ticket 6397]]."
+
+#, fuzzy
+#~ msgid "Problems starting Tails\n"
+#~ msgstr "مشکلات هنگام راه‌اندازی تیلز\n"
+
+#, fuzzy
+#~ msgid "Problematic USB sticks\n"
+#~ msgstr "درایوهای یواس‌بی مشکل‌دار\n"
+
+#~ msgid ""
+#~ "Mac\n"
+#~ "---\n"
+#~ msgstr ""
+#~ "مک\n"
+#~ "---\n"
+
+#, fuzzy
+#~ msgid "Wi-Fi issues\n"
+#~ msgstr "مشکلات وای‌فای\n"
+
+#, fuzzy
+#~ msgid "Security issues\n"
+#~ msgstr "مسائل امنیتی\n"
+
+#, fuzzy
+#~ msgid "Browser fingerprint\n"
+#~ msgstr "اثر انگشت\n"
+
+#, fuzzy
+#~ msgid "Other issues\n"
+#~ msgstr "مسائل دیگر\n"
+
+#, fuzzy
+#~ msgid "Touchpad configurations\n"
+#~ msgstr "پیکربندی حس‌گر لمسی\n"
+
+#, fuzzy
+#~ msgid "Bluetooth devices don't work\n"
+#~ msgstr "دستگاه بلوتوث کار نمی‌کند\n"
+
+#~ msgid "Note that your Persistent Volume will be safely preserved."
+#~ msgstr "در نظر داشته باشید که درایو مانای شما امن خواهد بود."
+
+#, fuzzy
+#~ msgid ""
+#~ "This happens when one has enabled the GnuPG persistence feature before "
+#~ "Tails 2.3. To fix this problem, execute the following command in a "
+#~ "[[terminal|doc/first_steps/"
+#~ "introduction_to_gnome_and_the_tails_desktop#terminal]]:"
+#~ msgstr ""
+#~ "این فرمان را در یک [[پایانه|doc/first_steps/"
+#~ "introduction_to_gnome_and_the_tails_desktop#terminal]] اجرا کنید:"
+
 #~ msgid "Aegis"
 #~ msgstr "Aegis"
 
@@ -1615,9 +1715,6 @@ msgstr ""
 #~ msgstr "دستگاه MacBook Pro 5,5 با تیلز در حالت UEFI راه‌اندازی نمی‌شود."
 
 #, fuzzy
-#~| msgid ""
-#~| "MacBook Pro 5,1 17\" (Nvidia GeForce 9400M): one must add the `nouveau."
-#~| "noaccel=1` boot parameters so that the display works properly."
 #~ msgid ""
 #~ "MacBook Pro 5,1 17\" (Nvidia GeForce 9400M): one must add the `nouveau."
 #~ "noaccel=1` boot parameter so that the display works properly."
@@ -1626,9 +1723,6 @@ msgstr ""
 #~ "راه‌اندازی `nouveau.noaccel=1` اضافه شوند تا صفحه نمایش درست کار کند."
 
 #, fuzzy
-#~| msgid ""
-#~| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#~| "first_steps/startup_options#boot_menu]]."
 #~ msgid ""
 #~ "You need to add `nomodeset` to the [[startup options|/doc/first_steps/"
 #~ "startup_options/#boot_loader_menu]] to make Tails start successfully."
@@ -1637,7 +1731,6 @@ msgstr ""
 #~ "first_steps/startup_options#boot_menu]] اضافه کنید."
 
 #, fuzzy
-#~| msgid "Dell Dimension 2400\n"
 #~ msgid "Dell Dimension 2400"
 #~ msgstr "Dell Dimension 2400\n"
 
@@ -1651,7 +1744,6 @@ msgstr ""
 #~ "باشد: لطفاً نتایج آزمایش‌های خود در این مورد را به ما گزارش کنید."
 
 #, fuzzy
-#~| msgid "Dell Inspiron 8100\n"
 #~ msgid "Dell Inspiron 8100"
 #~ msgstr "Dell Inspiron 8100\n"
 
@@ -1667,19 +1759,14 @@ msgstr ""
 #~ "مورد را به ما گزارش کنید."
 
 #, fuzzy
-#~| msgid "Fujitsu Siemens Amilo A 1667G\n"
 #~ msgid "Fujitsu Siemens Amilo A 1667G"
 #~ msgstr "Fujitsu Siemens Amilo A 1667G\n"
 
 #, fuzzy
-#~| msgid "HP Pavilion dv7\n"
 #~ msgid "HP Pavilion dv7"
 #~ msgstr "HP Pavilion dv7\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "Since Tails 1.3, gets stuck at the boot menu, whether Tails is installed "
-#~| "manually or using Tails Installer."
 #~ msgid "Since Tails 1.3, gets stuck at the Boot Loader Menu."
 #~ msgstr ""
 #~ "از تیلز ۱٫۳ در فهرست راه‌اندازی متوقف می‌شود، چه تیلز دستی نصب شده باشد و "
@@ -1695,9 +1782,6 @@ msgstr ""
 #~ "مانا نمی‌دهند."
 
 #, fuzzy
-#~| msgid ""
-#~| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#~| "first_steps/startup_options#boot_menu]]."
 #~ msgid ""
 #~ "Most such problems can be solved by adding [[startup options|/doc/"
 #~ "first_steps/startup_options/#boot_loader_menu]]."
@@ -1706,9 +1790,6 @@ msgstr ""
 #~ "first_steps/startup_options#boot_menu]] اضافه کنید."
 
 #, fuzzy
-#~| msgid ""
-#~| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#~| "first_steps/startup_options#boot_menu]]."
 #~ msgid ""
 #~ "Adding `modprobe.blacklist=ideapad_laptop` to the [[startup options|doc/"
 #~ "first_steps/startup_options#boot_loader_menu]] fixes the issue."
@@ -1717,12 +1798,10 @@ msgstr ""
 #~ "first_steps/startup_options#boot_menu]] اضافه کنید."
 
 #, fuzzy
-#~| msgid "<a id=\"chainloading\"></a>\n"
 #~ msgid "<a id=\"fails-to-shutdown\"></a>\n"
 #~ msgstr "<a id=\"chainloading\"></a>\n"
 
 #, fuzzy
-#~| msgid "Tails fails to connect to certain Wi-Fi networks\n"
 #~ msgid "Tails fails to completely shutdown or restart\n"
 #~ msgstr "تیلز نمی‌تواند به بعضی شبکه‌های وای‌فای وصل شود\n"
 
@@ -1730,7 +1809,6 @@ msgstr ""
 #~ msgstr "</div>\n"
 
 #, fuzzy
-#~| msgid "This issue has been reported on the following hardware:"
 #~ msgid "This issue has been reported on the following hardware:"
 #~ msgstr "این مشکل روی این سخت‌افزارها گزارش شده:"
 
@@ -1738,7 +1816,6 @@ msgstr ""
 #~ msgstr "<a id=\"chainloading\"></a>\n"
 
 #, fuzzy
-#~| msgid "Chainloading Tails from GRUB\n"
 #~ msgid "Chainloading Tails from GRUB\n"
 #~ msgstr "بارگذاری زنجیره‌ای تیلز از GRUB\n"
 
@@ -1767,7 +1844,6 @@ msgstr ""
 #~ "    boot\n"
 
 #, fuzzy
-#~| msgid "Tails fails to connect to certain Wi-Fi networks\n"
 #~ msgid "Tails fails to connect to certain Wi-Fi networks\n"
 #~ msgstr "تیلز نمی‌تواند به بعضی شبکه‌های وای‌فای وصل شود\n"
 
@@ -1780,7 +1856,6 @@ msgstr ""
 #~ msgstr "<a id=\"browser_languages\"></a>\n"
 
 #, fuzzy
-#~| msgid "Tor Browser is translated in a limited number of languages\n"
 #~ msgid "Tor Browser is translated in a limited number of languages\n"
 #~ msgstr "مرورگر تور تنها به چند زبان ترجمه می‌شود\n"
 
@@ -1796,9 +1871,6 @@ msgstr ""
 #~ "ببینید."
 
 #, fuzzy
-#~| msgid ""
-#~| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#~| "first_steps/startup_options#boot_menu]]."
 #~ msgid ""
 #~ "If the sound output does not work on an Acer Aspire One laptop, add `snd-"
 #~ "hda-intel.model=acer-aspire` to the [[startup options|/doc/first_steps/"
@@ -1814,11 +1886,6 @@ msgstr ""
 #~ msgstr "سان‌دیسک"
 
 #, fuzzy
-#~| msgid ""
-#~| "Many SanDisk USB sticks are configured by the manufacturer as a fixed "
-#~| "disk, and not as a removable disk. As a consequence, they require "
-#~| "removing the `live-media=removable` boot parameter, which [[is dangerous|"
-#~| "doc/first_steps/bug_reporting/tails_does_not_start#entirely]]."
 #~ msgid ""
 #~ "Many SanDisk USB sticks are configured by the manufacturer as a fixed "
 #~ "disk, and not as a removable disk. As a consequence, they require "
@@ -1835,7 +1902,6 @@ msgstr ""
 #~ msgstr "SanDisk Cruzer Edge 8GB"
 
 #, fuzzy
-#~| msgid "SanDisk Cruzer Extreme USB 3.0 16GB, 32GB and 64GB"
 #~ msgid "SanDisk Cruzer Extreme USB 3.0 16GB, 32GB, and 64GB"
 #~ msgstr "SanDisk Cruzer Extreme USB 3.0 16GB، 32GB و 64GB"
 
@@ -1846,12 +1912,10 @@ msgstr ""
 #~ msgstr "SanDisk Cruzer Force 8GB"
 
 #, fuzzy
-#~| msgid "SanDisk Cruzer Blade 4GB, 8GB, and 32GB"
 #~ msgid "SanDisk Cruzer Glide 4GB, 8GB, 16GB, and 32GB"
 #~ msgstr "SanDisk Cruzer Blade 4GB، 8GB و 32GB"
 
 #, fuzzy
-#~| msgid "SanDisk Cruzer Switch USB 2.0 8GB and 32GB"
 #~ msgid "SanDisk Cruzer Switch USB 2.0 8GB, and 32GB"
 #~ msgstr "SanDisk Cruzer Switch USB 2.0 8GB و 32GB"
 
@@ -1903,9 +1967,6 @@ msgstr ""
 #~ "سان‌دیسک|known_issues#sandisk]] می‌شود."
 
 #, fuzzy
-#~| msgid ""
-#~| "Then, it gets blocked when booting, often after the message 'Loading, "
-#~| "please wait...'."
 #~ msgid ""
 #~ "Sometimes, after an automatic upgrade, Tails gets blocked when booting, "
 #~ "often after the message 'Loading, please wait...'."
@@ -1914,12 +1975,10 @@ msgstr ""
 #~ "please wait...' رخ می‌دهد."
 
 #, fuzzy
-#~| msgid "<a id=\"automatic_upgrade_fails\"></a>\n"
 #~ msgid "<a id=\"partial-upgrade\"></a>\n"
 #~ msgstr "<a id=\"automatic_upgrade_fails\"></a>\n"
 
 #, fuzzy
-#~| msgid "Connecting to FTP servers is not possible\n"
 #~ msgid "Connecting to FTP servers is not possible\n"
 #~ msgstr "اتصال به سرورهای اف‌تی‌پی ممکن نیست\n"
 
@@ -1932,26 +1991,16 @@ msgstr ""
 #~ "اف‌تی‌پی\"]]."
 
 #, fuzzy
-#~| msgid "Does not start on USB sticks created using Tails Installer."
 #~ msgid ""
 #~ "Does not start on USB sticks created using Tails Installer nor Etcher."
 #~ msgstr ""
 #~ "راه‌اندازی از درایوهای یواس‌بی ایجادشده توسط نصب‌کنندهٔ تیلز انجام نمی‌شود."
 
 #, fuzzy
-#~| msgid "Security issues\n"
 #~ msgid "Graphics issues"
 #~ msgstr "مسائل امنیتی\n"
 
 #, fuzzy
-#~| msgid "This issue has been reported on the following hardware:"
-#~ msgid "This issue has appeared with the following graphic adapters:"
-#~ msgstr "این مشکل روی این سخت‌افزارها گزارش شده:"
-
-#, fuzzy
-#~| msgid ""
-#~| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#~| "first_steps/startup_options#boot_menu]]."
 #~ msgid ""
 #~ "For some models, adding `radeon.modeset=0` to the [[startup options|/doc/"
 #~ "first_steps/startup_options/#boot_loader_menu]] fixes the issue."
@@ -1960,7 +2009,6 @@ msgstr ""
 #~ "first_steps/startup_options#boot_menu]] اضافه کنید."
 
 #, fuzzy
-#~| msgid "This issue has been reported on the following hardware:"
 #~ msgid ""
 #~ "Some computers cannot start Tails Greeter. This issue has appeared with "
 #~ "the following graphic adapters:"
@@ -1970,7 +2018,6 @@ msgstr ""
 #~ msgstr "<a id=\"nvidia-maxwell\"></a>\n"
 
 #, fuzzy
-#~| msgid "This issue has been reported on the following hardware:"
 #~ msgid ""
 #~ "Some computers cannot start Tails Greeter. This appears with some graphic "
 #~ "cards in the [Nvidia Maxwell family](https://nouveau.freedesktop.org/wiki/"
@@ -1980,9 +2027,6 @@ msgstr ""
 #~ msgstr "این مشکل روی این سخت‌افزارها گزارش شده:"
 
 #, fuzzy
-#~| msgid ""
-#~| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#~| "first_steps/startup_options#boot_menu]]."
 #~ msgid ""
 #~ "Add `nouveau.noaccel=1` or `nouveau.modeset=0` to the [[startup options|"
 #~ "doc/first_steps/startup_options#boot_loader_menu]]."
@@ -1991,12 +2035,10 @@ msgstr ""
 #~ "first_steps/startup_options#boot_menu]] اضافه کنید."
 
 #, fuzzy
-#~| msgid "<a id=\"nvidia-maxwell\"></a>\n"
 #~ msgid "<a id=\"nvidia-pascal\"></a>\n"
 #~ msgstr "<a id=\"nvidia-maxwell\"></a>\n"
 
 #, fuzzy
-#~| msgid "This issue has been reported on the following hardware:"
 #~ msgid ""
 #~ "Some computers cannot start Tails Greeter. This may appear with the "
 #~ "[Nvidia Pascal family](https://nouveau.freedesktop.org/wiki/CodeNames/"
@@ -2004,7 +2046,6 @@ msgstr ""
 #~ msgstr "این مشکل روی این سخت‌افزارها گزارش شده:"
 
 #, fuzzy
-#~| msgid "Switchable graphics computers\n"
 #~ msgid "Black screen with switchable graphics computers"
 #~ msgstr "رایانه‌های با گرافیک قابل‌تغییر\n"
 
@@ -2020,7 +2061,6 @@ msgstr ""
 #~ "گزارش شده و ممکن است مدل‌های بسیار دیگری نیز این مشکل را داشته باشند."
 
 #, fuzzy
-#~| msgid "There are two possible workarounds for this issue:"
 #~ msgid "There are several possible workarounds for this issue:"
 #~ msgstr "دو راه پیرامونی ممکن برای این مشکل وجود دارد:"
 
@@ -2037,9 +2077,6 @@ msgstr ""
 #~ msgstr "کاربران خبرهٔ لینوکس نیز می‌توانند این کار را انجام دهند:"
 
 #, fuzzy
-#~| msgid ""
-#~| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#~| "first_steps/startup_options#boot_menu]]."
 #~ msgid ""
 #~ "Add the `i915.modeset=0 rootpw=pass` option in the [[Boot Loader Menu|doc/"
 #~ "first_steps/startup_options#boot_loader_menu]]."
@@ -2093,14 +2130,10 @@ msgstr ""
 #~ msgstr "<a id=switchable_graphics_segfault></a>\n"
 
 #, fuzzy
-#~| msgid "Switchable graphics computers\n"
 #~ msgid "Cannot start GNOME session with switchable graphics computers"
 #~ msgstr "رایانه‌های با گرافیک قابل‌تغییر\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#~| "first_steps/startup_options#boot_menu]]."
 #~ msgid ""
 #~ "Starting in **Troubleshooting Mode** works, as well as adding the "
 #~ "`modprobe.blacklist=nouveau` to the [[startup options|doc/first_steps/"
@@ -2110,13 +2143,11 @@ msgstr ""
 #~ "first_steps/startup_options#boot_menu]] اضافه کنید."
 
 #, fuzzy
-#~| msgid "See also [[!tails_ticket 6397]]."
 #~ msgid ""
 #~ "See [[!debbug 776911 desc=\"relevant bug report\"]] for more information."
 #~ msgstr "همچنین رجوع کنید به [[!tails_ticket 6397]]."
 
 #, fuzzy
-#~| msgid "See also [[!tails_ticket 6397]]."
 #~ msgid "See [[!linuxbug 187001]] for more information."
 #~ msgstr "همچنین رجوع کنید به [[!tails_ticket 6397]]."
 
@@ -2124,9 +2155,6 @@ msgstr ""
 #~ msgstr "<a id=\"xorg-driver\"></a>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "Add the `i915.modeset=0 rootpw=pass` option in the [[boot menu|doc/"
-#~| "first_steps/startup_options#boot_menu]]."
 #~ msgid ""
 #~ "Add the `xorg-driver=intel` option in the [[boot menu|doc/first_steps/"
 #~ "startup_options#boot_menu]]."
@@ -2135,7 +2163,6 @@ msgstr ""
 #~ "first_steps/startup_options#boot_menu]] اضافه کنید."
 
 #, fuzzy
-#~| msgid "See also [[!tails_ticket 6397]]."
 #~ msgid "See [[!tails_ticket 15168]] for more details."
 #~ msgstr "همچنین رجوع کنید به [[!tails_ticket 6397]]."
 

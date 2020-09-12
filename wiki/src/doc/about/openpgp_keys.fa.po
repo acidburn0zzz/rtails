@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-10-08 13:14+0000\n"
+"POT-Creation-Date: 2020-07-03 06:26+0000\n"
 "PO-Revision-Date: 2015-10-21 11:00+0000\n"
 "Last-Translator: sprint5 <translation5@451f.org>\n"
 "Language-Team: Persian <http://weblate.451f.org:8889/projects/tails/"
@@ -72,13 +72,13 @@ msgstr "<a id=\"private\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Private mailing list key\n"
-msgstr "کلید خصوصی فهرست رایانامه\n"
+msgid "Private mailing list key"
+msgstr "کلید خصوصی فهرست رایانامه"
 
 #. type: Title -
 #, no-wrap
-msgid "Purpose\n"
-msgstr "هدف\n"
+msgid "Purpose"
+msgstr "هدف"
 
 #. type: Title ###
 #, no-wrap
@@ -97,8 +97,8 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Policy\n"
-msgstr "سیاست\n"
+msgid "Policy"
+msgstr "سیاست"
 
 #. type: Plain text
 msgid ""
@@ -124,8 +124,8 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Key details\n"
-msgstr "جزئیات کلید\n"
+msgid "Key details"
+msgstr "جزئیات کلید"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -153,8 +153,8 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "How to get the public key?\n"
-msgstr "چگونه کلید عمومی بگیریم؟\n"
+msgid "How to get the public key?"
+msgstr "چگونه کلید عمومی بگیریم؟"
 
 #. type: Plain text
 msgid "There are multiple ways to get this OpenPGP public key:"
@@ -179,8 +179,8 @@ msgstr "<a id=\"signing\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Signing key\n"
-msgstr "کلید امضا\n"
+msgid "Signing key"
+msgstr "کلید امضا"
 
 #. type: Plain text
 msgid ""
@@ -238,7 +238,7 @@ msgstr "کلید اصلی"
 msgid ""
 "* Is not owned in a usable format by any single individual. It is\n"
 "  split cryptographically using\n"
-"  [gfshare](http://www.digital-scurf.org/software/libgfshare).\n"
+"  [gfshare](https://git.gitano.org.uk/libgfshare.git/).\n"
 "* Is only used offline, in an air-gapped Tails only communicating with\n"
 "  the outside world through:\n"
 "  - Plugging the Tails flash media in another operating system to install Tails\n"
@@ -302,14 +302,13 @@ msgstr "تاریخ انقضا: مشابه زیرکلید."
 #| "    sub   rsa4096/0x3C83DCB52F699C56 2015-01-18 [S] [expires: 2018-01-11]\n"
 #| "    sub   rsa4096/0xAF292B44A0EDAA41 2016-08-30 [S] [expires: 2018-01-11]\n"
 msgid ""
-"    pub   rsa4096/0xDBB802B258ACD84F 2015-01-18 [C] [expires: 2020-10-07]\n"
+"    pub   rsa4096/0xDBB802B258ACD84F 2015-01-18 [C] [expires: 2022-01-19]\n"
 "          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F\n"
 "    uid                   [  full  ] Tails developers (offline long-term identity key) <tails@boum.org>\n"
 "    uid                   [  full  ] Tails developers <tails@boum.org>\n"
-"    sub   rsa4096/0xD21DAD38AF281C0B 2017-08-28 [S] [expires: 2020-10-07]\n"
-"    sub   rsa4096/0x3020A7A9C2B72733 2017-08-28 [S] [expires: 2020-10-07]\n"
-"    sub   ed25519/0x90B2B4BD7AED235F 2017-08-28 [S] [expires: 2020-10-07]\n"
-"    sub   rsa4096/0xA8B0F4E45B1B50E2 2018-08-30 [S] [expires: 2020-10-07]\n"
+"    sub   rsa4096/0xD21DAD38AF281C0B 2017-08-28 [S] [expires: 2022-01-19]\n"
+"    sub   ed25519/0x90B2B4BD7AED235F 2017-08-28 [S] [expires: 2022-01-19]\n"
+"    sub   rsa4096/0xA8B0F4E45B1B50E2 2018-08-30 [S] [expires: 2022-01-19]\n"
 msgstr ""
 "    pub   rsa4096/0xDBB802B258ACD84F 2015-01-18 [C] [expires: 2018-01-11]\n"
 "          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F\n"
@@ -342,8 +341,8 @@ msgstr "<a id=\"support\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "User support key\n"
-msgstr "کلید پشتیبانی کاربر\n"
+msgid "User support key"
+msgstr "کلید پشتیبانی کاربر"
 
 #. type: Bullet: '  - '
 #, fuzzy
@@ -376,13 +375,13 @@ msgstr ""
 #| "    uid                          Tails private user support <tails-support-private@boum.org>\n"
 #| "    sub   4096R/9D6D6472AFC1AD77 2013-07-24 [expires: 2018-07-23]\n"
 msgid ""
-"    pub   rsa4096/0xEC57B56EF0C43132 2013-07-24 [SC] [expires: 2020-04-14]\n"
+"    pub   rsa4096/0xEC57B56EF0C43132 2013-07-24 [SC] [expires: 2022-02-03]\n"
 "          Key fingerprint = 1F56 EDD3 0741 0480 35DA  C1C5 EC57 B56E F0C4 3132\n"
 "    uid                   [  full  ] Tails bug squad <tails-bugs@boum.org>\n"
 "    uid                   [  undef ] Tails bug squad (schleuder list) <tails-bugs-owner@boum.org>\n"
 "    uid                   [  undef ] Tails bug squad (schleuder list) <tails-bugs-request@boum.org>\n"
 "    uid                   [  full  ] Tails private user support <tails-support-private@boum.org>\n"
-"    sub   rsa4096/0x9D6D6472AFC1AD77 2013-07-24 [E] [expires: 2020-04-14]\n"
+"    sub   rsa4096/0x9D6D6472AFC1AD77 2013-07-24 [E] [expires: 2022-02-03]\n"
 msgstr ""
 "    pub   4096R/EC57B56EF0C43132 2013-07-24 [expires: 2018-07-23]\n"
 "          Key fingerprint = 1F56 EDD3 0741 0480 35DA  C1C5 EC57 B56E F0C4 3132\n"
@@ -403,8 +402,8 @@ msgstr "<a id=\"press\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Press team key\n"
-msgstr "کلید گروه رسانه‌ای\n"
+msgid "Press team key"
+msgstr "کلید گروه رسانه‌ای"
 
 #. type: Bullet: '  - '
 #, fuzzy
@@ -452,8 +451,8 @@ msgstr "<a id=\"accounting\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Accounting team key\n"
-msgstr "کلید گروه حساب‌داری\n"
+msgid "Accounting team key"
+msgstr "کلید گروه حساب‌داری"
 
 #. type: Bullet: '  - '
 #, fuzzy
@@ -611,8 +610,8 @@ msgstr "<a id=\"sysadmins\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Sysadmins team key\n"
-msgstr "کلید گروه مدیران سیستم\n"
+msgid "Sysadmins team key"
+msgstr "کلید گروه مدیران سیستم"
 
 #. type: Bullet: '  - '
 #, fuzzy
@@ -635,12 +634,12 @@ msgstr ""
 #| "    uid                Tails system administrators (schleuder list) <tails-sysadmins-request@boum.org>\n"
 #| "    sub   4096R/0x58BA940CCA0A30B4 2012-08-23 [expires: 2018-05-16]\n"
 msgid ""
-"    pub   rsa4096/0x70F4F03116525F43 2012-08-23 [SC] [expires: 2020-02-17]\n"
+"    pub   rsa4096/0x70F4F03116525F43 2012-08-23 [SC] [expires: 2021-11-16]\n"
 "          Key fingerprint = D113 CB6D 5131 D34B A5F0  FE9E 70F4 F031 1652 5F43\n"
 "    uid                   [ unknown] Tails system administrators <tails-sysadmins@boum.org>\n"
 "    uid                   [ unknown] Tails system administrators (schleuder list) <tails-sysadmins-owner@boum.org>\n"
 "    uid                   [ unknown] Tails system administrators (schleuder list) <tails-sysadmins-request@boum.org>\n"
-"    sub   rsa4096/0x58BA940CCA0A30B4 2012-08-23 [E] [expires: 2020-02-17]\n"
+"    sub   rsa4096/0x58BA940CCA0A30B4 2012-08-23 [E] [expires: 2021-11-16]\n"
 msgstr ""
 "    pub   4096R/0x70F4F03116525F43 2012-08-23 [expires: 2018-05-16]\n"
 "    Key fingerprint = D113 CB6D 5131 D34B A5F0  FE9E 70F4 F031 1652 5F43\n"
@@ -663,7 +662,7 @@ msgstr "<a id=\"accounting\"></a>\n"
 #. type: Title =
 #, fuzzy, no-wrap
 #| msgid "Sysadmins team key\n"
-msgid "Translations team key\n"
+msgid "Translations team key"
 msgstr "کلید گروه مدیران سیستم\n"
 
 #. type: Bullet: '  - '

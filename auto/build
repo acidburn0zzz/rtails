@@ -146,15 +146,26 @@ BUILD_USB_IMAGE_FILENAME="${BUILD_BASENAME}.img"
    cat config/chroot_sources/*.chroot
 ) > "$BUILD_APT_SOURCES"
 
+# make workarounds available in the chroot, if any:
+WORKAROUNDS_SRC="submodules/tails-workarounds"
+WORKAROUNDS_DST="config/chroot_local-includes/tmp/"
+if [ -d "$WORKAROUNDS_SRC" ]; then
+  mkdir -p "$WORKAROUNDS_DST"
+  cp -a "$WORKAROUNDS_SRC" "$WORKAROUNDS_DST"
+fi
+
 echo "I: Building ISO image ${BUILD_ISO_FILENAME}..."
-time lb build noauto ${@}
+time lb build noauto "${@}"
 [ -e binary.iso ] || fatal "lb build failed ($?)."
 
 echo "I: ISO image was successfully created"
 print_iso_size binary.iso
 
 echo "I: Hybriding it..."
-isohybrid $AMNESIA_ISOHYBRID_OPTS binary.iso || fatal "isohybrid failed"
+touch chroot/binary.iso
+mount --bind binary.iso chroot/binary.iso
+chroot chroot isohybrid $AMNESIA_ISOHYBRID_OPTS binary.iso || fatal "isohybrid failed"
+umount chroot/binary.iso
 print_iso_size binary.iso
 truncate -s %2048 binary.iso
 print_iso_size binary.iso

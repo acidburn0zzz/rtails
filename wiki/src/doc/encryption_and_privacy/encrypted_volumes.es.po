@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-10-10 11:28+0200\n"
-"PO-Revision-Date: 2019-11-16 12:11+0000\n"
+"POT-Creation-Date: 2020-04-23 16:49+0000\n"
+"PO-Revision-Date: 2020-08-18 18:29+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/"
 "first_stepsindex/es/>\n"
@@ -16,11 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Create and use LUKS encrypted volumes\"]]\n"
+msgid "[[!meta title=\"Creating and using LUKS encrypted volumes\"]]\n"
 msgstr "[[!meta title=\"Crear y utilizar volúmenes LUKS cifrados\"]]\n"
 
 #. type: Plain text
@@ -30,8 +30,8 @@ msgstr "[[!toc levels=2]]\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Introduction to <span class=\"application\">LUKS</span>\n"
-msgstr "Introducción a <span class=\"application\">LUKS</span>\n"
+msgid "Introduction to <span class=\"application\">LUKS</span>"
+msgstr "Introducción a <span class=\"application\">LUKS</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -42,8 +42,8 @@ msgstr "<div class=\"tip\">\n"
 #, no-wrap
 msgid ""
 "<p>The simplest way to carry around the documents that you want to use\n"
-"with Tails encrypted is to use the [[encrypted persistent\n"
-"storage|first_steps/persistence]].</p>\n"
+"with Tails encrypted is to use the encrypted [[Persistent\n"
+"Storage|first_steps/persistence]].</p>\n"
 msgstr ""
 
 #. type: Plain text
@@ -75,8 +75,10 @@ msgstr "El escritorio de GNOME te permite abrir volúmenes cifrados."
 
 #. type: Title -
 #, no-wrap
-msgid "Comparison between <span class=\"application\">LUKS</span> and <span class=\"application\">VeraCrypt</span>\n"
+msgid "Comparison between <span class=\"application\">LUKS</span> and <span class=\"application\">VeraCrypt</span>"
 msgstr ""
+"Comparación entre <span class=\"application\">LUKS</span> y <span class="
+"\"application\">VeraCrypt</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -94,8 +96,8 @@ msgstr "[[!inline pages=\"doc/encryption_and_privacy/luks_vs_veracrypt.inline.es
 
 #. type: Title =
 #, no-wrap
-msgid "Create an encrypted partition\n"
-msgstr "Crea una partición cifrada\n"
+msgid "Create an encrypted partition"
+msgstr "Crea una partición cifrada"
 
 #. type: Plain text
 #, no-wrap
@@ -114,8 +116,8 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Identify your external storage device\n"
-msgstr "Identifica tu dispositivo de almacenamiento externo\n"
+msgid "Identify your external storage device"
+msgstr "Identifica tu dispositivo de almacenamiento externo"
 
 #. type: Plain text
 #, no-wrap
@@ -147,15 +149,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"change\"></a>\n"
+#, no-wrap
 msgid "<a id=\"format\"></a>\n"
-msgstr "<a id=\"change\"></a>\n"
+msgstr "<a id=\"format\"></a>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Format the device\n"
-msgstr "Formatea el dispositivo\n"
+msgid "Format the device"
+msgstr "Formatea el dispositivo"
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -170,19 +171,14 @@ msgid "In the <span class=\"guilabel\">Format Disk</span> dialog:"
 msgstr "En el diálogo <span class=\"guilabel\">Formatea Disco</span>:"
 
 #. type: Bullet: '     - '
-#, fuzzy
-#| msgid ""
-#| "If you want to erase all data securely, choose to <span class=\"guilabel"
-#| "\">Overwrite existing data with zeroes</span> in the <span class="
-#| "\"guilabel\">Erase</span> drop-down list."
 msgid ""
 "If you want to securely erase all data on the device, choose to <span class="
 "\"guilabel\">Overwrite existing data with zeroes</span> in the <span class="
 "\"guilabel\">Erase</span> drop-down list."
 msgstr ""
-"Si quieres borrar todos los datos de modo seguro, elige <span class="
-"\"guilabel\">Sobreescribir los datos con ceros</span> en el menú desplegable "
-"<span class=\"guilabel\">Borrar</span>."
+"Si quieres borrar todos los datos del dispositivo con seguridad, elige <span "
+"class=\"guilabel\">Sobreescribir los datos con ceros</span> en el menú "
+"desplegable <span class=\"guilabel\">Borrar</span>."
 
 #. type: Bullet: '     - '
 msgid ""
@@ -191,8 +187,8 @@ msgid ""
 "list."
 msgstr ""
 "Elige <span class=\"guilabel\">Compatible con todos los sistemas y "
-"dispositivos (MBR/DOS)</span> en el menú desplegable <span class=\"guilabel\""
-">Tipo</span>."
+"dispositivos (MBR/DOS)</span> en el menú desplegable <span class=\"guilabel"
+"\">Tipo</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -207,8 +203,8 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Create a new encrypted partition\n"
-msgstr "Crea una nueva partición cifrada\n"
+msgid "Create a new encrypted partition"
+msgstr "Crea una nueva partición cifrada"
 
 #. type: Plain text
 msgid ""
@@ -219,7 +215,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img empty_device.png link=no alt=\"Free Space 8.1 GB\"]]\n"
-msgstr ""
+msgstr "[[!img empty_device.png link=no alt=\"Espacio Libre 8.1 GB\"]]\n"
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -236,10 +232,8 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '     - '
-#, fuzzy
-#| msgid "In the <span class=\"guilabel\">Create Partition</span> dialog:"
 msgid "In the <span class=\"guilabel\">Create Partition</span> screen:"
-msgstr "En el diálogo <span class=\"guilabel\">Crear partición</span>:"
+msgstr "En la pantalla <span class=\"guilabel\">Crear partición</span>:"
 
 #. type: Bullet: '       - '
 msgid ""
@@ -253,10 +247,8 @@ msgid "         In the example below, we are creating a partition of 4.0 GB on a
 msgstr ""
 
 #. type: Bullet: '     - '
-#, fuzzy
-#| msgid "In the <span class=\"guilabel\">Format Disk</span> dialog:"
 msgid "In the <span class=\"guilabel\">Format Volume</span> screen:"
-msgstr "En el diálogo <span class=\"guilabel\">Formatea Disco</span>:"
+msgstr "En la pantalla <span class=\"guilabel\">Formatear Volumen</span>:"
 
 #. type: Bullet: '       - '
 msgid ""
@@ -304,10 +296,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "     Then click <span class=\"button\">Create</span>.\n"
+#, no-wrap
 msgid "       Then click <span class=\"button\">Create</span>.\n"
-msgstr "     Haz click en <span class=\"button\">Crear</span>.\n"
+msgstr "       Haz click en <span class=\"button\">Crear</span>.\n"
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -330,8 +321,8 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Use the new partition\n"
-msgstr "Usa la nueva partición\n"
+msgid "Use the new partition"
+msgstr "Usa la nueva partición"
 
 #. type: Plain text
 msgid ""
@@ -350,8 +341,8 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Open an existing encrypted partition\n"
-msgstr "Abrir una partición cifrada existente\n"
+msgid "Open an existing encrypted partition"
+msgstr "Abrir una partición cifrada existente"
 
 #. type: Plain text
 msgid ""
@@ -406,8 +397,8 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Storing sensitive documents\n"
-msgstr "Guardando documentos sensibles\n"
+msgid "Storing sensitive documents"
+msgstr "Guardar documentos delicados"
 
 #. type: Plain text
 msgid ""
@@ -418,8 +409,8 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Opening encrypted volumes from other operating systems\n"
-msgstr "Abriendo volúmenes cifrados desde otros sistemas operativos\n"
+msgid "Opening encrypted volumes from other operating systems"
+msgstr "Abrir volúmenes cifrados desde otros sistemas operativos"
 
 #. type: Plain text
 msgid ""
@@ -446,10 +437,8 @@ msgstr "<a id=\"change\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Change the passphrase of an existing encrypted partition\n"
-msgstr ""
-"Cambia la frase contraseña de una partición cifrada existente\n"
-"\n"
+msgid "Change the passphrase of an existing encrypted partition"
+msgstr "Cambia la frase contraseña de una partición cifrada existente"
 
 #. type: Plain text
 #, no-wrap

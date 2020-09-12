@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-11-30 11:55+0000\n"
+"POT-Creation-Date: 2020-06-25 21:11+0000\n"
 "PO-Revision-Date: 2019-10-23 08:55+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Tails localization discussion <tails-l10n@boum.org>\n"
@@ -43,7 +43,7 @@ msgstr "<div class=\"note\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>Your persistent storage will be preserved by both automatic and\n"
+"<p>Your Persistent Storage will be preserved by both automatic and\n"
 "manual upgrades.</p>\n"
 msgstr ""
 
@@ -74,8 +74,9 @@ msgid "<a name=\"automatic\"></a>\n"
 msgstr "<a name=\"automatic\"></a>\n"
 
 #. type: Title =
-#, no-wrap
-msgid "Automatic upgrade using <span class=\"application\">Tails Upgrader</span>\n"
+#, fuzzy, no-wrap
+#| msgid "Automatic upgrade using <span class=\"application\">Tails Upgrader</span>\n"
+msgid "Automatic upgrade using <span class=\"application\">Tails Upgrader</span>"
 msgstr "Automatische Aktualisierung mithilfe des <span class=\"application\">Tails Upgraders</span>\n"
 
 #. type: Plain text
@@ -165,22 +166,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"<p>If you missed an upgrade, each upgrade will be installed one after the\n"
-"other.</p>\n"
-msgstr ""
-
-#. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "If you missed an upgrade, each upgrade will be installed one after the other. For example, if you have a Tails 1.3 and the current version is 1.3.2, then the upgrade to 1.3.1 will be installed, and after you restart Tails, the upgrade to 1.3.2 will be installed."
-msgid ""
-"<p>For example, if you have a Tails 4.1 and the current version\n"
-"is 4.5, then the upgrade to 4.3 will be installed, and after you restart Tails, the\n"
-"upgrade to 4.5 will be installed.</p>\n"
-msgstr "Falls Sie eine Aktualisierung verpasst haben, wird jede Aktualisierung nacheinander installiert. Falls Sie zum Beispiel Tails 1.3 installiert haben und die aktuelle Version 1.3.2 ist, dann wird die Aktualisierung auf 1.3.1 installiert und nachdem Sie Tails neu gestartet haben, wird die Aktualisierung auf 1.3.2 installiert."
-
-#. type: Plain text
-#, no-wrap
 msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
@@ -208,8 +193,9 @@ msgid "<pre>tails-upgrade-frontend-wrapper</pre>\n"
 msgstr "<pre>tails-upgrade-frontend-wrapper</pre>\n"
 
 #. type: Title -
-#, no-wrap
-msgid "Troubleshooting\n"
+#, fuzzy, no-wrap
+#| msgid "Troubleshooting\n"
+msgid "Troubleshooting"
 msgstr "Fehlersuche\n"
 
 #. type: Plain text
@@ -263,8 +249,9 @@ msgid "<a name=\"manual\"></a>\n"
 msgstr "<a name=\"manual\"></a>\n"
 
 #. type: Title =
-#, no-wrap
-msgid "Manual upgrade using <span class=\"application\">Tails Installer</span>\n"
+#, fuzzy, no-wrap
+#| msgid "Manual upgrade using <span class=\"application\">Tails Installer</span>\n"
+msgid "Manual upgrade using <span class=\"application\">Tails Installer</span>"
 msgstr "Manuelles Aktualisieren mithilfe des <span class=\"application\">Tails Installers</span>\n"
 
 #. type: Plain text
@@ -448,6 +435,14 @@ msgstr ""
 #. type: Plain text
 msgid "- [[Cloning from another Tails|upgrade/clone-overview]]"
 msgstr ""
+
+#, fuzzy
+#~| msgid "If you missed an upgrade, each upgrade will be installed one after the other. For example, if you have a Tails 1.3 and the current version is 1.3.2, then the upgrade to 1.3.1 will be installed, and after you restart Tails, the upgrade to 1.3.2 will be installed."
+#~ msgid ""
+#~ "<p>For example, if you have a Tails 4.1 and the current version\n"
+#~ "is 4.5, then the upgrade to 4.3 will be installed, and after you restart Tails, the\n"
+#~ "upgrade to 4.5 will be installed.</p>\n"
+#~ msgstr "Falls Sie eine Aktualisierung verpasst haben, wird jede Aktualisierung nacheinander installiert. Falls Sie zum Beispiel Tails 1.3 installiert haben und die aktuelle Version 1.3.2 ist, dann wird die Aktualisierung auf 1.3.1 installiert und nachdem Sie Tails neu gestartet haben, wird die Aktualisierung auf 1.3.2 installiert."
 
 #~ msgid ""
 #~ "<p>We recommend you read the [[release notes|release_notes]] for the "

@@ -1,23 +1,21 @@
-# This patch is based on the patch "Bug 902573 - Avoid local timestamp disclosure in Date header".
-# Link to the original patch: https://bug902573.bmoattachments.org/attachment.cgi?id=8684089
-# The original author is Arthur Edelstein <arthuredelstein@gmail.com>.
-# It is licensed under Mozilla Public License Version 2.0:
-# https://www.mozilla.org/en-US/MPL/
-
-From 611d58eb2ee6a67a6c1c112eebbc04551d98065b Mon Sep 17 00:00:00 2001
 From: segfault <segfault@riseup.net>
 Date: Wed, 27 Nov 2019 16:47:24 +0100
 Subject: [PATCH] Bug 902573 - Avoid local timestamp disclosure in Date header
 
----
- comm/mailnews/mailnews.js                     |  7 ++++
- comm/mailnews/mime/jsmime/jsmime.js           | 42 +++++++++++++++----
+This patch is based on the patch "Bug 902573 - Avoid local timestamp disclosure in Date header".
+Link to the original patch: https://bug902573.bmoattachments.org/attachment.cgi?id=8684089
+The original author is Arthur Edelstein <arthuredelstein@gmail.com>.
+It is licensed under Mozilla Public License Version 2.0:
+https://www.mozilla.org/en-US/MPL/
 
-diff --git a/comm/mailnews/mailnews.js b/comm/mailnews/mailnews.js
-index 270cef339f8..3418ad12b65 100644
+---
+ comm/mailnews/mailnews.js           |  7 +++++++
+ comm/mailnews/mime/jsmime/jsmime.js | 42 +++++++++++++++++++++++++++++--------
+ 2 files changed, 40 insertions(+), 9 deletions(-)
+
 --- a/comm/mailnews/mailnews.js
 +++ b/comm/mailnews/mailnews.js
-@@ -1022,3 +1022,10 @@ pref("mail.imap.qos", 0);
+@@ -1029,3 +1029,10 @@
  
  // PgpMime Addon
  pref("mail.pgpmime.addon_url", "https://addons.mozilla.org/addon/enigmail/");
@@ -28,11 +26,9 @@ index 270cef339f8..3418ad12b65 100644
 +// local time zone. These measures are taken to make tracking
 +// the user across accounts more difficult.
 +pref("mail.mime.avoid_fingerprinting", false);
-diff --git a/comm/mailnews/mime/jsmime/jsmime.js b/comm/mailnews/mime/jsmime/jsmime.js
-index 75ee0c8d773..74183b885bf 100644
 --- a/comm/mailnews/mime/jsmime/jsmime.js
 +++ b/comm/mailnews/mime/jsmime/jsmime.js
-@@ -3450,9 +3450,34 @@
+@@ -3466,9 +3466,34 @@
          throw new Error("Cannot encode an invalid date");
        }
  
@@ -68,7 +64,7 @@ index 75ee0c8d773..74183b885bf 100644
          throw new Error("Date year is out of encodable range");
        }
  
-@@ -3460,7 +3485,6 @@
+@@ -3476,7 +3501,6 @@
        // the the 0-padding is done by hand. Note that the tzoffset we output is in
        // the form ±hhmm, so we need to separate the offset (in minutes) into an hour
        // and minute pair.
@@ -76,7 +72,7 @@ index 75ee0c8d773..74183b885bf 100644
        let tzOffHours = Math.abs(Math.trunc(tzOffset / 60));
        let tzOffMinutes = Math.abs(tzOffset) % 60;
        let tzOffsetStr =
-@@ -3471,15 +3495,15 @@
+@@ -3487,15 +3511,15 @@
        // Convert the day-time figure into a single value to avoid unwanted line
        // breaks in the middle.
        let dayTime = [
@@ -99,6 +95,3 @@ index 75ee0c8d773..74183b885bf 100644
          tzOffsetStr,
        ].join(" ");
        this.addText(dayTime, false);
--- 
-2.24.0
-

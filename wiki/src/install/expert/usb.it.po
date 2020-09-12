@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2020-01-05 19:09+0000\n"
-"PO-Revision-Date: 2019-10-23 10:55+0000\n"
+"POT-Creation-Date: 2020-07-01 22:49+0000\n"
+"PO-Revision-Date: 2020-08-14 11:01+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -146,17 +146,22 @@ msgid "       sudo apt install debian-keyring\n"
 msgstr "       sudo apt install debian-keyring\n"
 
 #. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "Import the OpenPGP key of [[!wikipedia Stefano_Zacchiroli]], a former "
+#| "Debian Project Leader, from the Debian keyring into your keyring:"
 msgid ""
-"Import the OpenPGP key of [[!wikipedia Stefano_Zacchiroli]], a former Debian "
-"Project Leader, from the Debian keyring into your keyring:"
+"Import the OpenPGP key of [[!wikipedia Chris_Lamb_(software_developer) desc="
+"\"Chris Lamb\"]], a former Debian Project Leader, from the Debian keyring "
+"into your keyring:"
 msgstr ""
 "Importa la chiave OpenPGP di [[!wikipedia Stefano_Zacchiroli]], un ex "
 "Project Leader Debian,  dal portachiavi Debian al tuo:"
 
 #. type: Plain text
 #, no-wrap
-msgid "       gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export zack@upsilon.cc | gpg --import\n"
-msgstr "       gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export zack@upsilon.cc | gpg --import\n"
+msgid "       gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export chris@chris-lamb.co.uk | gpg --import\n"
+msgstr "       gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export chris@chris-lamb.co.uk | gpg --import\n"
 
 #. type: Bullet: '1. '
 msgid "Verify the certifications made on the Tails signing key:"
@@ -174,14 +179,17 @@ msgstr "   Nell'output di questo comando, cerca queste righe:\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "       sig! 0x9C31503C6D866396 2015-02-03  Stefano Zacchiroli <zack@upsilon.cc>\n"
-msgstr "       sig! 0x9C31503C6D866396 2015-02-03  Stefano Zacchiroli <zack@upsilon.cc>\n"
+msgid "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
+msgstr "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "   Here, <code>sig!</code>, with an exclamation mark, means that Stefano\n"
+#| "   Zacchiroli verified and certified the Tails signing key with his key.\n"
 msgid ""
-"   Here, <code>sig!</code>, with an exclamation mark, means that Stefano\n"
-"   Zacchiroli verified and certified the Tails signing key with his key.\n"
+"   Here, <code>sig!</code>, with an exclamation mark, means that Chris\n"
+"   Lamb verified and certified the Tails signing key with his key.\n"
 msgstr ""
 "   Qui, <code>sig!</code>, con un punto esclamativo, significa che Stefano\n"
 "   Zacchiroli ha verificato e certificato la chiave di firma Tails con la sua chiave.\n"
@@ -235,46 +243,8 @@ msgstr "Certifica la chiave di firma Tails con la tua chiave:"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"   a. To make a non-exportable certification that will never be shared\n"
-"      with others:\n"
-msgstr ""
-"   a. Per creare un certificato non esportavile che non sarà mai condiviso\n"
-"     cone altre persone:\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "          gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-msgstr "          gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"   b. To make an exportable certification of the Tails signing\n"
-"      key and publish it on the public key servers:\n"
-msgstr ""
-"   b. Per creare un certificato esportabile della chiave di firma\n"
-"     di Tail e pubblicarlo sul server pubblico delle chiavi:\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"          gpg --sign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-"          gpg --send-keys A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-msgstr ""
-"          gpg --sign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-"          gpg --send-keys A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"      Doing so allows people who verified\n"
-"      your key to verify your certification and, as a consequence, build\n"
-"      more trust in the Tails signing key.\n"
-msgstr ""
-"      Farlo consente alle persone che hanno verificato\n"
-"      la tua chiave di verificare il tuo certificato e, come conseguenza, \n"
-"      costruire più fiducia nella chiave di firma di Tails.\n"
+msgid "       gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+msgstr "       gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
 
 #. type: Plain text
 #, no-wrap
@@ -357,10 +327,9 @@ msgstr ""
 "\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Install <span class=\"application\">Tails Installer</span>\n"
-msgid "Install Tails using <span class=\"command\">dd</span>\n"
-msgstr "Installare <span class=\"application\">Tails Installer</span>\n"
+#, no-wrap
+msgid "Install Tails using <span class=\"command\">dd</span>"
+msgstr "Installa Tails usando <span class=\"command\">dd</span>"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -531,8 +500,51 @@ msgid "[[!inline pages=\"install/inc/steps/create_persistence.inline\" raw=\"yes
 msgstr "[[!inline pages=\"install/inc/steps/create_persistence.inline.it\" raw=\"yes\" sort=\"age\"]]\n"
 
 #~ msgid ""
-#~ "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
+#~ "   a. To make a non-exportable certification that will never be shared\n"
+#~ "      with others:\n"
+#~ msgstr ""
+#~ "   a. Per creare un certificato non esportavile che non sarà mai "
+#~ "condiviso\n"
+#~ "     cone altre persone:\n"
+
+#~ msgid ""
+#~ "   b. To make an exportable certification of the Tails signing\n"
+#~ "      key and publish it on the public key servers:\n"
+#~ msgstr ""
+#~ "   b. Per creare un certificato esportabile della chiave di firma\n"
+#~ "     di Tail e pubblicarlo sul server pubblico delle chiavi:\n"
+
+#~ msgid ""
+#~ "          gpg --sign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+#~ "          gpg --send-keys A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+#~ msgstr ""
+#~ "          gpg --sign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+#~ "          gpg --send-keys A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+
+#~ msgid ""
+#~ "      Doing so allows people who verified\n"
+#~ "      your key to verify your certification and, as a consequence, build\n"
+#~ "      more trust in the Tails signing key.\n"
+#~ msgstr ""
+#~ "      Farlo consente alle persone che hanno verificato\n"
+#~ "      la tua chiave di verificare il tuo certificato e, come "
+#~ "conseguenza, \n"
+#~ "      costruire più fiducia nella chiave di firma di Tails.\n"
+
+#~ msgid ""
+#~ "       sig! 0x9C31503C6D866396 2015-02-03  Stefano Zacchiroli "
+#~ "<zack@upsilon.cc>\n"
+#~ msgstr ""
+#~ "       sig! 0x9C31503C6D866396 2015-02-03  Stefano Zacchiroli "
+#~ "<zack@upsilon.cc>\n"
+
+#~ msgid ""
+#~ "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder"
+#~ "\">tails.img</span> of=<span class=\"command-placeholder\">device</span> "
+#~ "bs=16M && sync</p>\n"
 #~ "   </div>\n"
 #~ msgstr ""
-#~ "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
+#~ "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder"
+#~ "\">tails.img</span> of=<span class=\"command-placeholder\">device</span> "
+#~ "bs=16M && sync</p>\n"
 #~ "</div>\n"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-12-16 13:23+0000\n"
+"POT-Creation-Date: 2020-05-08 20:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,18 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Acknowledgements and similar projects\"]]\n"
+msgid "[[!meta title=\"Acknowledgments and similar projects\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In 2019, Tails [[celebrated 10 years of existence|news/"
+"celebrating_10_years]]."
 msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Acknowledgements\n"
+msgid "Acknowledgments"
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -62,7 +68,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Similar projects\n"
+msgid "Similar projects"
 msgstr ""
 
 #. type: Plain text
@@ -203,3 +209,30 @@ msgid ""
 "[uVirtus](https://web.archive.org/web/20131030050159/https://www.uvirtus."
 "org/)"
 msgstr ""
+
+msgid "[Anonym.OS](http://sourceforge.net/projects/anonym-os/)"
+msgstr "[Anonym.OS](http://sourceforge.net/projects/anonym-os/)"
+
+msgid "[ELE](http://www.northernsecurity.net/download/ele/) (dead link)"
+msgstr "[ELE](http://www.northernsecurity.net/download/ele/) (toter Link)"
+
+msgid "[Freepto](http://www.freepto.mx/)"
+msgstr "[Freepto](http://www.freepto.mx/)"
+
+msgid "[Odebian](http://www.odebian.org/)"
+msgstr "[Odebian](http://www.odebian.org/)"
+
+msgid "[onionOS](http://jamon.name/files/onionOS/) (dead link)"
+msgstr "[onionOS](http://jamon.name/files/onionOS/) (toter Link)"
+
+msgid "[ParanoidLinux](http://www.paranoidlinux.org/) (dead link)"
+msgstr "[ParanoidLinux](http://www.paranoidlinux.org/) (toter Link)"
+
+msgid "[Polippix](http://polippix.org/)"
+msgstr "[Polippix](http://polippix.org/)"
+
+msgid "[uVirtus](http://uvirtus.org/)"
+msgstr "[uVirtus](http://uvirtus.org/)"
+
+msgid "[Lightweight Portable Security](http://www.spi.dod.mil/lipose.htm)"
+msgstr "[Lightweight Portable Security](http://www.spi.dod.mil/lipose.htm)"

@@ -7,14 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-10-18 02:04+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-06-29 07:25+0000\n"
+"PO-Revision-Date: 2020-01-18 16:26+0000\n"
+"Last-Translator: gallium69 <gallium69@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Content of: <div>
 msgid "2.4"
@@ -117,14 +119,39 @@ msgstr ""
 "\"remove-extra-space\">[[!inline pages=\"inc/stable_amd64_iso_size\" raw="
 "\"yes\" sort=\"age\"]]</span>)</a>"
 
-#. type: Content of: <div><div><div><div><p>
+#. type: Content of: <div><div><div><div><div><p>
+#, fuzzy
+#| msgid ""
+#| "<a>I already downloaded Tails <span class=\"remove-extra-space\">&nbsp;[[!"
+#| "inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]</"
+#| "span>.</a>"
 msgid ""
-"<a>I already downloaded Tails <span class=\"remove-extra-space\">&nbsp;[[!"
+"<a>I already downloaded Tails&nbsp;<span class=\"remove-extra-space\">[[!"
 "inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]</span>."
 "</a>"
 msgstr ""
 "<a>Ho già scaricato Tails <span class=\"remove-extra-space\">&nbsp;[[!inline "
 "pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]</span>.</a>"
+
+#. type: Content of: <div><div><div><div><div><p>
+#, fuzzy
+#| msgid ""
+#| "Download the <a href='[[!inline pages=\"inc/stable_amd64_iso_sig_url\" "
+#| "raw=\"yes\" sort=\"age\"]]'> Tails [[!inline pages=\"inc/"
+#| "stable_amd64_version\" raw=\"yes\" sort=\"age\"]] OpenPGP signature</a> "
+#| "of the latest Tails ISO image and save it to the same folder where you "
+#| "saved the ISO image."
+msgid ""
+"If the download fails, try to <a href=\"[[!inline pages=\"inc/"
+"stable_amd64_img_url\" raw=\"yes\" sort=\"age\"]]\" class=\"usb upgrade "
+"download-only-img\">download from another mirror.</a> <a href=\"[[!inline "
+"pages=\"inc/stable_amd64_iso_url\" raw=\"yes\" sort=\"age\"]]\" class=\"dvd "
+"vm download-only-iso\">download from another mirror.</a>"
+msgstr ""
+"Scarica la <a href='[[!inline pages=\"inc/stable_amd64_iso_sig_url\" raw="
+"\"yes\"]]'> Tails [[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" "
+"sort=\"age\"]] firma OpenPGP</a> dell'ultima immagine ISO Tails e salvala "
+"nella stessa cartella in cui hai savato l'immagine ISO."
 
 #. type: Content of: <div><div><div><div><h3>
 msgid ""
@@ -401,7 +428,8 @@ msgid ""
 "<span class=\"upgrade-tails\">[[Skip download|upgrade/tails]]</span> <span "
 "class=\"upgrade-windows\">[[Skip download|upgrade/win]]</span> <span class="
 "\"upgrade-mac\">[[Skip download|upgrade/mac]]</span> <span class=\"upgrade-"
-"linux\">[[Skip download|upgrade/linux]]</span>"
+"linux\">[[Skip download|upgrade/linux]]</span> <span class=\"download-only-"
+"img download-only-iso\">[[Skip download|doc#install]]</span>"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div><div>
@@ -438,6 +466,10 @@ msgstr ""
 
 #. type: Content of: <div><div><div><div><div><div>
 msgid "[[Skip verification!|upgrade/linux]]"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><div><div>
+msgid "[[Skip verification|doc#install]]"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div>
@@ -504,7 +536,7 @@ msgid "|doc/advanced_topics/virtualization]]"
 msgstr "|doc/advanced_topics/virtualization]]"
 
 #. type: Content of: <div><div><div><div><div><p>
-msgid "Upgrade your Tails USB stick and keep your persistent storage:"
+msgid "Upgrade your Tails USB stick and keep your Persistent Storage:"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div><ul><li>
@@ -572,8 +604,7 @@ msgstr ""
 #. type: Content of: <div><div><div><ul><li>
 msgid ""
 "Tor Browser <span id=\"min-version-tor-browser\">$MINVER-TOR-BROWSER</span> "
-"and later (<a href=\"https://www.torproject.org/download/download-easy.html"
-"\">Download</a>)"
+"and later (<a href=\"https://www.torproject.org/download/\">Download</a>)"
 msgstr ""
 
 #. type: Content of: <div><div><div><p>
@@ -623,34 +654,29 @@ msgid "<code>https://tails.boum.org/upgrade/win-download/</code>"
 msgstr "<code>https://tails.boum.org/install/download/</code>"
 
 #. type: Content of: <div><div><div><p>
-#, fuzzy
-#| msgid "<code>https://tails.boum.org/install/download/</code>"
 msgid "<code>https://tails.boum.org/upgrade/mac-download/</code>"
-msgstr "<code>https://tails.boum.org/install/download/</code>"
+msgstr "<code>https://tails.boum.org/upgrade/mac-download/index.it.html</code>"
 
 #. type: Content of: <div><div><div><p>
-#, fuzzy
-#| msgid "<code>https://tails.boum.org/install/download/</code>"
 msgid "<code>https://tails.boum.org/upgrade/linux-download/</code>"
-msgstr "<code>https://tails.boum.org/install/download/</code>"
+msgstr ""
+"<code>https://tails.boum.org/upgrade/linux-download/index.it.html</code>"
 
 #. type: Content of: <div><div><div><p>
 msgid "<code>https://tails.boum.org/install/dvd-download/</code>"
-msgstr ""
+msgstr "<code>https://tails.boum.org/install/dvd-download/index.it.html</code>"
 
 #. type: Content of: <div><div><div><p>
 msgid "<code>https://tails.boum.org/install/vm-download/</code>"
-msgstr ""
+msgstr "<code>https://tails.boum.org/install/vm-download/index.it.html</code>"
 
 #. type: Content of: <div><div><div><p>
 msgid "<code>https://tails.boum.org/install/download/</code>"
-msgstr "<code>https://tails.boum.org/install/download/</code>"
+msgstr "<code>https://tails.boum.org/install/download/index.it.html</code>"
 
 #. type: Content of: <div><div><div><p>
-#, fuzzy
-#| msgid "<code>https://tails.boum.org/install/download/</code>"
 msgid "<code>https://tails.boum.org/install/download-iso/</code>"
-msgstr "<code>https://tails.boum.org/install/download/</code>"
+msgstr "<code>https://tails.boum.org/install/download-iso/index.it.html</code>"
 
 #. type: Content of: <div><div><h2>
 msgid "BitTorrent download"
@@ -1011,18 +1037,16 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <div><ol><li><p>
-#, fuzzy
-#| msgid "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
 msgid ""
 "[[!img install/inc/screenshots/verifying_in_tails_img_good.png link=\"no\"]]"
-msgstr "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
+msgstr ""
+"[[!img install/inc/screenshots/verifying_in_tails_img_good.png link=\"no\"]]"
 
 #. type: Content of: <div><ol><li><p>
-#, fuzzy
-#| msgid "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
 msgid ""
 "[[!img install/inc/screenshots/verifying_in_tails_iso_good.png link=\"no\"]]"
-msgstr "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
+msgstr ""
+"[[!img install/inc/screenshots/verifying_in_tails_iso_good.png link=\"no\"]]"
 
 #. type: Content of: <div><ol><li><p>
 msgid ""
@@ -1030,24 +1054,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <div><ol><li><p>
-#, fuzzy
-#| msgid "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
 msgid ""
 "[[!img install/inc/screenshots/verifying_in_tails_img_untrusted.png link=\"no"
 "\"]]"
-msgstr "[[!img install/inc/screenshots/notification_in_tails.png link=\"no\"]]"
+msgstr ""
+"[[!img install/inc/screenshots/verifying_in_tails_img_untrusted.png link=\"no"
+"\"]]"
 
 #. type: Content of: <div><ol><li><p>
-#, fuzzy
-#| msgid "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
 msgid ""
 "[[!img install/inc/screenshots/verifying_in_tails_iso_untrusted.png link=\"no"
 "\"]]"
-msgstr "[[!img install/inc/screenshots/notification_in_tails.png link=\"no\"]]"
+msgstr ""
+"[[!img install/inc/screenshots/verifying_in_tails_iso_untrusted.png link=\"no"
+"\"]]"
 
 #. type: Content of: <div>
 msgid "<a id=\"command-line\"></a>"
-msgstr "<a id=\"riga di comando\"></a>"
+msgstr "<a id=\"command-line\"></a>"
 
 #. type: Content of: <div><h3>
 msgid "Using the command line"
@@ -1078,7 +1102,7 @@ msgstr "Esegui:"
 
 #. type: Content of: <div><ol><li><p>
 msgid "gpg --import tails-signing.key"
-msgstr ""
+msgstr "gpg --import tails-signing.key"
 
 #. type: Content of: <div><ol><li><p>
 #, fuzzy
@@ -1093,52 +1117,40 @@ msgstr ""
 "la firma."
 
 #. type: Content of: <div><ol><li><p>
-#, fuzzy
-#| msgid ""
-#| "[[!inline pages=\"inc/stable_amd64_gpg_verify\" raw=\"yes\" sort=\"age\"]]"
 msgid ""
 "[[!inline pages=\"inc/stable_amd64_img_gpg_verify\" raw=\"yes\" sort=\"age"
 "\"]]"
 msgstr ""
-"[[!inline pages=\"inc/stable_amd64_gpg_verify\" raw=\"yes\" sort=\"age\"]]"
+"[[!inline pages=\"inc/stable_amd64_img_gpg_verify\" raw=\"yes\" sort=\"age"
+"\"]]"
 
 #. type: Content of: <div><ol><li><p>
-#, fuzzy
-#| msgid ""
-#| "[[!inline pages=\"inc/stable_amd64_gpg_verify\" raw=\"yes\" sort=\"age\"]]"
 msgid ""
 "[[!inline pages=\"inc/stable_amd64_iso_gpg_verify\" raw=\"yes\" sort=\"age"
 "\"]]"
 msgstr ""
-"[[!inline pages=\"inc/stable_amd64_gpg_verify\" raw=\"yes\" sort=\"age\"]]"
+"[[!inline pages=\"inc/stable_amd64_iso_gpg_verify\" raw=\"yes\" sort=\"age"
+"\"]]"
 
 #. type: Content of: <div><ol><li><p>
 msgid "The output of this command should be the following:"
 msgstr "L'output di questo comando dovrebbe essere il seguente:"
 
 #. type: Content of: <div><ol><li><p>
-#, fuzzy
-#| msgid ""
-#| "[[!inline pages=\"inc/stable_amd64_gpg_signature_output\" raw=\"yes\" "
-#| "sort=\"age\"]]"
 msgid ""
 "[[!inline pages=\"inc/stable_amd64_img_gpg_signature_output\" raw=\"yes\" "
 "sort=\"age\"]]"
 msgstr ""
-"[[!inline pages=\"inc/stable_amd64_gpg_signature_output\" raw=\"yes\" sort="
-"\"age\"]]"
+"[[!inline pages=\"inc/stable_amd64_img_gpg_signature_output\" raw=\"yes\" "
+"sort=\"age\"]]"
 
 #. type: Content of: <div><ol><li><p>
-#, fuzzy
-#| msgid ""
-#| "[[!inline pages=\"inc/stable_amd64_gpg_signature_output\" raw=\"yes\" "
-#| "sort=\"age\"]]"
 msgid ""
 "[[!inline pages=\"inc/stable_amd64_iso_gpg_signature_output\" raw=\"yes\" "
 "sort=\"age\"]]"
 msgstr ""
-"[[!inline pages=\"inc/stable_amd64_gpg_signature_output\" raw=\"yes\" sort="
-"\"age\"]]"
+"[[!inline pages=\"inc/stable_amd64_iso_gpg_signature_output\" raw=\"yes\" "
+"sort=\"age\"]]"
 
 #. type: Content of: <div><ol><li><p>
 msgid "If the output also includes:"

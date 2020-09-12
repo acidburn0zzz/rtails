@@ -4,23 +4,25 @@
 #
 # Translators:
 # Cesar Enrique Sanchez Medina <cesare01@gmail.com>, 2014
+# David Figuera <dfb@fastmail.com>, 2020
 # Edward Navarro, 2015
+# vareli <ehespinosa@ya.com>, 2020
 # el buve, 2015
-# Emma Peel, 2015,2017-2019
+# Emma Peel, 2015,2017-2020
 # eulalio barbero espinosa <eulaliob@gmail.com>, 2018-2020
 # Joaquín Serna <bubuanabelas@cryptolab.net>, 2019
 # Jose Luis Tirado <joseluis.tirado@gmail.com>, 2014-2015
 # Manuel Herrera <ma_herrer@yahoo.com.mx>, 2013
-# sim, 2018
+# de1ca222968aa9b5291789e94a1b3b8a_f1329af, 2018
 # strel, 2013-2018
-# Zuhualime Akoochimoya, 2018
+# Zuhualime Akoochimoya, 2018,2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-06 11:20+0100\n"
-"PO-Revision-Date: 2020-01-06 20:04+0000\n"
-"Last-Translator: eulalio barbero espinosa <eulaliob@gmail.com>\n"
+"POT-Creation-Date: 2020-07-27 05:58+0200\n"
+"PO-Revision-Date: 2020-08-13 06:37+0000\n"
+"Last-Translator: Emma Peel\n"
 "Language-Team: Spanish (http://www.transifex.com/otf/torproject/language/"
 "es/)\n"
 "Language: es\n"
@@ -73,6 +75,7 @@ msgstr ""
 "</p>\n"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:115
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
 msgid "Additional Software"
 msgstr "Software Adicional"
@@ -129,22 +132,24 @@ msgid "Do you want to start Electrum anyway?"
 msgstr "¿Quieres iniciar Electrum de todas formas?"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:68
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
 msgid "_Launch"
 msgstr "_Iniciar"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:69
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:39
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
 msgid "_Exit"
 msgstr "_Salir"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:178
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:610
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:793
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:611
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:794
 msgid ""
 "For debugging information, execute the following command: sudo tails-"
 "debugging-info"
 msgstr ""
+"Para leer información de depuración ejecuta el siguiente comando: sudo tails-"
+"debugging-info"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:244
 msgid ""
@@ -154,14 +159,19 @@ msgid ""
 "\\n\\nIf the problem persists, go to file:///usr/share/doc/tails/website/doc/"
 "upgrade/error/check.en.html"
 msgstr ""
+"<b>Se produjo un error al actualizar la clave de firma.</b>\\n\\n<b>Esto "
+"impide determinar si una actualización está disponible en nuestro sitio web."
+"</b>\\n\\nComprueba tu conexión de red, y reinicia Tails para intentar "
+"actualizar de nuevo.\\n\\nISí se mantiene el problema, mira en file:///usr/"
+"share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:250
 msgid "Error while updating the signing key"
-msgstr ""
+msgstr "Error al actualizar la clave de firma"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:279
 msgid "Error while checking for upgrades"
-msgstr ""
+msgstr "Error mientras se buscaban nuevas actualizaciones"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:282
 msgid ""
@@ -173,65 +183,84 @@ msgid ""
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/"
 "upgrade/error/check.en.html"
 msgstr ""
+"<b>No se pudo determinar si hay una actualización disponible desde nuestro "
+"sitio web.</b>\n"
+"\n"
+"Comprueba tu conexión a la red y reinicia Tails para intentar actualizar de "
+"nuevo.\n"
+"\n"
+"Si el problema persiste, lee el fichero local file:///usr/share/doc/tails/"
+"website/doc/upgrade/error/check.es.html"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:297
 msgid "no automatic upgrade is available from our website for this version"
 msgstr ""
+"no hay ninguna actualización automática para esta versión disponible en "
+"nuestro sitio web"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:303
 msgid "your device was not created using a USB image or Tails Installer"
-msgstr ""
+msgstr "No se creo tu dispositivo con una imagen USB o el instalador de Tails"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:308
 msgid "Tails was started from a DVD or a read-only device"
-msgstr ""
+msgstr "Tails fue iniciado desde un DVD o un dispositivo de sólo-lectura"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:313
 msgid "there is not enough free space on the Tails system partition"
-msgstr ""
+msgstr "no hay suficiente espacio libre en la partición del sistema Tails"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:318
 msgid "not enough memory is available on this system"
-msgstr ""
+msgstr "no hay suficiente memoria libre en este sistema"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:324
 #, perl-brace-format
 msgid "No explanation available for reason '%{reason}s'."
-msgstr ""
+msgstr "No hay una explicación disponible por motivo de '%{reason}s'."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:345
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:346
 msgid "The system is up-to-date"
-msgstr ""
+msgstr "El sistema está actualizado"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:350
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:351
 msgid "This version of Tails is outdated, and may have security issues."
 msgstr ""
+"Esta versión de Tails está desfasada, y puede tener problemas de seguridad."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:382
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:383
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on "
 "Tails system partition,  but only %{free_space}s is available."
 msgstr ""
+"La actualización incremental disponible requiere %{space_needed}s de espacio "
+"libre en la partición de sistema de Tails, pero sólo hay %{free_space}s "
+"disponible(s)."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:398
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:399
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory, "
 "but only %{free_memory}s is available."
 msgstr ""
+"La actualización incremental disponible requiere %{memory_needed}s de "
+"memoria libre, pero sólo hay %{memory_needed}s disponible(s)."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:420
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:421
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
 msgstr ""
+"Está disponible una actualización incremental, pero no está disponible "
+"ninguna actualización completa.\n"
+"Esto no debería ocurrir. Por favor informe del fallo."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:424
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:425
 msgid "Error while detecting available upgrades"
-msgstr ""
+msgstr "Error al comprobar si hay actualizaciones"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:434
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:435
 #, perl-brace-format
 msgid ""
 "<b>You should upgrade to %{name}s %{version}s.</b>\n"
@@ -246,20 +275,33 @@ msgid ""
 "\n"
 "Do you want to upgrade now?"
 msgstr ""
-
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:448
-msgid "Upgrade available"
-msgstr ""
+"<b>Deberías actualizar a %{name}s %{version}s.</b>\n"
+"\n"
+"Para más información acerca de esta nueva versión, lee %{details_url}s\n"
+"\n"
+"Durante la actualización se recomienda cerrar todas las aplicaciones "
+"abiertas. \n"
+"Descargar la actualización podría llevar mucho tiempo, desde varios minutos "
+"a unas pocas horas.\n"
+"\n"
+"Tamaño de la descarga: %{size}s\n"
+"\n"
+"\n"
+"¿Quieres actualizar ahora? "
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:449
-msgid "Upgrade now"
-msgstr ""
+msgid "Upgrade available"
+msgstr "Actualización disponible"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:450
-msgid "Upgrade later"
-msgstr ""
+msgid "Upgrade now"
+msgstr "Actualizar ahora"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:458
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:451
+msgid "Upgrade later"
+msgstr "Actualizar más tarde"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:459
 #, perl-brace-format
 msgid ""
 "<b>You should do a manual upgrade to %{name}s %{version}s.</b>\n"
@@ -272,60 +314,79 @@ msgid ""
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/"
 "upgrade/#manual"
 msgstr ""
+"<b>Deberías hacer una actualización manual a %{name}s %{version}s.</b>\n"
+"\n"
+"Para más información sobre esta nueva versión, ve a %{details_url}\n"
+"\n"
+"No es posible actualizar automáticamente tu dispositivo a esta nueva "
+"versión: %{explanation}.\n"
+"\n"
+"Para aprender cómo hacer una actualización manual, ve a https://tails.boum."
+"org/doc/upgrade/#manual"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:474
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:475
 msgid "New version available"
-msgstr ""
+msgstr "Nueva versión disponible"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:555
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:556
 msgid "Downloading upgrade"
-msgstr ""
+msgstr "Descargando actualización"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:558
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:559
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
-msgstr ""
+msgstr "Descargar la actualización a %{name}s %{version}s..."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:599
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:600
 msgid ""
 "<b>The upgrade could not be downloaded.</b>\\n\\nCheck your network "
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/"
 "download.en.html"
 msgstr ""
+"<b>La actualización no se pudo descargar.</b>\\n\\nComprueba tu conexión a "
+"la red, y reinicia Tails para intentar actualizar de nuevo.\\n\\nSi el "
+"problema persiste, lee file:///usr/share/doc/tails/website/doc/upgrade/error/"
+"download.es.html"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:615
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:634
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:616
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:635
 msgid "Error while downloading the upgrade"
-msgstr ""
+msgstr "Error al descargar la actualización"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:627
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:628
 #, perl-brace-format
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
 msgstr ""
+"El fichero de salida '%{output_file}s' no existe, pero tails-iuk-get-target-"
+"file (tails-kit_de_actualización_incremental-obtener-fichero-objetivo) no se "
+"quejó. Por favor informe del fallo."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:646
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:647
 msgid "Error while creating temporary downloading directory"
-msgstr ""
+msgstr "Error al crear directorio de descarga temporal"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:649
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:650
 msgid "Failed to create temporary download directory"
-msgstr ""
+msgstr "Fallo al crear directorio de descarga temporal"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:673
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:674
 msgid ""
 "<b>Could not choose a download server.</b>\n"
 "\n"
 "This should not happen. Please report a bug."
 msgstr ""
+"<b>No se pudo escoger un servidor de descarga.</b>\n"
+"\n"
+"Esto no debería ocurrir. Por favor infórmanos del problema."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:677
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:678
 msgid "Error while choosing a download server"
-msgstr ""
+msgstr "Error al escoger un servidor de descarga"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:692
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:693
 msgid ""
 "The upgrade was successfully downloaded.\n"
 "\n"
@@ -333,16 +394,20 @@ msgid ""
 "\n"
 "Please save your work and close all other applications."
 msgstr ""
+"La actualización se ha bajado correctamente.\n"
+"Ahora se desconectará la red.\n"
+"\n"
+"Guarda tus trabajos y cierra todas las aplicaciones, gracias."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:698
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:699
 msgid "Upgrade successfully downloaded"
-msgstr ""
+msgstr "La actualización se ha bajado correctamente."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:700
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:701
 msgid "Apply upgrade"
-msgstr ""
+msgstr "Aplicar la actualización"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:707
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:708
 msgid ""
 "<b>Your Tails device was successfully upgraded.</b>\n"
 "\n"
@@ -351,57 +416,70 @@ msgid ""
 "\n"
 "Do you want to restart now?"
 msgstr ""
-
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:712
-msgid "Restart Tails"
-msgstr ""
+"<b>Tu dispositivo Tails fue actualizado con éxito.</b>\n"
+"\n"
+"Algunas funciones de seguridad fueron deshabilitadas temporalmente.\n"
+"Deberías reiniciar Tails con la nueva versión tan pronto como sea posible.\n"
+"\n"
+"¿Quieres reiniciar ahora?"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:713
-msgid "Restart now"
-msgstr ""
+msgid "Restart Tails"
+msgstr "Reiniciar Tails"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:714
+msgid "Restart now"
+msgstr "Reiniciar ahora"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:715
 msgid "Restart later"
-msgstr ""
+msgstr "Reiniciar más tarde"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:725
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:726
 msgid "Error while restarting the system"
-msgstr ""
+msgstr "Error al reiniciar el sistema"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:728
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:729
 msgid "Failed to restart the system"
-msgstr ""
+msgstr "Fallo al reiniciar el sistema"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:743
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:744
 msgid "Error while shutting down the network"
-msgstr ""
+msgstr "Error al cerrar la red"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:746
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:747
 msgid "Failed to shutdown network"
-msgstr ""
+msgstr "Fallo al cerrar la red"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:753
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:754
 msgid "Upgrading the system"
-msgstr ""
+msgstr "Actualizando el sistema"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:755
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:756
 msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
 msgstr ""
+"<b>Tu dispositivo Tails se está actualizando...</b>\n"
+"\n"
+"Por motivos de seguridad, las conexiones de red ahora están deshabilitadas."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:788
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:789
 msgid ""
 "<b>An error occured while installing the upgrade.</b>\\n\\nYour Tails device "
 "needs to be repaired and might be unable to restart.\\n\\nPlease follow the "
 "instructions at file:///usr/share/doc/tails/website/doc/upgrade/error/"
 "install.en.html"
 msgstr ""
+"<b>Ha ocurrido un error al instalar la actualización.</b>\\n\\nTu "
+"dispositivo Tails debe repararse y podría ser que no pueda arrancar.\\n"
+"\\nPor favor, sigue las instrucciones en file:///usr/share/doc/tails/website/"
+"doc/upgrade/error/install.es.html"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:798
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:799
 msgid "Error while installing the upgrade"
-msgstr ""
+msgstr "Error al instalar la actualización"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:32
 msgid "Additional Settings"
@@ -422,53 +500,57 @@ msgstr "Añadir"
 msgid "Back"
 msgstr "Volver"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:56
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:64
 msgid "_Administration Password"
 msgstr " _Contraseña de administración"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:156
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:187
 msgid "_MAC Address Spoofing"
 msgstr "_Falseamiento de dirección MAC "
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:206
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:250
 msgid "_Network Connection"
 msgstr "Conexión de _red"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:215
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:259
 msgid "Direct (default)"
 msgstr "Directa (predeterminado)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:217
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:261
 msgid "Bridge & Proxy"
 msgstr "Puente y proxy"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:219
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:263
 msgid "Offline"
 msgstr "Desconectado"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:270
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:333
+msgid "_Unsafe Browser"
+msgstr "_Navegador No Seguro"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:342
+msgid "Enabled"
+msgstr "Activado"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:344
+msgid "Disabled (default)"
+msgstr "Deshabilitado (predeterminado)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:395
 msgid "On (default)"
 msgstr "Activada (predeterminado)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:272
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:397
 msgid "On"
 msgstr "Activado"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:274
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:399
 msgid "Off"
 msgstr "Desactivado"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:276
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:401
 msgid "Off (default)"
 msgstr " Desactivada (predeterminado) "
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:171
-msgid "Shutdown"
-msgstr "Cerrar"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:176
-msgid "_Start Tails"
-msgstr "_Iniciar Tails"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:92
 #, python-brace-format
@@ -513,32 +595,32 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:63
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:66
 msgid "Unlocking…"
 msgstr "Desbloqueando..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:92
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:394
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:94
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:462
 msgid "Unlock"
 msgstr "Desbloquear"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:97
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:99
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:40
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr ""
 "No se puede desbloquear el almacenamiento cifrado con esta frase-contraseña."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:135
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:164
 msgid "_Language"
 msgstr "_Idioma"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:153
-msgid "_Keyboard Layout"
-msgstr "_Configuración del teclado"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:171
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:207
 msgid "_Formats"
 msgstr "_Formatos"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:244
+msgid "_Keyboard Layout"
+msgstr "_Configuración del teclado"
 
 #: config/chroot_local-includes/usr/local/bin/keepassxc:15
 #, sh-format
@@ -555,7 +637,7 @@ msgstr ""
 "<b><big>¿Quieres cambiar el nombre de tu base de datos <i>KeePassXC</i>?</"
 "big></b>\n"
 "\n"
-"Tienes una base de datos <i>KeePassXC</i> en tu carpeta <i>Permanente</i>:\n"
+"Tienes una base de datos <i>KeePassXC</i> en tu carpeta <i>Persistente</i>:\n"
 "\n"
 "<i>${filename}</i>\n"
 "\n"
@@ -570,27 +652,400 @@ msgstr "Renombrar"
 msgid "Keep current name"
 msgstr "Mantener el nombre actual"
 
-#: config/chroot_local-includes/usr/local/bin/replace-su-with-sudo:21
-msgid "su is disabled. Please use sudo instead."
-msgstr "su está desactivado. En su lugar usa sudo."
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:96
+msgid "Persistence wizard - Persistent volume creation"
+msgstr "Asistente de persistencia - Creación de volumen persistente"
 
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:99
+msgid "Choose a passphrase to protect the persistent volume"
+msgstr "Elige una frase clave para proteger el volumen persistente"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:103
+#, perl-format
+msgid ""
+"A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
+"this volume will be stored in an encrypted form protected by a passphrase."
+msgstr ""
+"Se creará un volumen persistente %s en el dispositivo <b>%s %s</b>. Los "
+"datos en este volumen se guardarán cifrados protegidos con frase clave."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:108
+msgid "Create"
+msgstr "Crear"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:151
+msgid ""
+"<b>Beware!</b> Using persistence has consequences that must be well "
+"understood. Tails can't help you if you use it wrong! See the <i>Encrypted "
+"persistence</i> page of the Tails documentation to learn more."
+msgstr ""
+"<b>¡Cuidado!</b> El uso de volumen persistente tiene consecuencias que han "
+"de ser bien entendidas. ¡Si los usas mal Tails no te puede ayudar! Para "
+"saber más, mira la página<i>persistencia cifrada</i> de la documentación de "
+"Tails."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:179
+msgid "Passphrase:"
+msgstr "Frase de contraseña:"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:187
+msgid "Verify Passphrase:"
+msgstr "Verificar frase contraseña: "
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:198
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:266
+msgid "Passphrase can't be empty"
+msgstr "La frase contraseña no puede estar vacía"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:233
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:394
+msgid "Show Passphrase"
+msgstr "Mostrar contraseña"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:257
+msgid "Passphrases do not match"
+msgstr "Las frases contraseña no concuerdan"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:312
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:181
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:103
+msgid "Failed"
+msgstr "Falló"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:320
+msgid "Mounting Tails persistence partition."
+msgstr "Montando la partición persistente de Tails."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:323
+msgid "The Tails persistence partition will be mounted."
+msgstr "La partición persistente de Tails será montada."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:332
+msgid "Correcting permissions of the persistent volume."
+msgstr "Corrigiendo permisos del volumen persistente."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:335
+msgid "The permissions of the persistent volume will be corrected."
+msgstr "Los permisos del volumen persistente serán corregidos."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:343
+msgid "Creating default persistence configuration."
+msgstr "Creando la configuración persistente por defecto."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:346
+msgid "The default persistence configuration will be created."
+msgstr "Se va a crear la configuración persistente por defecto."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:361
+msgid "Creating..."
+msgstr "Creando... "
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:364
+msgid "Creating the persistent volume..."
+msgstr "Creando el volumen persistente... "
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:88
+msgid "Persistence wizard - Persistent volume configuration"
+msgstr "Asistente de persistencia - Configuración del volumen persistente"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:91
+msgid "Specify the files that will be saved in the persistent volume"
+msgstr "Especificar los archivos que se guardarán en el volumen persistente"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:95
+#, perl-format
+msgid ""
+"The selected files will be stored in the encrypted partition %s (%s), on the "
+"<b>%s %s</b> device."
+msgstr ""
+"Los archivos seleccionados serán almacenados en la partición cifrada %s "
+"(%s), en el dispositivo <b>%s %s</b>."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:101
+msgid "Save"
+msgstr "Guardar"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:195
+msgid "Saving..."
+msgstr "Guardando... "
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:198
+msgid "Saving persistence configuration..."
+msgstr "Guardando la configuración de persistencia... "
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:53
+msgid "Persistence wizard - Persistent volume deletion"
+msgstr "Asistente de persistencia - Eliminación del volumen persistente"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:56
+msgid "Your persistent data will be deleted."
+msgstr "Sus datos persistentes serán eliminados. "
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:60
+#, perl-format
+msgid ""
+"The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
+msgstr ""
+"El volumen persistente %s (%s), en el dispositivo <b>%s %s</b>, será "
+"eliminado."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:66
+msgid "Delete"
+msgstr "Eliminar"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:117
+msgid "Deleting..."
+msgstr "Eliminando... "
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:120
+msgid "Deleting the persistent volume..."
+msgstr "Eliminando el volumen persistente... "
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:55
+msgid "Personal Data"
+msgstr "Datos personales"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:57
+msgid "Keep files stored in the `Persistent' directory"
+msgstr "Mantener archivos almacenados en la capeta 'Persistent'"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:70
+msgid "Welcome Screen"
+msgstr "Pantalla de bienvenida"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:72
+msgid ""
+"Beta: only the additional setting to enable the Unsafe Browser is made "
+"persistent"
+msgstr ""
+"Beta: sólo se hace persistente el ajuste adicional para activar el Navegador "
+"No Seguro"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:85
+msgid "Browser Bookmarks"
+msgstr "Favoritos del navegador."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:87
+msgid "Bookmarks saved in the Tor Browser"
+msgstr "Marcadores guardados en el Tor Browser."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:100
+msgid "Network Connections"
+msgstr "Conexiones de red"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:102
+msgid "Configuration of network devices and connections"
+msgstr "Configuración de dispositivos de red y conexiones"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:117
+msgid "Software installed when starting Tails"
+msgstr "Software instalado al iniciar Tails."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:135
+msgid "Printers"
+msgstr "Impresoras"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:137
+msgid "Printers configuration"
+msgstr "Configuración de las impresoras"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:150
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:152
+msgid "Thunderbird emails, feeds, and settings"
+msgstr "Correo electrónico, fuentes y configuración de Thunderbird"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:165
+msgid "GnuPG"
+msgstr "GnuPG"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:167
+msgid "GnuPG keyrings and configuration"
+msgstr "Grupos de claves (keyrings) de GnuPG y configuración"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:180
+msgid "Bitcoin Client"
+msgstr "Cliente de Bitcoin"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:182
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr "Cartera de bitcoins Electrum y configuración"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:195
+msgid "Pidgin"
+msgstr "Pidgin"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:197
+msgid "Pidgin profiles and OTR keyring"
+msgstr ""
+"Perfiles de Pidgin y grupo de claves ('keyring') OTR (cifrado Off The Record)"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:210
+msgid "SSH Client"
+msgstr "Cliente SSH"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:212
+msgid "SSH keys, configuration and known hosts"
+msgstr "Claves SSH, configuración y hosts conocidos"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:225
+msgid "Dotfiles"
+msgstr "Dotfiles (formato de '.ficheros' de configuración)"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:227
+msgid ""
+"Symlink into $HOME every file or directory found in the `dotfiles' directory"
+msgstr ""
+"Crear enlaces simbólicos ('symlink') en $HOME para todos los ficheros o "
+"carpetas en la carpeta 'dotfiles' (formato de '.ficheros' de configuración)"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Setting.pm:113
+msgid "Custom"
+msgstr "Personalizado"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:265
+msgid "Setup Tails persistent volume"
+msgstr "Configurar el volumen persistente de Tails"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:343
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:481
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:223
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:76
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:25
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:74
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
 msgid "Error"
 msgstr "Error"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:372
+#, perl-format
+msgid "Device %s already has a persistent volume."
+msgstr "El dispositivo %s ya tiene un volumen persistente."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:380
+#, perl-format
+msgid "Device %s has not enough unallocated space."
+msgstr "El dispositivo %s no tiene suficiente espacio libre."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:387
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:401
+#, perl-format
+msgid "Device %s has no persistent volume."
+msgstr "El dispositivo %s no tiene ningún volumen persistente."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:393
+#, perl-format
+msgid ""
+"Cannot delete the persistent volume on %s while in use. You should restart "
+"Tails without persistence."
+msgstr ""
+"No se puede borrar el volumen persistente en %s mientras está en uso. "
+"Reinicia Tails sin persistencia."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:407
+#, perl-format
+msgid "Persistence volume on %s is not unlocked."
+msgstr "El volumen persistente en %s no está desbloqueado."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:412
+#, perl-format
+msgid "Persistence volume on %s is not mounted."
+msgstr "El volumen persistente en %s no está montado."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:417
+#, perl-format
+msgid ""
+"Persistence volume on %s is not readable. Permissions or ownership problems?"
+msgstr ""
+"No se puede leer el volumen persistente en %s. ¿Problemas de permisos o de "
+"propiedad?"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:422
+#, perl-format
+msgid "Persistence volume on %s is not writable."
+msgstr "No se puede escribir en el volumen persistente en %s."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:431
+#, perl-format
+msgid "Tails is running from non-USB / non-SDIO device %s."
+msgstr "Tails se está ejecutando desde un dispositivo %s que no es USB / SDIO."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:437
+#, perl-format
+msgid "Device %s is optical."
+msgstr "El dispositivo %s es óptico"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:444
+#, perl-format
+msgid "Device %s was not created using a USB image or Tails Installer."
+msgstr ""
+"El dispositivo %s no se ha creado usando una imagen USB o una imagen Tails "
+"Installer."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:688
+msgid "Persistence wizard - Finished"
+msgstr "Asistente de persistencia - Finalizado"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:691
+msgid ""
+"Any changes you have made will only take effect after restarting Tails.\n"
+"\n"
+"You may now close this application."
+msgstr ""
+"Cualquier cambio que hayas hecho sólo tendrá efecto después de reiniciar "
+"Tails. \n"
+" \n"
+"Ahora puedes cerrar esta aplicación."
+
+#: config/chroot_local-includes/usr/local/bin/replace-su-with-sudo:19
+msgid "su is disabled. Please use sudo instead."
+msgstr "su está desactivado. En su lugar usa sudo."
 
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:225
 msgid ""
 "The device Tails is running from cannot be found. Maybe you used the 'toram' "
 "option?"
 msgstr ""
+"La unidad desde la que se está ejecutando Tails no se pudo encontrar. "
+"¿Quizás has elegido la opción 'toram'?"
 
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:253
 msgid ""
 "The drive Tails is running from cannot be found. Maybe you used the 'toram' "
 "option?"
 msgstr ""
+"La unidad desde la que se está ejecutando Tails no se puede encontrar. "
+"¿Quizás has elegido la opción 'toram'?"
+
+#: config/chroot_local-includes/usr/local/lib/seahorse-tool-wrapper:42
+msgid "Import Failed"
+msgstr "La importación falló"
+
+#. Translators: Don't translate {path} or {error},
+#. they are placeholders and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/seahorse-tool-wrapper:45
+#, python-brace-format
+msgid ""
+"Failed to import keys from {path}:\n"
+"{error}"
+msgstr ""
+"Error al importar las claves de {path}:\n"
+"{error}"
+
+#: config/chroot_local-includes/usr/local/lib/seahorse-tool-wrapper:53
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Llave importada"
+msgstr[1] "Llaves importadas"
+
+#. Translators: Don't translate {uids}, it's a placeholder and
+#. will be replaced.
+#: config/chroot_local-includes/usr/local/lib/seahorse-tool-wrapper:56
+#, python-brace-format
+msgid "Imported a key for {uids}"
+msgid_plural "Imported keys for {uids}"
+msgstr[0] "Importada una llave para {uids}"
+msgstr[1] "Llaves importadas para {uids}"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:75
 msgid "Lock screen"
@@ -730,7 +1185,7 @@ msgstr "Podrías instalar {packages} automáticamente al iniciar Tails."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:345
 msgid "To do so, you need to run Tails from a USB stick."
-msgstr ""
+msgstr "Para hacer eso, necesitas ejecutar Tails desde un memoria USB."
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
@@ -849,6 +1304,8 @@ msgstr ""
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:205
 msgid "To do so, install Tails on a USB stick and create a persistent storage."
 msgstr ""
+"Para hacer eso, instala Tails en una memoria USB y crea un almacenamiento "
+"persistente."
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:251
 msgid "[package not available]"
@@ -899,12 +1356,12 @@ msgstr "Esta versión de Tails tiene problemas de seguridad conocidos:"
 msgid "Known security issues"
 msgstr "Problemas de seguridad conocidos"
 
-#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:52
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:56
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Tarjeta de red ${nic} deshabilitada"
 
-#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:53
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:57
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
@@ -915,11 +1372,11 @@ msgstr ""
 "está temporalmente deshabilitada.\n"
 "Quizás prefieras reiniciar Tails y deshabilitar el MAC spoofing."
 
-#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:62
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:66
 msgid "All networking disabled"
 msgstr "Se deshabilitaron todas las redes"
 
-#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:63
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:67
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
@@ -931,7 +1388,7 @@ msgstr ""
 "deshabilitada.\n"
 "Quizás prefieras reiniciar Tails y deshabilitar el MAC spoofing."
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:38
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:35
 msgid ""
 "\"<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
@@ -954,8 +1411,8 @@ msgstr ""
 "O realiza una actualización manual.\n"
 "Lee https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:75
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:24
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
 msgid "error:"
 msgstr "error:"
 
@@ -1061,17 +1518,17 @@ msgstr "{partition_name} en {drive_name}"
 msgid "{volume_name} – {drive_name}"
 msgstr "{volume_name} – {drive_name}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:228
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:229
 msgid "Wrong passphrase or parameters"
 msgstr "Contraseña o parámetros incorrectos"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:230
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:231
 msgid "Error unlocking volume"
 msgstr "Error al desbloquear el volumen"
 
 #. Translators: Don't translate {volume_name} or {error_message},
 #. they are placeholder and will be replaced.
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:234
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:235
 #, python-brace-format
 msgid ""
 "Couldn't unlock volume {volume_name}:\n"
@@ -1080,13 +1537,13 @@ msgstr ""
 "No se pudo desbloquear el volumen {volume_name}:\n"
 "{error_message}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:336
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:337
 msgid "One or more applications are keeping the volume busy."
 msgstr "Una o más aplicaciones tienen el volumen ocupado."
 
 #. Translators: Don't translate {volume_name} or {error_message},
 #. they are placeholder and will be replaced.
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:342
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:343
 #, python-brace-format
 msgid ""
 "Couldn't lock volume {volume_name}:\n"
@@ -1095,7 +1552,7 @@ msgstr ""
 "No se pudo bloquear el volumen {volume_name}:\n"
 "{error_message}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:344
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:345
 msgid "Locking the volume failed"
 msgstr "El bloqueo del volumen falló"
 
@@ -1169,33 +1626,34 @@ msgstr ""
 msgid "Choose File Container"
 msgstr "Selecciona contenedor de archivo"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
-msgid "Do you really want to launch the Unsafe Browser?"
-msgstr "¿De veras quieres iniciar el Navegador No Seguro?"
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
+msgid "Launch the Unsafe Browser?"
+msgstr "¿Iniciar el Navegador No Seguro?"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
 msgid ""
-"Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
-"use the Unsafe Browser if necessary, for example\\nif you have to login or "
-"register to activate your Internet connection."
+"The Unsafe Browser is not anonymous and the websites that you visit can see "
+"your real IP address.\\n\\nOnly use the Unsafe Browser to log in to a "
+"captive portal or browse trusted web pages on the local network."
 msgstr ""
-"La actividad de red con un navegador inseguro <b>no es anónima</b>.\\nÚsalo "
-"sólo si es necesario, por ejemplo\\nsi tienes que iniciar sesión o "
-"registrarte para activar tu conexión a internet."
+"El Navegador No Seguro no es anónimo, y los sitios web que visitas pueden "
+"ver tu dirección IP real.\\n\\nUsa el Navegador No Seguro sólo para iniciar "
+"sesión en un portal cautivo o navegar páginas web en las cuales confías, en "
+"la red local."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
 msgid "Starting the Unsafe Browser..."
 msgstr "Iniciando el Navegador No Seguro..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:49
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
 msgid "This may take a while, so please be patient."
 msgstr "Esto puede llevar un tiempo, por favor ten paciencia."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
 msgid "Shutting down the Unsafe Browser..."
 msgstr "Cerrando el Navegador No Seguro..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:55
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
@@ -1203,16 +1661,32 @@ msgstr ""
 "Esto puede llevar un tiempo, y no podrás reiniciar el Navegador No Seguro "
 "hasta que se haya cerrado adecuadamente."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:67
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
 msgid "Failed to restart Tor."
 msgstr "Fallo al reiniciar Tor."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:81
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:510
 msgid "Unsafe Browser"
 msgstr "Navegador No Seguro"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:88
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:90
+msgid ""
+"The Unsafe Browser was not enabled in the Welcome Screen.\\n\\nTo use the "
+"Unsafe Browser, restart Tails and enable the Unsafe Browser in the "
+"additional settings of the Welcome Screen.\\n\n"
+"To always enable the Unsafe Browser, turn on the Welcome Screen feature of "
+"the Persistent Storage."
+msgstr ""
+"El Navegador No Seguro no fue habilitado en la Pantalla de Bienvenida.\\n"
+"\\nPara usar el Navegador No Seguro, vuelve a arrancar Tails y habilita el "
+"Navegador No Seguro en los ajustes adicionales de la Pantalla de Bienvenida."
+"\\n\n"
+"Para habilitar siempre el Navegador No Seguro, activa la característica "
+"Pantalla de Bienvenida del Almacenamiento Persistente."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:99
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
@@ -1220,15 +1694,15 @@ msgstr ""
 "En este momento se está ejecutando o apagando otro Navegador No Seguro. "
 "Inténtalo de nuevo en un rato."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:96
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:107
 msgid "Failed to setup chroot."
 msgstr "Fallo al establecer chroot."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:103
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:114
 msgid "Failed to configure browser."
 msgstr "Fallo al configurar el navegador."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:109
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:120
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
@@ -1236,7 +1710,7 @@ msgstr ""
 "No se obtuvo ningún servidor DNS a través de DHCP o configurado manualmente "
 "en el Administrador de Red (NetworkManager)."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:120
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:131
 msgid "Failed to run browser."
 msgstr "Falló al iniciar el navegador."
 
@@ -1266,6 +1740,26 @@ msgstr "Aprende a usar Tails"
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
 msgid "Learn more about Tails"
 msgstr "Aprende más acerca de Tails"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-persistence-delete.desktop.in.h:1
+msgid "Delete persistent volume"
+msgstr "Borrar el volumen persistente"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-persistence-delete.desktop.in.h:2
+msgid "Delete the persistent volume and its content"
+msgstr "Borrar el volumen persistente y su contenido"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-persistence-setup.desktop.in.h:1
+msgid "Configure persistent volume"
+msgstr "Configurar el volumen persistente"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-persistence-setup.desktop.in.h:2
+msgid ""
+"Configure which files and application configuration are saved between "
+"working sessions"
+msgstr ""
+"Configurar qué archivos y qué configuración de la aplicación se guardan en "
+"las sesiones de trabajo"
 
 #: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:1
 msgid "Tor Browser"
@@ -1318,7 +1812,7 @@ msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:18
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:56
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:625
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:693
 msgid "Administration Password"
 msgstr "Contraseña de administración"
 
@@ -1345,7 +1839,7 @@ msgid "Disable"
 msgstr "Deshabilitar"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:154
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:629
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:697
 msgid "MAC Address Spoofing"
 msgstr "Falseamiento de dirección MAC"
 
@@ -1370,7 +1864,7 @@ msgid "Don't spoof MAC addresses"
 msgstr "No falsear direcciones MAC"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:311
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:633
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:701
 msgid "Network Configuration"
 msgstr "Configuración de la red"
 
@@ -1396,7 +1890,39 @@ msgstr "Configura un puente Tor o un proxy local"
 msgid "Disable all networking"
 msgstr "Deshabilitar todas las conexiones de red "
 
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:526
+msgid ""
+"The Unsafe Browser allows you to log in to a captive portal.\n"
+"\n"
+"A captive portal is a web page that is displayed before you can access the "
+"Internet. Captive portals usually require to log in to the network or enter "
+"information such as an email address.\n"
+"\n"
+"The Unsafe Browser is not anonymous and can deanonymize you. Use it only to "
+"log in to captive portals."
+msgstr ""
+"El Navegador No Seguro te permite iniciar sesión en un portal cautivo.\n"
+"\n"
+"Un portal cautivo es una página web que aparece antes que puedas acceder al "
+"Internet.  Los portales cautivos usualmente requieren iniciar sesión en la "
+"red o ingresar información tal como una dirección de correo electrónico.\n"
+"\n"
+"El Navegador No Seguro no es anónimo, y puede deanonimizarte. Úsalo "
+"solamente para iniciar sesión en portales cautivos."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:572
+msgid "Disable the Unsafe Browser (default)"
+msgstr "Deshabilita el Navegador No Seguro (predeterminado)"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:617
+msgid "Enable the Unsafe Browser"
+msgstr "Habilita el Navegador No Seguro"
+
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:100
+msgid "Settings were loaded from the persistent storage."
+msgstr "La configuración se cargó desde tu almacenamiento persistente"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:168
 msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
@@ -1404,53 +1930,57 @@ msgstr ""
 "Configurarás el puente de Tor y un proxy local posteriormente, tras conectar "
 "a la red."
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:152
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:220
 msgid "Welcome to Tails!"
 msgstr "¡Bienvenido a Tails!"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:186
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:254
 msgid "Language & Region"
 msgstr "Idioma y región"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:222
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:290
 msgid "Default Settings"
 msgstr "Configuración predeterminada"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:285
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:353
 msgid "Encrypted _Persistent Storage"
 msgstr "Almacenamiento _Persistente Cifrado"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:326
-msgid "Show Passphrase"
-msgstr ""
-
 #. The label for this placeholder text is not very big, so keep this string short.
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:379
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:447
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr ""
 "Introduce tu frase contraseña para desbloquear el almacenamiento persistente"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:427
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:495
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr ""
 "Tu almacenamiento persistente está desbloqueado. Reinicia Tails para volver "
 "a bloquearlo."
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:465
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:533
 msgid "_Additional Settings"
 msgstr "_Configuración adicional"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:548
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:616
 msgid "Add an additional setting"
 msgstr "Añadir una configuración adicional"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:597
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:665
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
 msgstr ""
 "La configuración predeterminada es segura en la mayoría de los casos. Para "
 "añadir una configuración personalizada, pulsa debajo el botón \"+\". "
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:709
+msgid "Shutdown"
+msgstr "Cerrar"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:720
+msgid "_Start Tails"
+msgstr "_Iniciar Tails"
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:61
 msgid "File Containers"

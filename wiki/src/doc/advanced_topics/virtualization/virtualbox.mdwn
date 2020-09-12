@@ -15,7 +15,7 @@ devices.
 
 For security reasons, we recommend you to use only the <span
 class="application">Open Source Edition</span>, though it does not
-allow to use a persistent volume.
+allow use of a Persistent Storage.
 
 </div>
 
@@ -27,7 +27,7 @@ allow to use a persistent volume.
 host system from within the guest system.</p>
 
 <p>Make sure to understand the security implications of [[accessing
-internal hard disks|encryption_and_privacy/your_data_wont_be_saved_unless_explicitly_asked]]
+internal hard disks|internal_hard_disk]]
 from Tails before using this feature.</p>
 
 </div>

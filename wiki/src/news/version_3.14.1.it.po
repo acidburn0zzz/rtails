@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2019-06-24 16:10+0200\n"
-"PO-Revision-Date: 2019-10-24 10:15+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2020-08-20 18:29+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -93,7 +93,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "People using the *Safer* or *Safest* [[security level of *Tor Browser*|doc/"
-"anonymous_internet/Tor_Browser#security_level]] are not affected because the "
+"anonymous_internet/Tor_Browser#security-level]] are not affected because the "
 "feature of JavaScript that is affected (the *[[!wikipedia just-in-time "
 "compilation]]*) is disabled in these security levels."
 msgstr ""
@@ -224,7 +224,7 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid ""
 "Start Tails for the first time and [[set up an administration password|doc/"
-"first_steps/startup_options/administration_password]]."
+"first_steps/welcome_screen/administration_password]]."
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -279,6 +279,8 @@ msgstr ""
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
 msgstr ""
+"Per aggiornare la propria chiavetta USB Tails e conservare il proprio volume "
+"persistente"
 
 #. type: Plain text
 msgid ""
@@ -295,7 +297,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Per installare Tails su una nuova chiavetta USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
@@ -303,15 +305,15 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/win]]"
-msgstr ""
+msgstr "[[Installare da Windows|install/win]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Installare da macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Installare da Linux|install/linux]]"
 
 #. type: Plain text
 #, no-wrap
@@ -348,7 +350,9 @@ msgstr ""
 
 #. type: Plain text
 msgid "Have a look at our [[!tails_roadmap]] to see where we are heading to."
-msgstr "Dai uno sguardo alla [[!tails_roadmap]] per sapere a cosa puntiamo."
+msgstr ""
+"Dai un'occhiata alla nostra [[tabella di marcia|contribute/roadmap]] (in "
+"inglese) per sapere a cosa stiamo lavorando."
 
 #. type: Plain text
 #, no-wrap

@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-11-20 10:00+0000\n"
-"PO-Revision-Date: 2019-10-23 08:41+0000\n"
-"Last-Translator: Camila B <camiii@pm.me>\n"
+"POT-Creation-Date: 2020-08-25 02:53+0000\n"
+"PO-Revision-Date: 2020-08-26 11:29+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "contact/es/>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -31,7 +31,7 @@ msgstr "Hay muchas formas de contactarnos, dependiendo del tema."
 #. type: Plain text
 msgid "All mailing lists are in English unless specified otherwise."
 msgstr ""
-"Todas las listas de correos son en inglés, a menos de que se especifique lo "
+"Todas las listas de correos son en inglés, a menos que se especifique lo "
 "contrario."
 
 #. type: Plain text
@@ -39,10 +39,10 @@ msgstr ""
 msgid "[[!toc levels=2]]\n"
 msgstr "[[!toc levels=2]]\n"
 
-#. type: Title =
+#. type: Plain text
 #, no-wrap
-msgid "Public mailing lists\n"
-msgstr "Listas de correo públicas\n"
+msgid "<h1 id=\"public-mailing-lists\">Public mailing lists</h1>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -67,13 +67,8 @@ msgstr "</div>\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"amnesia-news\"></a>\n"
-msgstr "<a id=\"amnesia-news\"></a>\n"
-
-#. type: Title -
-#, no-wrap
-msgid "amnesia-news\n"
-msgstr "amnesia-news\n"
+msgid "<h2 id=\"amnesia-news\">amnesia-news</h2>\n"
+msgstr "<h2 id=\"amnesia-news\">amnesia-news</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -133,20 +128,15 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails-project\"></a>\n"
-msgstr "<a id=\"tails-project\"></a>\n"
-
-#. type: Title -
-#, no-wrap
-msgid "tails-project\n"
-msgstr "tails-project\n"
+msgid "<h2 id=\"tails-project\">tails-project</h2>\n"
+msgstr "<h2 id=\"tails-project\">tails-project</h2>\n"
 
 #. type: Plain text
 msgid ""
 "tails-project@boum.org is the mailing list where we discuss upcoming events, "
 "monthly reports, and other non-technical matters."
 msgstr ""
-"tails-project@boum.org es la lista de correos donde discutimos proximos "
+"tails-project@boum.org es la lista de correos donde discutimos próximos "
 "eventos, reportes mensuales, y otras cuestiones no-técnicas."
 
 #. type: Plain text
@@ -197,13 +187,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails-dev\"></a>\n"
-msgstr "<a id=\"tails-dev\"></a>\n"
-
-#. type: Title -
-#, no-wrap
-msgid "tails-dev\n"
-msgstr "tails-dev\n"
+msgid "<h2 id=\"tails-dev\">tails-dev</h2>\n"
+msgstr "<h2 id=\"tails-dev\">tails-dev</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -211,17 +196,12 @@ msgid ""
 "coordinated and technical design questions are discussed. Subscribe if you "
 "want to [[contribute code|contribute/how/code]]."
 msgstr ""
-"tails-dev@boum.org es la lista de correo donde el trabajo de desarrollo es "
-"coordinado y preguntas técnicas de diseño son discutidas. Suscríbete si "
-"quieres [[aportar código|contribute/how/code]]."
+"tails-dev@boum.org es la lista de correo donde se coordina el trabajo de "
+"desarrollo y se discuten temas de diseño. Suscríbete si quieres [[aportar "
+"código|contribute/how/code]]."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<form method=\"POST\" action=\"https://www.autistici.org/mailman/subscribe/tails-dev\">\n"
-#| "\t<input class=\"text\" name=\"email\" value=\"\"/>\n"
-#| "\t<input class=\"button\" type=\"submit\" value=\"Subscribe\"/>\n"
-#| "</form>\n"
+#, no-wrap
 msgid ""
 "<p>\n"
 "<form method=\"POST\" action=\"https://www.autistici.org/mailman/subscribe/tails-dev\">\n"
@@ -268,13 +248,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails-testers\"></a>\n"
-msgstr "<a id=\"tails-testers\"></a>\n"
-
-#. type: Title -
-#, no-wrap
-msgid "tails-testers\n"
-msgstr "tails-testers\n"
+msgid "<h2 id=\"tails-testers\">tails-testers</h2>\n"
+msgstr "<h2 id=\"tails-testers\">tails-testers</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -285,12 +260,7 @@ msgstr ""
 "[[probar|contribute/how/testing]] nuevos lanzamientos o funcionalidades."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<form method=\"POST\" action=\"https://www.autistici.org/mailman/subscribe/tails-testers\">\n"
-#| "\t<input class=\"text\" name=\"email\" value=\"\"/>\n"
-#| "\t<input class=\"button\" type=\"submit\" value=\"Subscribe\"/>\n"
-#| "</form>\n"
+#, no-wrap
 msgid ""
 "<p>\n"
 "<form method=\"POST\" action=\"https://www.autistici.org/mailman/subscribe/tails-testers\">\n"
@@ -337,13 +307,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails-ux\"></a>\n"
-msgstr "<a id=\"tails-ux\"></a>\n"
-
-#. type: Title -
-#, no-wrap
-msgid "tails-ux\n"
-msgstr "tails-ux\n"
+msgid "<h2 id=\"tails-ux\">tails-ux</h2>\n"
+msgstr "<h2 id=\"tails-ux\">tails-ux</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -355,12 +320,7 @@ msgstr ""
 "user_experience]]."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<form method=\"POST\" action=\"https://www.autistici.org/mailman/subscribe/tails-ux\">\n"
-#| "\t<input class=\"text\" name=\"email\" value=\"\"/>\n"
-#| "\t<input class=\"button\" type=\"submit\" value=\"Subscribe\"/>\n"
-#| "</form>\n"
+#, no-wrap
 msgid ""
 "<p>\n"
 "<form method=\"POST\" action=\"https://www.autistici.org/mailman/subscribe/tails-ux\">\n"
@@ -406,33 +366,28 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails-l10n\"></a>\n"
-msgstr "<a id=\"tails-l10n\"></a>\n"
-
-#. type: Title -
-#, no-wrap
-msgid "tails-l10n\n"
-msgstr "tails-l10n\n"
+msgid "<h2 id=\"tails-l10n\">tails-l10n</h2>\n"
+msgstr "<h2 id=\"tails-l10n\">tails-l10n</h2>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"contribute/how/translate/tails-l10n.inline\" raw=\"yes\" sort=\"age\"]]\n"
 msgstr "[[!inline pages=\"contribute/how/translate/tails-l10n.inline.es\" raw=\"yes\"  sort=\"age\"]]\n"
 
-#. type: Title =
+#. type: Plain text
 #, no-wrap
-msgid "Private email addresses\n"
-msgstr "Direcciones de correo privadas\n"
+msgid "<h1 id=\"private-email-addresses\">Private email addresses</h1>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"tails-support-private\"></a>\n"
 msgstr "<a id=\"tails-support-private\"></a>\n"
 
-#. type: Title -
+#. type: Plain text
 #, no-wrap
-msgid "tails-support-private\n"
-msgstr "tails-support-private\n"
+msgid "<h2 id=\"tails-support-private\">tails-support-private</h2>\n"
+msgstr "<h2 id=\"tails-support-private\">tails-support-private</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -457,13 +412,8 @@ msgstr "[[!inline pages=\"support/talk/languages.inline.es\" raw=\"yes\" sort=\"
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails-press\"></a>\n"
-msgstr "<a id=\"tails-press\"></a>\n"
-
-#. type: Title -
-#, no-wrap
-msgid "tails-press\n"
-msgstr "tails-press\n"
+msgid "<h2 id=\"tails-press\">tails-press</h2>\n"
+msgstr "<h2 id=\"tails-press\">tails-press</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -485,17 +435,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails-accounting\"></a>\n"
-msgstr "<a id=\"tails-accounting\"></a>\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"tails-accounting\n"
-"-----------------\n"
-msgstr ""
-"tails-accounting\n"
-"-----------------\n"
+msgid "<h2 id=\"tails-accounting\">tails-accounting</h2>\n"
+msgstr "<h2 id=\"tails-accounting\">tails-accounting</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -512,14 +453,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails-foundations\"></a>\n"
-msgstr "<a id=\"tails-foundations\"></a>\n"
-
-#. type: Title -
-#, fuzzy, no-wrap
-#| msgid "tails-sysadmins\n"
-msgid "tails-foundations\n"
-msgstr "tails-foundations\n"
+msgid "<h2 id=\"tails-foundations\">tails-foundations</h2>\n"
+msgstr "<h2 id=\"tails-foundations\">tails-foundations</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -528,6 +463,9 @@ msgid ""
 "Team|contribute/working_together/roles/foundations_team]], write to\n"
 "<tails-foundations@boum.org>.\n"
 msgstr ""
+"Para ponerte en contacto con el Tails [[Foundations\n"
+"Team|contribute/working_together/roles/foundations_team]], escribe a\n"
+"<tails-foundations@boum.org>.\n"
 
 #. type: Plain text
 msgid ""
@@ -539,17 +477,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails-mirrors\"></a>\n"
-msgstr "<a id=\"tails-mirrors\"></a>\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"tails-mirrors\n"
-"-----------------\n"
-msgstr ""
-"tails-mirrors\n"
-"-----------------\n"
+msgid "<h2 id=\"tails-mirrors\">tails-mirrors</h2>\n"
+msgstr "<h2 id=\"tails-mirrors\">tails-mirrors</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -561,18 +490,13 @@ msgid ""
 "[[OpenPGP key|tails-mirrors.key]] ([[details|doc/about/"
 "openpgp_keys#mirrors]])."
 msgstr ""
-"[[OpenPGP key|tails-mirrors.key]] ([[details|doc/about/"
+"[[Clave OpenPGP|tails-mirrors.key]] ([[detalles|doc/about/"
 "openpgp_keys#mirrors]])."
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails-sysadmins\"></a>\n"
-msgstr "<a id=\"tails-sysadmins\"></a>\n"
-
-#. type: Title -
-#, no-wrap
-msgid "tails-sysadmins\n"
-msgstr "tails-sysadmins\n"
+msgid "<h2 id=\"tails-sysadmins\">tails-sysadmins</h2>\n"
+msgstr "<h2 id=\"tails-sysadmins\">tails-sysadmins</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -588,57 +512,40 @@ msgid ""
 "[[OpenPGP key|tails-sysadmins.key]] ([[details|doc/about/"
 "openpgp_keys#sysadmins]])."
 msgstr ""
-"[[OpenPGP key|tails-sysadmins.key]] ([[details|doc/about/"
+"[[Clave OpenPGP|tails-sysadmins.key]] ([[detalles|doc/about/"
 "openpgp_keys#sysadmins]])."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"tails-foundations\"></a>\n"
-msgid "<a id=\"tails-translations\"></a>\n"
-msgstr "<a id=\"tails-foundations\"></a>\n"
-
-#. type: Title -
-#, fuzzy, no-wrap
-#| msgid "tails-sysadmins\n"
-msgid "tails-translations\n"
-msgstr "tails-foundations\n"
+#, no-wrap
+msgid "<h2 id=\"tails-translations\">tails-translations</h2>\n"
+msgstr "<h2 id=\"tails-translations\">tails-translations</h2>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "If you want to operate a Tails mirror, write to <tails-mirrors@boum.org>.\n"
+#, no-wrap
 msgid "To talk about the [[Tails translation platform|contribute/how/translate/with_translation_platform]], write to <tails-translations@boum.org>.\n"
-msgstr "Si quieres montar un mirror de Tails, escribe a <tails-mirrors@boum.org>.\n"
+msgstr "Para hablar de la [[plataforma de traducción de Tails|contribute/how/translate/with_translation_platform]], escribe a <tails-translations@boum.org>.\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[[OpenPGP key|tails-foundations.key]] ([[details|doc/about/"
-#| "openpgp_keys#foundations]])."
 msgid ""
 "[[OpenPGP key|tails-translations.key]] ([[details|doc/about/"
 "openpgp_keys#translations]])."
 msgstr ""
-"[[Llave OpenPGP|tails-foundations.key]] ([[details|doc/about/"
-"openpgp_keys#foundations]])."
+"[[Llave OpenPGP|tails-translations.key]] ([[detalles|doc/about/"
+"openpgp_keys#translations]])."
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"tails\"></a>\n"
-msgstr "<a id=\"tails\"></a>\n"
-
-#. type: Title -
-#, no-wrap
-msgid "tails\n"
-msgstr "tails\n"
+msgid "<h2 id=\"tails\">tails</h2>\n"
+msgstr "<h2 id=\"tails\">tails</h2>\n"
 
 #. type: Plain text
 msgid ""
 "For matters that are listed in none of the above and for vulnerabilities "
 "disclosures, you can write encrypted emails to <tails@boum.org>."
 msgstr ""
-"Para asuntos que no se enumeran en ninguno de los anteriores y para "
-"revelaciones de vulnerabilidades, puedes escribir un correo electrónico "
-"cifrado a <tails@boum.org>."
+"Para asuntos que no se enumeran en ninguno de los anteriores y para reportar "
+"vulnerabilidades, puedes escribir un correo electrónico cifrado a "
+"<tails@boum.org>."
 
 #. type: Plain text
 msgid ""
@@ -648,13 +555,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"chat\"></a>\n"
-msgstr "<a id=\"chat\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Chat rooms\n"
-msgstr "Chat rooms\n"
+msgid "<h1 id=\"chat\">Chat rooms</h1>\n"
+msgstr "<h1 id=\"chat\">Chat rooms</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -663,30 +565,84 @@ msgid ""
 "preferred for anything that might be of interest for the larger community."
 msgstr ""
 "Te puedes unir a nuestra [[sala chat de usuarios|suporte/chat]] y [[sala "
-"chat de desarrolladores|contribuir/chat]]. Sólo unos cuantos desarrolladores "
-"de Tails están por esas salas, por eso el correo electrónico es el medio "
-"preferido para cualquier cosa que pueda ser interesante para una la gran "
+"chat de desarrolladores|contribuir/chat]]. Sólo unos pocos desarrolladores "
+"de Tails están por esas salas, así que el correo electrónico es el medio "
+"preferido para cualquier cosa que pueda ser interesante para toda la "
 "comunidad."
+
+#~ msgid "Public mailing lists"
+#~ msgstr "Listas de correo públicas"
+
+#~ msgid "amnesia-news"
+#~ msgstr "amnesia-news"
+
+#~ msgid "tails-project"
+#~ msgstr "tails-project"
+
+#~ msgid "tails-dev"
+#~ msgstr "tails-dev"
+
+#~ msgid "tails-testers"
+#~ msgstr "tails-testers"
+
+#~ msgid "tails-ux"
+#~ msgstr "tails-ux"
+
+#~ msgid "tails-l10n"
+#~ msgstr "tails-l10n"
+
+#~ msgid "Private email addresses"
+#~ msgstr "Direcciones de correo privadas"
+
+#~ msgid "tails-support-private"
+#~ msgstr "tails-support-private"
+
+#~ msgid "tails-press"
+#~ msgstr "tails-press"
+
+#, fuzzy
+#~ msgid "tails-accounting"
+#~ msgstr "tails-sysadmins\n"
+
+#~ msgid "tails-foundations"
+#~ msgstr "tails-foundations"
+
+#, fuzzy
+#~ msgid "tails-mirrors"
+#~ msgstr "<a id=\"tails-mirrors\"></a>\n"
+
+#~ msgid "tails-sysadmins"
+#~ msgstr "tails-sysadmins"
+
+#~ msgid "tails-translations"
+#~ msgstr "tails-translations"
+
+#~ msgid "tails"
+#~ msgstr "tails"
+
+#~ msgid "Chat rooms"
+#~ msgstr "Chat rooms"
+
+#~ msgid ""
+#~ "tails-accounting\n"
+#~ "-----------------\n"
+#~ msgstr ""
+#~ "tails-accounting\n"
+#~ "-----------------\n"
+
+#~ msgid ""
+#~ "tails-mirrors\n"
+#~ "-----------------\n"
+#~ msgstr ""
+#~ "tails-mirrors\n"
+#~ "-----------------\n"
 
 #~ msgid "<a id=\"legal\"></a>\n"
 #~ msgstr "<a id=\"legal\"></a>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "tails-accounting\n"
-#~| "-----------------\n"
 #~ msgid "Legal representative\n"
 #~ msgstr "Representante legal\n"
-
-#, fuzzy
-#~| msgid "tails-sysadmins\n"
-#~ msgid "tails-accounting"
-#~ msgstr "tails-sysadmins\n"
-
-#, fuzzy
-#~| msgid "<a id=\"tails-mirrors\"></a>\n"
-#~ msgid "tails-mirrors"
-#~ msgstr "<a id=\"tails-mirrors\"></a>\n"
 
 #~ msgid "<a id=\"tails-support\"></a>\n"
 #~ msgstr "<a id=\"tails-support\"></a>\n"
@@ -705,3 +661,48 @@ msgstr ""
 #~ "[[!inline pages=\"support/tails-support\" raw=\"yes\" sort=\"age\"]]\n"
 #~ msgstr ""
 #~ "[[!inline pages=\"support/tails-support.es\" raw=\"yes\" sort=\"age\"]]\n"
+
+#~ msgid "Public mailing lists\n"
+#~ msgstr "Listas de correo públicas\n"
+
+#~ msgid "amnesia-news\n"
+#~ msgstr "amnesia-news\n"
+
+#~ msgid "tails-project\n"
+#~ msgstr "tails-project\n"
+
+#~ msgid "tails-dev\n"
+#~ msgstr "tails-dev\n"
+
+#~ msgid "tails-testers\n"
+#~ msgstr "tails-testers\n"
+
+#~ msgid "tails-ux\n"
+#~ msgstr "tails-ux\n"
+
+#~ msgid "tails-l10n\n"
+#~ msgstr "tails-l10n\n"
+
+#~ msgid "Private email addresses\n"
+#~ msgstr "Direcciones de correo privadas\n"
+
+#~ msgid "tails-support-private\n"
+#~ msgstr "tails-support-private\n"
+
+#~ msgid "tails-press\n"
+#~ msgstr "tails-press\n"
+
+#~ msgid "tails-foundations\n"
+#~ msgstr "tails-foundations\n"
+
+#~ msgid "tails-sysadmins\n"
+#~ msgstr "tails-sysadmins\n"
+
+#~ msgid "tails-translations\n"
+#~ msgstr "tails-translations\n"
+
+#~ msgid "tails\n"
+#~ msgstr "tails\n"
+
+#~ msgid "Chat rooms\n"
+#~ msgstr "Chat rooms\n"

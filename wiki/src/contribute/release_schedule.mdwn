@@ -2,8 +2,11 @@
 
 [[!toc levels=2]]
 
-Tails has a time-based release schedule, aligned with [Firefox ESR
-(Extended Support Release)'s](https://wiki.mozilla.org/Release_Management/Calendar).
+Tails has a time-based release schedule, aligned with
+[Tor Browser release schedule](https://gitlab.torproject.org/tpo/applications/tor-browser/-/wikis/Release-Schedule),
+which itself depends on the
+[Firefox ESR
+(Extended Support Release) release schedule](https://wiki.mozilla.org/Release_Management/Calendar).
 In the examples below we'll assume a 6-weeks release cycle.
 
 We generally publish 2 or 3 major Tails releases every year.
@@ -71,3 +74,12 @@ Versioning scheme
 * The second number is incremented for every release that does not
   increment the first number.
 * We add an extra, third number for emergency releases.
+
+Release candidates and beta releases
+====================================
+
+Most Tails stable releases are published directly, without a prior beta release
+or release candidate (RC). But some changes deserve more caution, in which case
+we often choose to release a beta or RC. See how to [[decide whether to release
+a beta or
+a RC|contribute/working_together/interfaces/developers_and_release_managers#beta-or-rc]].

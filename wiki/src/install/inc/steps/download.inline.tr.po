@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-10-18 02:04+0000\n"
-"PO-Revision-Date: 2019-06-01 14:04+0000\n"
+"POT-Creation-Date: 2020-06-29 07:25+0000\n"
+"PO-Revision-Date: 2020-09-05 06:33+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.19.1\n"
+"X-Generator: Weblate 3.8\n"
 
 #. type: Content of: <div>
 msgid "2.4"
@@ -82,11 +82,22 @@ msgid ""
 "\"yes\" sort=\"age\"]]</span>)</a>"
 msgstr ""
 
-#. type: Content of: <div><div><div><div><p>
+#. type: Content of: <div><div><div><div><div><p>
+#, fuzzy
 msgid ""
-"<a>I already downloaded Tails <span class=\"remove-extra-space\">&nbsp;[[!"
+"<a>I already downloaded Tails&nbsp;<span class=\"remove-extra-space\">[[!"
 "inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]</span>."
 "</a>"
+msgstr ""
+"[[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]"
+
+#. type: Content of: <div><div><div><div><div><p>
+msgid ""
+"If the download fails, try to <a href=\"[[!inline pages=\"inc/"
+"stable_amd64_img_url\" raw=\"yes\" sort=\"age\"]]\" class=\"usb upgrade "
+"download-only-img\">download from another mirror.</a> <a href=\"[[!inline "
+"pages=\"inc/stable_amd64_iso_url\" raw=\"yes\" sort=\"age\"]]\" class=\"dvd "
+"vm download-only-iso\">download from another mirror.</a>"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><h3>
@@ -153,7 +164,6 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <div>
-#, fuzzy
 msgid "\"\"\"]]"
 msgstr "\"\"\"]]"
 
@@ -180,7 +190,7 @@ msgstr ""
 
 #. type: Content of: <div><div><div><div><div><div>
 msgid "[[!img screenshots/allow_js.png link=\"no\"]]"
-msgstr ""
+msgstr "[[!img screenshots/allow_js.png link=\"no\"]]"
 
 #. type: Content of: <div><div><div><div><div><p>
 msgid "Your extension is an older version."
@@ -229,6 +239,8 @@ msgid ""
 "[[!toggleable id=\"why-failed\" text=\"\"\" [[!toggle id=\"why-failed\" text="
 "\"X\"]]"
 msgstr ""
+"[[!toggleable id=\"why-failed\" text=\"\"\" [[!toggle id=\"why-failed\" text="
+"\"X\"]]"
 
 #. type: Content of: <div><div><div><div><div><div><div><p>
 msgid ""
@@ -281,6 +293,8 @@ msgid ""
 "[[!toggleable id=\"why-failed-again\" text=\"\"\" [[!toggle id=\"why-failed-"
 "again\" text=\"X\"]]"
 msgstr ""
+"[[!toggleable id=\"why-failed-again\" text=\"\"\" [[!toggle id=\"why-failed-"
+"again\" text=\"X\"]]"
 
 #. type: Content of: <div><div><div><div><div><div><div><p>
 msgid "The verification might have failed again because of:"
@@ -327,7 +341,8 @@ msgid ""
 "<span class=\"upgrade-tails\">[[Skip download|upgrade/tails]]</span> <span "
 "class=\"upgrade-windows\">[[Skip download|upgrade/win]]</span> <span class="
 "\"upgrade-mac\">[[Skip download|upgrade/mac]]</span> <span class=\"upgrade-"
-"linux\">[[Skip download|upgrade/linux]]</span>"
+"linux\">[[Skip download|upgrade/linux]]</span> <span class=\"download-only-"
+"img download-only-iso\">[[Skip download|doc#install]]</span>"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div><div>
@@ -366,9 +381,13 @@ msgstr ""
 msgid "[[Skip verification!|upgrade/linux]]"
 msgstr ""
 
+#. type: Content of: <div><div><div><div><div><div>
+msgid "[[Skip verification|doc#install]]"
+msgstr ""
+
 #. type: Content of: <div><div><div><div><div>
 msgid "[["
-msgstr ""
+msgstr "[["
 
 #. type: Content of: <div><div><div><div><div><div>
 msgid "Next: Install Tails (<span class=\"next-counter\"></span>)"
@@ -376,15 +395,15 @@ msgstr ""
 
 #. type: Content of: <div><div><div><div><div>
 msgid "|win/usb]]"
-msgstr ""
+msgstr "|win/usb]]"
 
 #. type: Content of: <div><div><div><div><div>
 msgid "|linux/usb]]"
-msgstr ""
+msgstr "|linux/usb]]"
 
 #. type: Content of: <div><div><div><div><div>
 msgid "|mac/usb]]"
-msgstr ""
+msgstr "|mac/usb]]"
 
 #. type: Content of: <div><div><div><div><div><div>
 msgid ""
@@ -424,7 +443,7 @@ msgid "|doc/advanced_topics/virtualization]]"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div><p>
-msgid "Upgrade your Tails USB stick and keep your persistent storage:"
+msgid "Upgrade your Tails USB stick and keep your Persistent Storage:"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div><ul><li>
@@ -492,8 +511,7 @@ msgstr ""
 #. type: Content of: <div><div><div><ul><li>
 msgid ""
 "Tor Browser <span id=\"min-version-tor-browser\">$MINVER-TOR-BROWSER</span> "
-"and later (<a href=\"https://www.torproject.org/download/download-easy.html"
-"\">Download</a>)"
+"and later (<a href=\"https://www.torproject.org/download/\">Download</a>)"
 msgstr ""
 
 #. type: Content of: <div><div><div><p>
@@ -817,8 +835,9 @@ msgid "The verification of the image starts automatically:"
 msgstr ""
 
 #. type: Content of: <div><ol><li><p>
+#, fuzzy
 msgid "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
-msgstr ""
+msgstr "[[!img screenshots/allow_js.png link=\"no\"]]"
 
 #. type: Content of: <div><ol><li><p>
 msgid ""
@@ -827,14 +846,16 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <div><ol><li><p>
+#, fuzzy
 msgid ""
 "[[!img install/inc/screenshots/verifying_in_tails_img_good.png link=\"no\"]]"
-msgstr ""
+msgstr "[[!img screenshots/allow_js.png link=\"no\"]]"
 
 #. type: Content of: <div><ol><li><p>
+#, fuzzy
 msgid ""
 "[[!img install/inc/screenshots/verifying_in_tails_iso_good.png link=\"no\"]]"
-msgstr ""
+msgstr "[[!img screenshots/allow_js.png link=\"no\"]]"
 
 #. type: Content of: <div><ol><li><p>
 msgid ""
@@ -842,16 +863,18 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <div><ol><li><p>
+#, fuzzy
 msgid ""
 "[[!img install/inc/screenshots/verifying_in_tails_img_untrusted.png link=\"no"
 "\"]]"
-msgstr ""
+msgstr "[[!img screenshots/allow_js.png link=\"no\"]]"
 
 #. type: Content of: <div><ol><li><p>
+#, fuzzy
 msgid ""
 "[[!img install/inc/screenshots/verifying_in_tails_iso_untrusted.png link=\"no"
 "\"]]"
-msgstr ""
+msgstr "[[!img screenshots/allow_js.png link=\"no\"]]"
 
 #. type: Content of: <div>
 msgid "<a id=\"command-line\"></a>"

@@ -4,11 +4,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2020-01-12 20:23+0000\n"
-"PO-Revision-Date: 2019-10-23 11:51+0000\n"
-"Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
+"POT-Creation-Date: 2020-08-13 01:02+0000\n"
+"PO-Revision-Date: 2020-08-16 20:30+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/home/"
 "es/>\n"
 "Language: es\n"
@@ -16,29 +16,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Content of: <div>
-#, fuzzy
-#| msgid "[[!meta title=\"Dear Tails user,\"]]"
 msgid "[[!meta title=\"Welcome to Tails!\"]]"
-msgstr "[[!meta title=\"Querido usuario de Tails,\"]]"
+msgstr "[[!meta title=\"¡Bienvenido a Tails!\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
-"[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta robots="
-"\"noindex\"]] [[!meta script=\"home\"]]"
+"[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"robots=\"noindex\"]] [[!meta script=\"home\"]]"
 msgstr ""
-"[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta robots="
-"\"noindex\"]] [[!meta script=\"home\"]]"
+"[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"robots=\"noindex\"]] [[!meta script=\"home\"]]"
 
 #. type: Content of: <div>
-msgid "[[!inline pages=\"home/donate\" raw=\"yes\" sort=\"age\"]]"
-msgstr "[[!inline pages=\"home/donate.es\" raw=\"yes\" sort=\"age\"]]"
+msgid ""
+"<a href=\"https://check.torproject.org/\" id=\"tor_check\"> <span>Tor check</"
+"span> </a>"
+msgstr ""
+"<a href=\"https://check.torproject.org/\" id=\"tor_check\"> "
+"<span>Comprobación de Tor</span> </a>"
+
+#. type: Content of: <div>
+msgid "[[!inline pages=\"home/donate.inline\" raw=\"yes\" sort=\"age\"]]"
+msgstr "[[!inline pages=\"home/donate.inline.es\" raw=\"yes\" sort=\"age\"]]"
 
 #. type: Content of: <div>
 msgid "[[!inline pages=\"news\" raw=\"yes\" sort=\"age\"]]"
 msgstr "[[!inline pages=\"news.es\" raw=\"yes\" sort=\"age\"]]"
+
+#, fuzzy
+#~ msgid ""
+#~ "<a id=\"online-privacy\" class=\"random-message survey\" href=\"https://"
+#~ "survey.tails.boum.org/index.php/229366?lang=en\" data-display-probability="
+#~ "\"0.05\" data-display-offset=\"1\">"
+#~ msgstr ""
+#~ "<a id=\"donate\" class=\"random-message\" href=\"https://tails.boum.org/"
+#~ "donate?r=h\" data-display-probability=\"0.1\">"
 
 #~ msgid ""
 #~ "Today, we are asking you to help Tails. You can enjoy Tails for free "
@@ -68,21 +85,6 @@ msgstr "[[!inline pages=\"news.es\" raw=\"yes\" sort=\"age\"]]"
 #~ msgid "[[!inline pages=\"home/tor_check\" raw=\"yes\" sort=\"age\"]]"
 #~ msgstr "[[!inline pages=\"home/tor_check.es\" raw=\"yes\" sort=\"age\"]]"
 
-#~ msgid ""
-#~ "<a href=\"https://tails.boum.org/install/check/\"> [[!img \"lib/onion.png"
-#~ "\" link=\"no\"]] <span>Tor check</span> </a>"
-#~ msgstr ""
-#~ "<a href=\"https://tails.boum.org/install/check/\">[[!img \"lib/onion.png"
-#~ "\" link=\"no\"]]\n"
-#~ "<span class=\"twolines\">Comprobación de Tor</span></a>"
-
-#~ msgid ""
-#~ "<a id=\"donate\" class=\"random-message\" href=\"https://tails.boum.org/"
-#~ "donate?r=h\" data-display-probability=\"0.1\">"
-#~ msgstr ""
-#~ "<a id=\"donate\" class=\"random-message\" href=\"https://tails.boum.org/"
-#~ "donate?r=h\" data-display-probability=\"0.1\">"
-
 #~ msgid "Tails needs donations from users like you."
 #~ msgstr "Tails necesita donaciones de usuarios como tu."
 
@@ -91,3 +93,20 @@ msgstr "[[!inline pages=\"news.es\" raw=\"yes\" sort=\"age\"]]"
 
 #~ msgid "</a> [[!inline pages=\"news\" raw=\"yes\" sort=\"age\"]]"
 #~ msgstr "</a> [[!inline pages=\"news.es\" raw=\"yes\" sort=\"age\"]]"
+
+#~ msgid ""
+#~ "[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+#~ "robots=\"noindex\"]] [[!meta script=\"home\"]]"
+#~ msgstr ""
+#~ "[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+#~ "robots=\"noindex\"]] [[!meta script=\"home\"]]"
+
+#~ msgid "[[!inline pages=\"home/donate\" raw=\"yes\" sort=\"age\"]]"
+#~ msgstr "[[!inline pages=\"home/donate.es\" raw=\"yes\" sort=\"age\"]]"
+
+#~ msgid ""
+#~ "<a id=\"donate\" class=\"random-message\" href=\"https://tails.boum.org/"
+#~ "donate?r=h\" data-display-probability=\"0.1\">"
+#~ msgstr ""
+#~ "<a id=\"donate\" class=\"random-message\" href=\"https://tails.boum.org/"
+#~ "donate?r=h\" data-display-probability=\"0.1\">"

@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2018-05-01 20:44+0300\n"
-"PO-Revision-Date: 2018-05-24 20:31+0000\n"
-"Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
+"POT-Creation-Date: 2020-09-04 13:14+0000\n"
+"PO-Revision-Date: 2020-09-03 18:29+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "advanced_topics_virtualbox/es/>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.10.1\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -46,6 +46,10 @@ msgid ""
 "and some proprietary components, for example to add support for USB\n"
 "devices.\n"
 msgstr ""
+"<span class=\"application\">VirtualBox</span> tiene una versión de software libre\n"
+"llamada <span class=\"application\">VirtualBox Open Source Edition</span>\n"
+"y algunos componentes propietarios, por ejemplo para añadir soporte para dispositivos\n"
+"USB.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -57,7 +61,7 @@ msgstr "<div class=\"caution\">\n"
 msgid ""
 "For security reasons, we recommend you to use only the <span\n"
 "class=\"application\">Open Source Edition</span>, though it does not\n"
-"allow to use a persistent volume.\n"
+"allow use of a Persistent Storage.\n"
 msgstr ""
 
 #. type: Plain text
@@ -83,13 +87,13 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<p>Make sure to understand the security implications of [[accessing\n"
-"internal hard disks|encryption_and_privacy/your_data_wont_be_saved_unless_explicitly_asked]]\n"
+"internal hard disks|internal_hard_disk]]\n"
 "from Tails before using this feature.</p>\n"
 msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Security considerations for Windows and macOS\n"
+msgid "Security considerations for Windows and macOS"
 msgstr ""
 
 #. type: Plain text
@@ -108,8 +112,8 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Installation\n"
-msgstr "Instalación\n"
+msgid "Installation"
+msgstr "Instalación"
 
 #. type: Plain text
 msgid ""
@@ -119,7 +123,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    sudo apt install virtualbox\n"
-msgstr ""
+msgstr "    sudo apt install virtualbox\n"
 
 #. type: Plain text
 msgid ""
@@ -127,19 +131,23 @@ msgid ""
 "refer to the [VirtualBox documentation](https://www.virtualbox.org/wiki/End-"
 "user_documentation)."
 msgstr ""
+"Para instrucciones sobre como instalar *VirtualBox* en otros sistemas "
+"operativos, referirse a [documentación VirtualBox](https://www.virtualbox."
+"org/wiki/End-user_documentation)."
 
 #. type: Title =
-#, no-wrap
-msgid "Running Tails from an ISO image\n"
+#, fuzzy, no-wrap
+#| msgid "Running Tails from an ISO image\n"
+msgid "Running Tails from an ISO image"
 msgstr "Ejecutar Tails desde una imagen ISO\n"
 
 #. type: Plain text
 msgid "First, start *VirtualBox*."
-msgstr ""
+msgstr "Primero, inicia *VirtualBox*."
 
 #. type: Plain text
 msgid "To create a new virtual machine:"
-msgstr ""
+msgstr "Para crear una nueva máquina virtual:"
 
 #. type: Plain text
 #, no-wrap
@@ -165,11 +173,11 @@ msgstr ""
 
 #. type: Plain text
 msgid "To configure the virtual machine to start from an ISO image:"
-msgstr ""
+msgstr "Para configurar que la máquina virtual inicie desde la imagen ISO:"
 
 #. type: Bullet: '  1. '
 msgid "Select the new virtual machine in the left pane."
-msgstr ""
+msgstr "Elige la nueva máquina virtual desde el panel izquierdo."
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -213,8 +221,8 @@ msgstr ""
 
 #. type: Bullet: '  1. '
 msgid "Select the virtual machine in the left pane."
-msgstr ""
+msgstr "Elige la máquina virtual en el panel izquierdo."
 
 #. type: Bullet: '  1. '
 msgid "Click **Start**."
-msgstr ""
+msgstr "Haz click en **Iniciar**."

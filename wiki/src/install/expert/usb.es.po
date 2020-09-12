@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2020-01-05 19:09+0000\n"
-"PO-Revision-Date: 2019-11-20 10:07+0000\n"
+"POT-Creation-Date: 2020-07-01 22:49+0000\n"
+"PO-Revision-Date: 2020-08-14 11:01+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "install-expert-usb/es/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -149,17 +149,23 @@ msgid "       sudo apt install debian-keyring\n"
 msgstr "       sudo apt install debian-keyring\n"
 
 #. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "Import the OpenPGP key of [[!wikipedia Stefano_Zacchiroli]], a former "
+#| "Debian Project Leader, from the Debian keyring into your keyring:"
 msgid ""
-"Import the OpenPGP key of [[!wikipedia Stefano_Zacchiroli]], a former Debian "
-"Project Leader, from the Debian keyring into your keyring:"
+"Import the OpenPGP key of [[!wikipedia Chris_Lamb_(software_developer) desc="
+"\"Chris Lamb\"]], a former Debian Project Leader, from the Debian keyring "
+"into your keyring:"
 msgstr ""
 "Importa la llave OpenPGP de [[!wikipedia_es Stefano_Zacchiroli]], un antiguo "
 "Lider de Proyecto de Debian, del deposito de claves de Debian a tu deposito "
 "de claves:"
 
 #. type: Plain text
-#, no-wrap
-msgid "       gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export zack@upsilon.cc | gpg --import\n"
+#, fuzzy, no-wrap
+#| msgid "       gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export zack@upsilon.cc | gpg --import\n"
+msgid "       gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export chris@chris-lamb.co.uk | gpg --import\n"
 msgstr "       gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export zack@upsilon.cc | gpg --import\n"
 
 #. type: Bullet: '1. '
@@ -178,14 +184,17 @@ msgstr "   En el resultado de este comando, busca la siguiente linea:\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "       sig! 0x9C31503C6D866396 2015-02-03  Stefano Zacchiroli <zack@upsilon.cc>\n"
-msgstr "       sig! 0x9C31503C6D866396 2015-02-03  Stefano Zacchiroli <zack@upsilon.cc>\n"
+msgid "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
+msgstr "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "   Here, <code>sig!</code>, with an exclamation mark, means that Stefano\n"
+#| "   Zacchiroli verified and certified the Tails signing key with his key.\n"
 msgid ""
-"   Here, <code>sig!</code>, with an exclamation mark, means that Stefano\n"
-"   Zacchiroli verified and certified the Tails signing key with his key.\n"
+"   Here, <code>sig!</code>, with an exclamation mark, means that Chris\n"
+"   Lamb verified and certified the Tails signing key with his key.\n"
 msgstr ""
 "   Aquí, <code>sig!</code>, con un signo de exclamación, significa que Stefano\n"
 "   Zacchiroli verificó y certificó la llave de firmado de Tails con su llave.\n"
@@ -239,46 +248,8 @@ msgstr "Certifica la llave de firmado de Tails con tu propia llave:"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"   a. To make a non-exportable certification that will never be shared\n"
-"      with others:\n"
-msgstr ""
-"   a. Crear una certificación no exportable que nunca será compartida\n"
-"      con nadie:\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "          gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-msgstr "          gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"   b. To make an exportable certification of the Tails signing\n"
-"      key and publish it on the public key servers:\n"
-msgstr ""
-"   b. Crear una certificación exportable de la llave de firma de Tails\n"
-"      y publicarla en los servidores de llaves:\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"          gpg --sign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-"          gpg --send-keys A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-msgstr ""
-"          gpg --sign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-"          gpg --send-keys A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"      Doing so allows people who verified\n"
-"      your key to verify your certification and, as a consequence, build\n"
-"      more trust in the Tails signing key.\n"
-msgstr ""
-"      Hacer esto permite a la gente que haya verificado\n"
-"      tu llave verificar a su vez la certificación, y como consecuencia, construir\n"
-"      más confianza en la llave de firma de Tails.\n"
+msgid "       gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+msgstr "       gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
 
 #. type: Plain text
 #, no-wrap
@@ -360,8 +331,8 @@ msgstr "<a id=\"dd\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Install Tails using <span class=\"command\">dd</span>\n"
-msgstr "Instalar Tails usando <span class=\"command\">dd</span>\n"
+msgid "Install Tails using <span class=\"command\">dd</span>"
+msgstr "Instalar Tails usando <span class=\"command\">dd</span>"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -471,10 +442,9 @@ msgstr ""
 "dispositivo encontrado en el paso 5"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
+#, no-wrap
 msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M oflag=direct status=progress</p>\n"
-msgstr "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
+msgstr "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M oflag=direct status=progress</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -482,10 +452,9 @@ msgid "   You should get something like this:\n"
 msgstr "   Deberías obtener algo como esto:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <p class=\"pre command-example\">dd if=/home/user/tails-amd64-3.12.img of=/dev/sdb bs=16M && sync</p>\n"
+#, no-wrap
 msgid "   <p class=\"pre command-example\">dd if=/home/user/tails-amd64-3.12.img of=/dev/sdb bs=16M oflag=direct status=progress</p>\n"
-msgstr "   <p class=\"pre command-example\">dd if=/home/user/tails-amd64-3.12.img of=/dev/sdb bs=16M && sync</p>\n"
+msgstr "   <p class=\"pre command-example\">dd if=/home/user/tails-amd64-3.12.img of=/dev/sdb bs=16M oflag=direct status=progress</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -508,12 +477,13 @@ msgstr ""
 "     agregando <code>sudo</code> al principio del comando:</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
+#, no-wrap
 msgid ""
 "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M oflag=direct status=progress</p>\n"
 "   </div>\n"
-msgstr "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
+msgstr ""
+"   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M oflag=direct status=progress</p>\n"
+"   </div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -531,8 +501,50 @@ msgid "[[!inline pages=\"install/inc/steps/create_persistence.inline\" raw=\"yes
 msgstr "[[!inline pages=\"install/inc/steps/create_persistence.inline.es\" raw=\"yes\" sort=\"age\"]]\n"
 
 #~ msgid ""
-#~ "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
+#~ "   a. To make a non-exportable certification that will never be shared\n"
+#~ "      with others:\n"
+#~ msgstr ""
+#~ "   a. Crear una certificación no exportable que nunca será compartida\n"
+#~ "      con nadie:\n"
+
+#~ msgid ""
+#~ "   b. To make an exportable certification of the Tails signing\n"
+#~ "      key and publish it on the public key servers:\n"
+#~ msgstr ""
+#~ "   b. Crear una certificación exportable de la llave de firma de Tails\n"
+#~ "      y publicarla en los servidores de llaves:\n"
+
+#~ msgid ""
+#~ "          gpg --sign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+#~ "          gpg --send-keys A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+#~ msgstr ""
+#~ "          gpg --sign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+#~ "          gpg --send-keys A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+
+#~ msgid ""
+#~ "      Doing so allows people who verified\n"
+#~ "      your key to verify your certification and, as a consequence, build\n"
+#~ "      more trust in the Tails signing key.\n"
+#~ msgstr ""
+#~ "      Hacer esto permite a la gente que haya verificado\n"
+#~ "      tu llave verificar a su vez la certificación, y como consecuencia, "
+#~ "construir\n"
+#~ "      más confianza en la llave de firma de Tails.\n"
+
+#~ msgid ""
+#~ "       sig! 0x9C31503C6D866396 2015-02-03  Stefano Zacchiroli "
+#~ "<zack@upsilon.cc>\n"
+#~ msgstr ""
+#~ "       sig! 0x9C31503C6D866396 2015-02-03  Stefano Zacchiroli "
+#~ "<zack@upsilon.cc>\n"
+
+#~ msgid ""
+#~ "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder"
+#~ "\">tails.img</span> of=<span class=\"command-placeholder\">device</span> "
+#~ "bs=16M && sync</p>\n"
 #~ "   </div>\n"
 #~ msgstr ""
-#~ "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
+#~ "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder"
+#~ "\">tails.img</span> of=<span class=\"command-placeholder\">device</span> "
+#~ "bs=16M && sync</p>\n"
 #~ "   </div>\n"

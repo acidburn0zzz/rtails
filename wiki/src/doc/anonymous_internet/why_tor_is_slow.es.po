@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-08-29 08:06+0000\n"
-"PO-Revision-Date: 2018-02-05 22:16+0000\n"
+"POT-Creation-Date: 2020-04-12 16:10+0200\n"
+"PO-Revision-Date: 2020-08-31 23:29+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "why_tor_is_slow/es/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.10.1\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,11 +28,13 @@ msgid ""
 "Users often find that the Tor network is slow. This page describes some "
 "reasons that make Tor slow."
 msgstr ""
+"Algunos usuarios sienten que la red Tor es lenta. Esta página explica las "
+"razones que hacen que Tor sea lento."
 
 #. type: Title =
 #, no-wrap
-msgid "Tor circuits lengthen the connections\n"
-msgstr ""
+msgid "Tor circuits lengthen the connections"
+msgstr "Los circuitos de Tor alargan las conexiones"
 
 #. type: Plain text
 msgid ""
@@ -46,11 +48,13 @@ msgid ""
 "Furthermore, Tor tries to build circuits with relays in different countries "
 "which make connection travel more and appear slower."
 msgstr ""
+"Además, Tor intenta construir circuitos con relays en diferentes países que "
+"hacen que la conexión viaje más y parezca más lenta."
 
 #. type: Title =
 #, no-wrap
-msgid "Quality of the relays\n"
-msgstr ""
+msgid "Quality of the relays"
+msgstr "Calidad de los relays"
 
 #. type: Plain text
 msgid ""
@@ -64,7 +68,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Misuse of the Tor network\n"
+msgid "Misuse of the Tor network"
 msgstr ""
 
 #. type: Plain text

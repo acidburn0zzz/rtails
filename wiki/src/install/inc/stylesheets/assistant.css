@@ -1,22 +1,10 @@
-/* LAYOUT */
+@import url("hide.css");
 
-.sidebar {
-  display: none;
-}
+/* LAYOUT */
 
 #footer {
   display: none;
 }
-
-.pageheader .actions {
-  display: none;
-}
-
-.pageheader #otherlanguages {
-  top: 0;
-  right: 5px;
-}
-
 
 /* CONTENT */
 
@@ -48,11 +36,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro Regular", "DejaVu Sans", "Verdana", sans-serif;
 }
 
-h3, h4, p, ul, ol {
+h3, h4, p, #page ul, ol {
   margin-bottom: 1.5em !important;
 }
 
-ul {
+#page ul {
   padding-left: 20px;
 }
 
@@ -97,17 +85,6 @@ td, th {
 .two-lines {
   padding: 4px;
 }
-
-/* Hide all scenario-dependent bits by default. */
-
-.clone, .usb, .dvd, .vm, .download-only-img, .download-only-iso,
-.install-clone, .mac-clone,
-.windows, .linux, .mac, .expert,
-.upgrade, .upgrade-clone, .upgrade-tails,
-.upgrade-os, .upgrade-windows, .upgrade-mac, .upgrade-linux {
-  display: none;
-}
-
 
 /* TOGGLE */
 

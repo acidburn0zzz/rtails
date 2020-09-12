@@ -7,7 +7,7 @@
 
    <div class="caution"><p>All the data on this USB stick will be lost.</p></div>
 
-   <div class="note upgrade"><p>The persistent storage of your Tails USB stick will not be
+   <div class="note upgrade"><p>The Persistent Storage of your Tails USB stick will not be
    copied to the temporary Tails.</p></div>
 
 1. <p class="mac upgrade-mac">
@@ -38,10 +38,10 @@
 
    <p>If the image has an <span class="filename">.iso</span> file
    extension, it is not the correct image. Please go back to the
-   <span class="windows">[[download step for installing from Windows|win/usb-download]]</span>
-   <span class="mac">[[download step for installing from macOS|mac/usb-download]]</span>.
-   <span class="upgrade-windows">[[download step for upgrading from Windows|upgrade/win-download]]</span>
-   <span class="upgrade-mac">[[download step for upgrading from macOS|upgrade/mac-download]]</span>.</p>
+   <span class="windows">[[download step for installing from Windows|win/usb-download]].</span>
+   <span class="mac">[[download step for installing from macOS|mac/usb-download]].</span>
+   <span class="upgrade-windows">[[download step for upgrading from Windows|upgrade/win-download]].</span>
+   <span class="upgrade-mac">[[download step for upgrading from macOS|upgrade/mac-download]].</span></p>
    </div>
 
 1. Etcher should automatically select your USB stick. Otherwise, click the

@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-10-10 11:28+0200\n"
-"PO-Revision-Date: 2019-10-09 07:40+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"POT-Creation-Date: 2020-06-26 07:29+0000\n"
+"PO-Revision-Date: 2020-03-08 15:36+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -24,17 +24,16 @@ msgid "[[!meta title=\"virt-manager\"]]\n"
 msgstr "[[!meta title=\"virt-manager\"]]\n"
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"[<span class=\"application\">virt-manager</span>](http://virt-manager.org/) is a free software\n"
-"virtualization solution for Linux. *virt-manager* has a more complex\n"
-"interface than *VirtualBox* or *GNOME Boxes* but it also has a more\n"
-"complete set of features.\n"
+"[*virt-manager*](http://virt-manager.org/) is a free software virtualization "
+"solution for Linux. *virt-manager* has a more complex interface than "
+"*VirtualBox* or *GNOME Boxes* but it also has a more complete set of "
+"features."
 msgstr ""
-"[<span class=\"application\">virt-manager</span>](http://virt-manager.org/) est un logiciel libre\n"
-"de virtualisation pour Linux. *virt-manager* a une interface plus complexe\n"
-"que *VirtualBox* ou que *GNOME Boxes* mais possède aussi un ensemble plus\n"
-"complet de fonctionnalités.\n"
+"[*virt-manager*](http://virt-manager.org/) est un logiciel libre de "
+"virtualisation pour Linux. *virt-manager* a une interface plus complexe que "
+"*VirtualBox* ou que *GNOME Boxes* mais possède aussi un ensemble plus "
+"complet de fonctionnalités."
 
 #. type: Plain text
 #, no-wrap
@@ -47,11 +46,11 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
-"<p><span class=\"application\">virt-manager</span> is the only virtualization\n"
-"solution that we present that allows the use of a persistent\n"
-"volume.</span> See [[Running Tails from a USB\n"
+"<p><em>virt-manager</em> is the only virtualization\n"
+"solution that we present that allows the use of a Persistent\n"
+"Storage.</span> See [[Running Tails from a USB\n"
 "image|virt-manager#usb_image]].</p>\n"
 msgstr ""
 "<p><span class=\"application\">virt-manager</span> est la seule solution de\n"
@@ -70,10 +69,9 @@ msgid "<div class=\"note\">\n"
 msgstr "<div class=\"note\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<p>The following instructions have been tested on Debian Stretch.</p>\n"
+#, no-wrap
 msgid "<p>The following instructions have been tested on Debian 9 (Stretch).</p>\n"
-msgstr "<p>Les instructions suivantes ont été testées avec Debian Stretch.</p>\n"
+msgstr "<p>Les instructions suivantes ont été testées avec Debian 9 (Stretch).</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -81,11 +79,13 @@ msgid ""
 "<p>Please, [[let us know|about/contact#tails-dev]] if they do not apply\n"
 "to Debian 10 (Buster).</p>\n"
 msgstr ""
+"<p>S'il vous plaît, [[faites-nous savoir|about/contact#tails-dev]] si cela ne s'applique pas\n"
+"à Debian 10 (Buster).</p>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Terminology\n"
-msgstr "Terminologie\n"
+msgid "Terminology"
+msgstr "Terminologie"
 
 #. type: Plain text
 #, no-wrap
@@ -148,8 +148,8 @@ msgstr "<a id=\"iso\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Installation\n"
-msgstr "Installation\n"
+msgid "Installation"
+msgstr "Installation"
 
 #. type: Plain text
 msgid "To install *virt-manager* in Debian, execute the following command:"
@@ -173,8 +173,8 @@ msgstr "    sudo apt install virt-manager libvirt-bin qemu-kvm\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Running Tails from an ISO image\n"
-msgstr "Utiliser Tails depuis une image ISO\n"
+msgid "Running Tails from an ISO image"
+msgstr "Utiliser Tails depuis une image ISO"
 
 #. type: Bullet: '1. '
 msgid "Start *virt-manager*."
@@ -190,10 +190,6 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #, fuzzy
-#| msgid ""
-#| "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">View</"
-#| "span>&nbsp;▸ <span class=\"guimenuitem\">Details</span></span> to edit "
-#| "the configuration of the virtual machine."
 msgid ""
 "To create a new virtual machine, choose <span class=\"menuchoice\"> <span "
 "class=\"guimenu\">File</span>&nbsp;▸ <span class=\"guimenuitem\">New Virtual "
@@ -244,8 +240,6 @@ msgid "Type a name for the new virtual machine."
 msgstr "Entrez un nom pour la nouvelle machine virtuelle."
 
 #. type: Bullet: '   - '
-#, fuzzy
-#| msgid "Shut down the virtual machine."
 msgid "Click **Finish** to start the virtual machine."
 msgstr "Cliquez sur **Terminer** pour démarrer la machine virtuelle."
 
@@ -261,7 +255,7 @@ msgstr ""
 "active</span>\", essayez alors de démarrer le réseau virtuel par défaut :\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<ol>\n"
 "<li>Click on <span class=\"guilabel\">localhost (QEMU)</span>.</li>\n"
@@ -273,7 +267,7 @@ msgid ""
 "<li>Click on <span class=\"guilabel\">Virtual Networks</span> tab, then\n"
 "    select the <span class=\"guilabel\">default</span> virtual network in\n"
 "    the left pane.</li>\n"
-"<li>Click on the [[!img media-playback-start.png alt=\"Start Network\"\n"
+"<li>Click on the [[!img lib/media-playback-start.png alt=\"Start Network\"\n"
 "    link=no class=symbolic]] icon on the bottom of the left pane to\n"
 "    start the default virtual network.</li>\n"
 "</ol>\n"
@@ -300,19 +294,14 @@ msgstr "<a id=\"usb_image\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Running Tails from a USB image\n"
-msgstr "Utiliser Tails depuis une image USB\n"
+msgid "Running Tails from a USB image"
+msgstr "Utiliser Tails depuis une image USB"
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "<span class=\"application\">virt-manager</span> is the only "
-#| "virtualization\n"
-#| "solution that we present that allows the use of a persistent\n"
-#| "volume.</span>\n"
 msgid ""
 "Running Tails from a USB image is the only virtualization solution that "
-"allows you to use a persistent volume in a virtual machine."
+"allows you to use a Persistent Storage in a virtual machine."
 msgstr ""
 "Utiliser Tails depuis une image USB est la seule solution de virtualisation "
 "qui vous permet d'utiliser un volume persistant dans la machine virtuelle."
@@ -323,9 +312,10 @@ msgstr ""
 "[[Télécharger une image USB|install/download]] au lieu d'une image ISO."
 
 #. type: Bullet: '1. '
+#, fuzzy
 msgid ""
 "Increase the size of the USB image to be at least 8 GB. This creates space "
-"for automatic upgrades and the persistent volume."
+"for automatic upgrades and the Persistent Storage."
 msgstr ""
 "Augmenter la taille de l'image USB à au moins 8Go. Cela créé un espace pour "
 "les mises à jour automatiques et le volume persistant."
@@ -420,15 +410,12 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "Once you started from the USB device you can [[create a persistent volume|"
-#| "first_steps/persistence/configure]] on it."
 msgid ""
-"After you started on the USB image, you can [[create a persistent volume|"
+"After you start on the USB image, you can [[create a Persistent Storage|"
 "first_steps/persistence/configure]] on it."
 msgstr ""
-"Une fois que vous avez démarré depuis l'image USB vous pouvez [[créer un "
-"volume persistant|first_steps/persistence/configure]] sur celle-ci."
+"Après avoir démarré sur l'image USB, vous pouvez [[créer un volume "
+"persistant|first_steps/persistence/configure]] sur celle-ci."
 
 #. type: Plain text
 #, no-wrap
@@ -437,8 +424,8 @@ msgstr "<a id=\"usb\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Running Tails from a USB stick\n"
-msgstr "Lancer Tails depuis une clé USB\n"
+msgid "Running Tails from a USB stick"
+msgstr "Lancer Tails depuis une clé USB"
 
 #. type: Plain text
 msgid ""
@@ -556,12 +543,13 @@ msgstr ""
 "     <span class=\"guimenuitem\">Démarrer</span></span>.\n"
 
 #. type: Plain text
+#, fuzzy
 msgid ""
-"Once you started from the USB device you can [[create a persistent volume|"
+"After you start on the USB device, you can [[create a Persistent Storage|"
 "first_steps/persistence/configure]] on it."
 msgstr ""
-"Une fois que vous avez démarré depuis la clé USB vous pouvez [[créer un "
-"volume persistant|first_steps/persistence/configure]] sur celle-ci."
+"Après avoir démarré sur l'image USB, vous pouvez [[créer un volume "
+"persistant|first_steps/persistence/configure]] sur celle-ci."
 
 #. type: Title #
 #, no-wrap
@@ -631,6 +619,13 @@ msgstr ""
 "   Démarrez avec les périphériques vidéo *Virtio* et *QXL* : ils donnent généralement\n"
 "   les meilleurs résultats. Si ils ne marchent pas bien pour vous, essayez tous les\n"
 "   autres modèles de périphérique vidéo.\n"
+
+#~ msgid ""
+#~ "Once you started from the USB device you can [[create a persistent volume|"
+#~ "first_steps/persistence/configure]] on it."
+#~ msgstr ""
+#~ "Une fois que vous avez démarré depuis la clé USB vous pouvez [[créer un "
+#~ "volume persistant|first_steps/persistence/configure]] sur celle-ci."
 
 #~ msgid ""
 #~ "  1. Double-click on **localhost (QEMU)** to connect to the *QEMU*\n"
@@ -742,3 +737,40 @@ msgstr ""
 #~ "Une fois que vous avez démarré depuis le périphérique USB virtuel vous "
 #~ "pouvez [[créer un volume persistant|first_steps/persistence/configure]] "
 #~ "sur celui-ci."
+
+#~ msgid ""
+#~ "<ol>\n"
+#~ "<li>Click on <span class=\"guilabel\">localhost (QEMU)</span>.</li>\n"
+#~ "<li>Choose <span class=\"menuchoice\">\n"
+#~ "    <span class=\"guimenu\">Edit</span>&nbsp;▸\n"
+#~ "    <span class=\"guimenuitem\">Connection details</span></span> to\n"
+#~ "    administer the connection to your local\n"
+#~ "    <span class=\"application\">QEMU</span> system.</li>\n"
+#~ "<li>Click on <span class=\"guilabel\">Virtual Networks</span> tab, then\n"
+#~ "    select the <span class=\"guilabel\">default</span> virtual network "
+#~ "in\n"
+#~ "    the left pane.</li>\n"
+#~ "<li>Click on the [[!img media-playback-start.png alt=\"Start Network\"\n"
+#~ "    link=no class=symbolic]] icon on the bottom of the left pane to\n"
+#~ "    start the default virtual network.</li>\n"
+#~ "</ol>\n"
+#~ msgstr ""
+#~ "<ol>\n"
+#~ "<li>Cliquer sur <span class=\"guilabel\">localhost (QEMU)</span>.</li>\n"
+#~ "<li>Choisir <span class=\"menuchoice\">\n"
+#~ "    <span class=\"guimenu\">Édition</span>&nbsp;▸\n"
+#~ "    <span class=\"guimenuitem\">Détails de la connexion</span></span> "
+#~ "pour\n"
+#~ "    administrer la connexion à votre système\n"
+#~ "    <span class=\"application\">QEMU</span> local.</li>\n"
+#~ "<li>Cliquer sur l'onglet <span class=\"guilabel\">Réseaux virtuels</"
+#~ "span>, puis\n"
+#~ "    sélectionner le réseau virtuel <span class=\"guilabel\">default</"
+#~ "span> dans la\n"
+#~ "    partie de gauche.</li>\n"
+#~ "<li>Cliquer sur l'icône [[!img media-playback-start.png alt=\"Démarrer le "
+#~ "réseau\"\n"
+#~ "    link=no class=symbolic]] en bas de la partie gauche de la fenêtre "
+#~ "pour\n"
+#~ "    démarrer réseau virtuel *default*.</li>\n"
+#~ "</ol>\n"

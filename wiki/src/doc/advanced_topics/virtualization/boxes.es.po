@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2018-01-30 12:41+0000\n"
-"PO-Revision-Date: 2018-04-28 11:50+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"POT-Creation-Date: 2020-04-23 16:49+0000\n"
+"PO-Revision-Date: 2020-08-14 10:55+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "advanced_topics_virtualization_boxes/es/>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.10.1\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -24,14 +24,19 @@ msgid "[[!meta title=\"GNOME Boxes\"]]\n"
 msgstr "[[!meta title=\"GNOME Boxes\"]]\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "[<span class=\"application\">GNOME Boxes</span>](https://wiki.gnome.org/"
+#| "Boxes) aims at providing a simple\n"
+#| "interface to create and use virtual machines for Linux with GNOME.\n"
+#| "*GNOME Boxes* does not allow to use a persistent volume.\n"
 msgid ""
-"[<span class=\"application\">GNOME Boxes</span>](https://wiki.gnome.org/Boxes) aims at providing a simple\n"
-"interface to create and use virtual machines for Linux with GNOME.\n"
-"*GNOME Boxes* does not allow to use a persistent volume.\n"
+"[*GNOME Boxes*](https://wiki.gnome.org/Boxes) aims at providing a simple "
+"interface to create and use virtual machines for Linux with GNOME.  *GNOME "
+"Boxes* does not allow use of a Persistent Storage."
 msgstr ""
-"[<span class=\"application\">GNOME "
-"Boxes</span>](https://wiki.gnome.org/Boxes) intenta proveer una interfaz\n"
+"[<span class=\"application\">GNOME Boxes</span>](https://wiki.gnome.org/"
+"Boxes) intenta proveer una interfaz\n"
 "simple para crear y utilizar maquinas virtuales para Linux con GNOME.\n"
 "*GNOME Boxes* no permite utilizar un volumen persistente.\n"
 
@@ -48,8 +53,7 @@ msgstr "<div class=\"note\">\n"
 #. type: Plain text
 #, no-wrap
 msgid "<p>The following instructions have been tested on Debian Jessie.</p>\n"
-msgstr ""
-"<p>Las instrucciones siguientes han sido probadas en Debian Jessie.</p>\n"
+msgstr "<p>Las instrucciones siguientes han sido probadas en Debian Jessie.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -58,8 +62,8 @@ msgstr "</div>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Installation\n"
-msgstr "Instalación\n"
+msgid "Installation"
+msgstr "Instalación"
 
 #. type: Plain text
 msgid ""
@@ -73,8 +77,9 @@ msgid "    sudo apt install gnome-boxes\n"
 msgstr "    sudo apt install gnome-boxes\n"
 
 #. type: Title =
-#, no-wrap
-msgid "Running Tails from an ISO image\n"
+#, fuzzy, no-wrap
+#| msgid "Running Tails from an ISO image\n"
+msgid "Running Tails from an ISO image"
 msgstr "Ejecutar Tails desde una imagen ISO\n"
 
 #. type: Bullet: '  1. '
@@ -98,8 +103,9 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#, no-wrap
-msgid "Shared clipboard\n"
+#, fuzzy, no-wrap
+#| msgid "Shared clipboard\n"
+msgid "Shared clipboard"
 msgstr "Portapapeles compartido\n"
 
 #. type: Plain text

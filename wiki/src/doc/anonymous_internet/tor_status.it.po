@@ -6,14 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-06-10 14:10+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2020-04-12 16:10+0200\n"
+"PO-Revision-Date: 2020-08-14 21:29+0000\n"
+"Last-Translator: gallium69 <gallium69@riseup.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
-"Language: \n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -34,7 +37,7 @@ msgstr "[[!toc levels=1]]\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Tor status icon\n"
+msgid "Tor status icon"
 msgstr ""
 
 #. type: Plain text
@@ -83,7 +86,7 @@ msgstr "<a id=\"circuits\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "<span class=\"application\">Onion Circuits</span>\n"
+msgid "<span class=\"application\">Onion Circuits</span>"
 msgstr ""
 
 #. type: Plain text
@@ -112,7 +115,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img tor_status/onion-circuits.png link=no]]\n"
-msgstr ""
+msgstr "[[!img tor_status/onion-circuits.png link=no]]\n"
 
 #. type: Plain text
 msgid ""
@@ -123,7 +126,7 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid ""
 "The first relay or *entry guard*. If you configured a [[Tor bridge|"
-"first_steps/startup_options/bridge_mode]], your bridge is the first relay."
+"first_steps/welcome_screen/bridge_mode]], your bridge is the first relay."
 msgstr ""
 
 #. type: Bullet: '  - '

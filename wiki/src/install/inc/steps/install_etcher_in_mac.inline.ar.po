@@ -6,20 +6,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-10-18 01:54+0000\n"
-"PO-Revision-Date: 2018-09-07 18:25+0200\n"
-"Last-Translator: Tails translators\n"
+"POT-Creation-Date: 2020-05-01 15:53+0000\n"
+"PO-Revision-Date: 2020-01-22 15:26+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: \n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"hidden-step-1\"></div>\n"
-msgstr ""
+msgstr "<div class=\"hidden-step-1\"></div>\n"
 
 #. type: Plain text
 msgid "These instructions require:"
@@ -32,7 +34,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"step-image\">[[!img install/inc/infography/os-mac.png link=\"no\" alt=\"\"]]</div>\n"
-msgstr ""
+msgstr "<div class=\"step-image\">[[!img install/inc/infography/os-mac.png link=\"no\" alt=\"\"]]</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -55,7 +57,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Install Etcher\n"
+msgid "Install Etcher"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -300,7 +302,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   </div>\n"
-msgstr ""
+msgstr "   </div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -309,5 +311,58 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Install <span class=\"upgrade\"> the intermediary</span> Tails\n"
+msgid "Install <span class=\"upgrade\"> the intermediary</span> Tails"
 msgstr ""
+
+#, fuzzy
+msgid "[[!meta title=\"Install from macOS\"]]\n"
+msgstr ""
+"[[!meta title=\"Tails von Mac aus mithilfe der Kommandozeile installieren"
+"\"]]\n"
+
+msgid "[[!meta robots=\"noindex\"]]\n"
+msgstr "[[!meta robots=\"noindex\"]]\n"
+
+msgid "[[!meta stylesheet=\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]]\n"
+
+msgid ""
+"[[!meta stylesheet=\"inc/stylesheets/assistant\" rel=\"stylesheet\" title="
+"\"\"]]\n"
+msgstr ""
+"[[!meta stylesheet=\"inc/stylesheets/assistant\" rel=\"stylesheet\" title="
+"\"\"]]\n"
+
+msgid ""
+"[[!meta stylesheet=\"inc/stylesheets/steps\" rel=\"stylesheet\" title="
+"\"\"]]\n"
+msgstr ""
+"[[!meta stylesheet=\"inc/stylesheets/steps\" rel=\"stylesheet\" title="
+"\"\"]]\n"
+
+msgid ""
+"[[!meta stylesheet=\"inc/stylesheets/mac\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr ""
+"[[!meta stylesheet=\"inc/stylesheets/mac\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#, fuzzy
+msgid ""
+"[[!inline pages=\"install/inc/steps/install_with_etcher.inline\" raw=\"yes\" "
+"sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"install/inc/steps/clone.inline.de\" raw=\"yes\" sort=\"age"
+"\"]]\n"
+
+msgid ""
+"[[!inline pages=\"install/inc/steps/restart_first_time.inline\" raw=\"yes\" "
+"sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"install/inc/steps/restart_first_time.inline.de\" raw=\"yes"
+"\" sort=\"age\"]]\n"
+
+msgid ""
+"[[!inline pages=\"install/inc/steps/create_persistence.inline\" raw=\"yes\" "
+"sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"install/inc/steps/create_persistence.inline.de\" raw=\"yes"
+"\" sort=\"age\"]]\n"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-10-10 11:28+0200\n"
+"POT-Creation-Date: 2020-06-26 07:29+0000\n"
 "PO-Revision-Date: 2018-11-05 11:30+0000\n"
 "Last-Translator: Weblate Admin <admin@example.com>\n"
 "Language-Team: Tails Chinese translators <jxt@twngo.xyz>\n"
@@ -23,14 +23,15 @@ msgid "[[!meta title=\"virt-manager\"]]\n"
 msgstr "[[!meta title=\"virt-manager\"]]\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy
 msgid ""
-"[<span class=\"application\">virt-manager</span>](http://virt-manager.org/) is a free software\n"
-"virtualization solution for Linux. *virt-manager* has a more complex\n"
-"interface than *VirtualBox* or *GNOME Boxes* but it also has a more\n"
-"complete set of features.\n"
+"[*virt-manager*](http://virt-manager.org/) is a free software virtualization "
+"solution for Linux. *virt-manager* has a more complex interface than "
+"*VirtualBox* or *GNOME Boxes* but it also has a more complete set of "
+"features."
 msgstr ""
-"[<span class=\"application\">virt-manager</span>](http://virt-manager.org/) Linux　可用\n"
+"[<span class=\"application\">virt-manager</span>](http://virt-manager.org/) "
+"Linux　可用\n"
 "旳虛擬器自由軟體。 *virt-manager* 的介面比\n"
 "*VirtualBox* 或 *GNOME Boxes* 更為複雜\n"
 "但它的功能也更為充足強大。\n"
@@ -48,9 +49,9 @@ msgstr "<div class=\"tip\">\n"
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid ""
-"<p><span class=\"application\">virt-manager</span> is the only virtualization\n"
-"solution that we present that allows the use of a persistent\n"
-"volume.</span> See [[Running Tails from a USB\n"
+"<p><em>virt-manager</em> is the only virtualization\n"
+"solution that we present that allows the use of a Persistent\n"
+"Storage.</span> See [[Running Tails from a USB\n"
 "image|virt-manager#usb_image]].</p>\n"
 msgstr ""
 "<span class=\"application\">virt-manager</span> 是唯一的可\n"
@@ -81,7 +82,7 @@ msgstr ""
 
 #. type: Title =
 #, fuzzy, no-wrap
-msgid "Terminology\n"
+msgid "Terminology"
 msgstr "術語\n"
 
 #. type: Plain text
@@ -137,7 +138,7 @@ msgstr "<a id=\"iso\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Installation\n"
+msgid "Installation"
 msgstr ""
 
 #. type: Plain text
@@ -160,7 +161,7 @@ msgstr ""
 
 #. type: Title =
 #, fuzzy, no-wrap
-msgid "Running Tails from an ISO image\n"
+msgid "Running Tails from an ISO image"
 msgstr "從虛擬 USB 儲存來執行 Tails\n"
 
 #. type: Bullet: '1. '
@@ -210,8 +211,9 @@ msgid "In *step 3*, allocate at least 2048 MB of RAM."
 msgstr ""
 
 #. type: Bullet: '1. '
+#, fuzzy
 msgid "In *step 4*, disable storage for this virtual machine."
-msgstr ""
+msgstr "關閉虛擬器。"
 
 #. type: Bullet: '1. '
 msgid "In *step 5*:"
@@ -239,7 +241,7 @@ msgstr ""
 "active</span>\"，那麼請打開默認的虛擬網路：\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<ol>\n"
 "<li>Click on <span class=\"guilabel\">localhost (QEMU)</span>.</li>\n"
@@ -251,7 +253,7 @@ msgid ""
 "<li>Click on <span class=\"guilabel\">Virtual Networks</span> tab, then\n"
 "    select the <span class=\"guilabel\">default</span> virtual network in\n"
 "    the left pane.</li>\n"
-"<li>Click on the [[!img media-playback-start.png alt=\"Start Network\"\n"
+"<li>Click on the [[!img lib/media-playback-start.png alt=\"Start Network\"\n"
 "    link=no class=symbolic]] icon on the bottom of the left pane to\n"
 "    start the default virtual network.</li>\n"
 "</ol>\n"
@@ -279,14 +281,14 @@ msgstr "<a id=\"usb\"></a>\n"
 
 #. type: Title =
 #, fuzzy, no-wrap
-msgid "Running Tails from a USB image\n"
+msgid "Running Tails from a USB image"
 msgstr "從虛擬 USB 儲存來執行 Tails\n"
 
 #. type: Plain text
 #, fuzzy
 msgid ""
 "Running Tails from a USB image is the only virtualization solution that "
-"allows you to use a persistent volume in a virtual machine."
+"allows you to use a Persistent Storage in a virtual machine."
 msgstr ""
 "<span class=\"application\">virt-manager</span> 是唯一的可\n"
 "使用永久磁區的虛擬器\n"
@@ -299,7 +301,7 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid ""
 "Increase the size of the USB image to be at least 8 GB. This creates space "
-"for automatic upgrades and the persistent volume."
+"for automatic upgrades and the Persistent Storage."
 msgstr ""
 
 #. type: Plain text
@@ -346,8 +348,9 @@ msgid "Choose **Customize configuration before install**."
 msgstr ""
 
 #. type: Bullet: '   - '
+#, fuzzy
 msgid "Click **Finish** to open the configuration view."
-msgstr ""
+msgstr "關閉虛擬器。"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -371,15 +374,16 @@ msgid "Click **Apply** again."
 msgstr ""
 
 #. type: Bullet: '   - '
+#, fuzzy
 msgid ""
 "Click **Begin Installation** in the top left corner to start the virtual "
 "machine."
-msgstr ""
+msgstr "關閉虛擬器。"
 
 #. type: Plain text
 #, fuzzy
 msgid ""
-"After you started on the USB image, you can [[create a persistent volume|"
+"After you start on the USB image, you can [[create a Persistent Storage|"
 "first_steps/persistence/configure]] on it."
 msgstr ""
 "自USB 設備啟動後，可以用它來[[建立一個永久磁區|first_steps/persistence/"
@@ -392,14 +396,17 @@ msgstr "<a id=\"usb\"></a>\n"
 
 #. type: Title =
 #, fuzzy, no-wrap
-msgid "Running Tails from a USB stick\n"
+msgid "Running Tails from a USB stick"
 msgstr "從虛擬 USB 儲存來執行 Tails\n"
 
 #. type: Plain text
+#, fuzzy
 msgid ""
 "To run Tails from a USB stick using *virt-manager*, first create a virtual "
 "machine running from an ISO image as described [[above|virt-manager#iso]]."
 msgstr ""
+"要來虛擬 USB 設備使用*virt-manager*來執行 Tails，請先依 [[之前|virt-"
+"manager#iso]] 的介紹從  ISO 映像檔來建立一個虛擬器。"
 
 #. type: Plain text
 msgid "Then do the following:"
@@ -418,8 +425,9 @@ msgstr ""
 "器。"
 
 #. type: Bullet: '  1. '
+#, fuzzy
 msgid "Plug in the USB stick from which you want to run Tails."
-msgstr ""
+msgstr "在右側面板中選取用於執行 Tails 的設備然後按 **Finish**。"
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -486,8 +494,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#, fuzzy
 msgid ""
-"Once you started from the USB device you can [[create a persistent volume|"
+"After you start on the USB device, you can [[create a Persistent Storage|"
 "first_steps/persistence/configure]] on it."
 msgstr ""
 "自USB 設備啟動後，可以用它來[[建立一個永久磁區|first_steps/persistence/"
@@ -499,9 +508,9 @@ msgid "Troubleshooting"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a id=\"graphics-issues\"></a>\n"
-msgstr ""
+msgstr "<a id=\"iso\"></a>\n"
 
 #. type: Title ##
 #, no-wrap
@@ -550,6 +559,13 @@ msgid ""
 msgstr ""
 
 #~ msgid ""
+#~ "Once you started from the USB device you can [[create a persistent volume|"
+#~ "first_steps/persistence/configure]] on it."
+#~ msgstr ""
+#~ "自USB 設備啟動後，可以用它來[[建立一個永久磁區|first_steps/persistence/"
+#~ "configure]] 。"
+
+#~ msgid ""
 #~ "  1. Double-click on **localhost (QEMU)** to connect to the *QEMU*\n"
 #~ "     system of your host.\n"
 #~ "  1. To create a new virtual machine, choose\n"
@@ -589,6 +605,10 @@ msgstr ""
 #~ msgid "<a id=\"virtual_usb\"></a>\n"
 #~ msgstr "<a id=\"virtual_usb\"></a>\n"
 
+#, fuzzy
+#~ msgid "Running Tails from a virtual USB storage\n"
+#~ msgstr "從虛擬 USB 儲存來執行 Tails\n"
+
 #~ msgid ""
 #~ "You can also run Tails from a virtual USB storage, saved as a single file "
 #~ "on the host operating system."
@@ -605,6 +625,10 @@ msgstr ""
 
 #~ msgid "Then do the following to create a virtual USB storage:"
 #~ msgstr "然後依下面方式來建立一個虛擬的 USB 儲存："
+
+#, fuzzy
+#~ msgid "Select **Storage** in the left pane."
+#~ msgstr "在左側面板選取 **USB Host Device**。"
 
 #~ msgid ""
 #~ "In the right pane, change the **Bus type** to USB and click **Finish**."

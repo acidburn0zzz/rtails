@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-09-10 18:36+0000\n"
-"PO-Revision-Date: 2015-10-18 15:48+0000\n"
-"Last-Translator: sprint5 <translation5@451f.org>\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2020-08-18 00:29+0000\n"
+"PO-Revision-Date: 2020-04-24 09:36+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Persian <http://weblate.451f.org:8889/projects/tails/"
 "who_are_you_helping/fa/>\n"
 "Language: fa\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.4-dev\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -31,7 +32,7 @@ msgstr "[[!meta date=\"Thu, 24 Dec 2014 12:34:56 +0000\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
-msgstr ""
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -67,7 +68,7 @@ msgstr ""
 #| msgid ""
 #| "If you find Tails useful, please consider [[donating money|donate]] or "
 #| "[[contributing some of your time and skills|contribute]] to the project.  "
-#| "Donations to Tails are tax-deducible both in the US and in Europe."
+#| "Donations to Tails are tax-deductible both in the US and in Europe."
 msgid ""
 "If you find Tails useful, please consider [[donating money|donate]] or "
 "[[contributing some of your time and skills|contribute]] to the project.  "
@@ -78,9 +79,17 @@ msgstr ""
 "مالی به تیلز هم در آمریکا و هم در اروپا قابل کسر از مالیات هستند."
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "In October 2014, Tails was being used by more than 11 500 people [[daily|"
+#| "support/faq#boot_statistics]]. The profile of Tor and Tails users is very "
+#| "diverse. This diversity increases the anonymity provided by those tools "
+#| "for everyone by making it harder to target and to identify a specific "
+#| "type of user. From the various contacts that we have with organizations "
+#| "working on the ground, we know that Tails has been used by:"
 msgid ""
 "In October 2014, Tails was being used by more than 11 500 people [[daily|"
-"support/faq#boot_statistics]]. The profile of Tor and Tails users is very "
+"support/faq#boot-statistics]]. The profile of Tor and Tails users is very "
 "diverse. This diversity increases the anonymity provided by those tools for "
 "everyone by making it harder to target and to identify a specific type of "
 "user. From the various contacts that we have with organizations working on "

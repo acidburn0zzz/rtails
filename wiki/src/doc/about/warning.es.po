@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-08-29 15:15+0200\n"
-"PO-Revision-Date: 2019-12-03 10:26+0000\n"
+"POT-Creation-Date: 2020-08-14 22:57+0000\n"
+"PO-Revision-Date: 2020-09-06 07:30+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "warning/es/>\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.8\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Warning\"]]\n"
-msgstr "[[!meta title=\"Advertencia\"]]\n"
+msgid "[[!meta title=\"Warnings and limitations\"]]\n"
+msgstr "[[!meta title=\"Advertencias y limitaciones\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -44,13 +44,10 @@ msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"compromised_hardware\"></a>\n"
-msgstr "<a id=\"compromised_hardware\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tails does not protect against compromised hardware\n"
-msgstr "Tails no te protege contra hardware que haya sido comprometido\n"
+msgid "<h1 id=\"compromised_hardware\">Tails does not protect against compromised hardware</h1>\n"
+msgstr ""
+"<h1 id=\"compromised_hardware\">Tails no te protege contra hardware que haya "
+"sido comprometido</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -64,13 +61,10 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"untrusted_system\"></a>\n"
-msgstr "<a id=\"untrusted_system\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tails can be compromised if installed or plugged in untrusted systems\n"
-msgstr "Tails puede ser comprometido si se instala o conecta en sistemas no confiables\n"
+msgid "<h1 id=\"untrusted_system\">Tails can be compromised if installed or plugged in untrusted systems</h1>\n"
+msgstr ""
+"<h1 id=\"untrusted_system\">Tails puede ser comprometido si se instala o "
+"conecta en sistemas no confiables</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -99,19 +93,16 @@ msgstr ""
 "tu Tails sólo para arrancar Tails."
 
 #. type: Plain text
-msgid "See the [[corresponding FAQ|support/faq#compromised_system]]."
+msgid "See the [[corresponding FAQ|support/faq#compromised-system]]."
 msgstr ""
-"Lee la [[correspondiente pregunta frecuente|support/faq#compromised_system]]."
+"Lee la [[correspondiente pregunta frecuente|support/faq#compromised-system]]."
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"bios\"></a>\n"
-msgstr "<a id=\"bios\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tails does not protect against BIOS or firmware attacks\n"
-msgstr "Tails no te protege contra los ataques de BIOS o firmware\n"
+msgid "<h1 id=\"bios\">Tails does not protect against BIOS or firmware attacks</h1>\n"
+msgstr ""
+"<h1 id=\"bios\">Tails no te protege contra los ataques de BIOS o "
+"firmware</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -135,13 +126,10 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"exit_node\"></a>\n"
-msgstr "<a id=\"exit_node\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tor exit nodes can eavesdrop on communications\n"
-msgstr "Los nodos de salida de Tor pueden espiar tus comunicaciones\n"
+msgid "<h1 id=\"exit_node\">Tor exit nodes can eavesdrop on communications</h1>\n"
+msgstr ""
+"<h1 id=\"exit_node\">Los nodos de salida de Tor pueden espiar tus "
+"comunicaciones</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -172,16 +160,15 @@ msgid ""
 "not, and by design cannot, encrypt the traffic between an exit node and the "
 "destination server, **any exit node is in a position to capture any traffic "
 "passing through it**. See [Tor FAQ: Can exit nodes eavesdrop on "
-"communications?](https://www.torproject.org/docs/faq.html."
-"en#CanExitNodesEavesdrop)."
+"communications?](https://support.torproject.org/https/https-1/)."
 msgstr ""
 "El último relay de este circuito, llamado el nodo de salida, es el que "
 "establece la conexión real al servidor de destino. Ya que Tor no cifra, ni "
 "puede hacerlo por diseño, el tráfico entre el nodo de salida y el servidor "
 "de destino, **cualquier nodo de salida está en posición de capturar el "
 "tráfico que pasa a través de él**. Lee [Tor FAQ: Pueden los nodos de salida "
-"espiar las comunicaciones? - en inglés](https://www.torproject.org/docs/faq."
-"html.en#CanExitNodesEavesdrop)."
+"espiar las comunicaciones?](https://support.torproject.org/es/https/https-1/"
+")."
 
 #. type: Plain text
 msgid ""
@@ -216,13 +203,10 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"fingerprint\"></a>\n"
-msgstr "<a id=\"fingerprint\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tails makes it clear that you are using Tor and probably Tails\n"
-msgstr "Tails no oculta que estás usando Tor, y probablemente Tails\n"
+msgid "<h1 id=\"fingerprint\">Tails makes it clear that you are using Tor and probably Tails</h1>\n"
+msgstr ""
+"<h1 id=\"fingerprint\">Tails no oculta que estás usando Tor, ni "
+"probablemente Tails</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -230,13 +214,13 @@ msgid ""
 "**Your Internet Service Provider (ISP) or your local network administrator**\n"
 "can see that you're connecting to a Tor relay, and not a normal web server for\n"
 "example. Using [[Tor bridges in certain\n"
-"conditions|first_steps/startup_options/bridge_mode]] can help you hide the fact\n"
+"conditions|first_steps/welcome_screen/bridge_mode]] can help you hide the fact\n"
 "that you are using Tor.\n"
 msgstr ""
 "**Tu proveedor de Internet o el administrador de tu red local**\n"
 "pueden ver que te estás conectando a un relay de Tor, y no a un servidor web normal,\n"
 "por ejemplo. Usar [[Puentes de Tor en ciertas\n"
-"condiciones|first_steps/startup_options/bridge_mode]] te puede ayudar a esconder\n"
+"condiciones|first_steps/welcome_screen/bridge_mode]] te puede ayudar a esconder\n"
 "el hecho de que estás usando Tor.\n"
 " \n"
 
@@ -246,13 +230,16 @@ msgid ""
 "**The destination server that you are contacting through Tor** can know whether your\n"
 "communication comes from a Tor exit node by consulting the publicly\n"
 "available list of exit nodes that might contact it. For example using the [Tor\n"
-"Bulk Exit List tool](https://check.torproject.org/cgi-bin/TorBulkExitList.py) from\n"
+"Bulk Exit List tool](https://check.torproject.org/torbulkexitlist) from\n"
 "the Tor Project.\n"
 msgstr ""
-"**El servidor de destino que estás contactando a través de Tor** puede saber si tu\n"
-"comunicación viene desde un nodo de salida de Tor consultando la lista pública de nodos\n"
+"**El servidor de destino que estás contactando a través de Tor** puede saber "
+"si tu\n"
+"comunicación viene desde un nodo de salida de Tor consultando la lista "
+"pública de nodos\n"
 "de salida que le contactan. Por ejemplo usando la  [Tor\n"
-"Bulk Exit List tool](https://check.torproject.org/cgi-bin/TorBulkExitList.py) de Tor Project.\n"
+"Bulk Exit List tool](https://check.torproject.org/torbulkexitlist) de Tor "
+"Project.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -271,13 +258,8 @@ msgstr "Lee también [[¿Puedo ocultar que estoy usando Tails?|fingerprint]]"
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"man-in-the-middle\"></a>\n"
-msgstr "<a id=\"man-in-the-middle\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Man-in-the-middle attacks\n"
-msgstr "Ataques de Man-in-the-middle\n"
+msgid "<h1 id=\"man-in-the-middle\">Man-in-the-middle attacks</h1>\n"
+msgstr "<h1 id=\"man-in-the-middle\">Ataques Man-in-the-middle</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -443,10 +425,10 @@ msgstr ""
 "Project: Detecting Certificate Authority compromises and web browser\n"
 "collusion</a>.</p>\n"
 
-#. type: Title =
+#. type: Plain text
 #, no-wrap
-msgid "Confirmation attacks\n"
-msgstr "Ataques de confirmación\n"
+msgid "<h1 id=\"confirmation\">Confirmation attacks</h1>\n"
+msgstr "<h1 id=\"confirmation\">Ataques de confirmación</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -496,49 +478,50 @@ msgstr ""
 "href=\"https://blog.torproject.org/blog/one-cell-enough\">Tor Project: \"One cell\n"
 "is enough to break Tor's anonymity\"</a>.</p>\n"
 
-#. type: Title =
+#. type: Plain text
 #, no-wrap
-msgid "Tails doesn't encrypt your documents by default\n"
-msgstr "Tails no encripta tus documentos por defecto\n"
+msgid "<h1 id=\"encryption\">Tails doesn't encrypt your documents by default</h1>\n"
+msgstr ""
+"<h1 id=\"encryption\">Tails no encripta tus documentos por defecto</h1>\n"
 
 #. type: Plain text
 msgid ""
-"The documents that you might save on storage devices will not be encrypted "
-"by default, except in the [[encrypted persistent volume|doc/first_steps/"
-"persistence]].  But Tails provides you with tools to encrypt your documents, "
-"such as GnuPG, or encrypt your storage devices, such as LUKS."
+"The documents that you might save on storage devices are not encrypted by "
+"default, except in the [[Persistent Storage|doc/first_steps/persistence]], "
+"which is entirely encrypted.  But Tails provides you with tools to encrypt "
+"your documents, such as GnuPG, or encrypt your storage devices, such as LUKS."
 msgstr ""
 "Los documentos que puedas guardar en dispositivos de almacenamiento no serán "
-"encriptados por defecto, excepto en el [[volumen encriptado persistente|doc/"
-"first_steps/persistence]]. Pero Tails viene con herramientas para encriptar "
-"tus documentos como GnuPG, o encriptar dispositivos de almacentamiento, como "
-"LUKS."
+"encriptados por defecto, excepto en el [[Almacenamiento Persistente|doc/"
+"first_steps/persistence]] que está encriptado en su totalidad. Pero Tails "
+"viene con herramientas para encriptar tus documentos como GnuPG, o encriptar "
+"dispositivos de almacentamiento, como LUKS."
 
 #. type: Plain text
 msgid ""
-"It is also likely that the files you may create will contain evidence that "
+"It is also likely that the files you might create will contain evidence that "
 "they were created using Tails."
 msgstr ""
-"También es probable que los archivos que crees con Tails tengan detalles que "
+"Además es probable que los archivos que crees con Tails tengan detalles que "
 "demuestren que se han elaborado usando Tails."
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "**If you need to access the local hard-disks** of the computer you are using, be\n"
-"conscious that you might then leave trace of your activities with Tails on it.\n"
+"conscious that you might then leave traces of your activities with Tails on it.\n"
 msgstr ""
-"**Si necesitas acceder a tus discos duros locales** de la computadora que estás utilizando, sé\n"
-"conciente que podrías dejar rastros de tu actividad con Tails en ellos.\n"
+"**Si necesitas acceder a tus discos duros locales** de la computadora que "
+"estás utilizando, sé\n"
+"conciente que podrías dejar rastro de tu actividad con Tails en ellos.\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"Tails doesn't clear the metadata of your documents for you and doesn't encrypt the Subject: and other headers of your encrypted email messages\n"
-"===========================================================================================\n"
+msgid "<h1 id=\"metadata\">Tails doesn't clear the metadata of your documents for you and doesn't encrypt the Subject: and other headers of your encrypted email messages</h1>\n"
 msgstr ""
-"Tails no borra los metadatos de tus documentos y no cifra el Asunto: u otros encabezados de tus mensajes de correo electrónico encriptados\n"
-"===========================================================================================\n"
+"<h1 id=\"metadata\">Tails no borra los metadatos de tus documentos y no "
+"cifra el Asunto: u otros encabezados de tus mensajes de correo electrónico "
+"encriptados</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -603,10 +586,11 @@ msgstr ""
 "de los objetivos de diseño de Tails ayudarte a hacer eso. Por ejemplo, Tails ya viene con\n"
 "el [Metadata anonymisation toolkit](https://0xacab.org/jvoisin/mat2).\n"
 
-#. type: Title =
+#. type: Plain text
 #, no-wrap
-msgid "Tor doesn't protect you from a global adversary\n"
-msgstr "Tor no te protege de un adversario global\n"
+msgid "<h1 id=\"global-adversary\">Tor doesn't protect you from a global adversary</h1>\n"
+msgstr ""
+"<h1 id=\"global-adversary\">Tor no te protege de un adversario global</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -647,13 +631,10 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"identities\"></a>\n"
-msgstr "<a id=\"identities\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tails doesn't magically separate your different contextual identities\n"
-msgstr "Tails no separa mágicamente tus diferentes identidades contextuales\n"
+msgid "<h1 id=\"identities\">Tails doesn't magically separate your different contextual identities</h1>\n"
+msgstr ""
+"<h1 id=\"identities\">Tails no separa mágicamente tus diferentes identidades "
+"contextuales</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -713,12 +694,11 @@ msgstr ""
 #, no-wrap
 msgid ""
 "The [[<span class=\"guilabel\">New Identity</span> feature of\n"
-"<span class=\"application\">Tor Browser</span>|doc/anonymous_internet/Tor_Browser#new_identity]]\n"
+"<span class=\"application\">Tor Browser</span>|doc/anonymous_internet/Tor_Browser#new-identity]]\n"
 "is limited to the browser.\n"
 msgstr ""
 "La funcionalidad [[<span class=\"guilabel\">Nueva Identidad</span> del\n"
-"<span class=\"application\">Tor Browser</span>|doc/anonymous_internet/"
-"Tor_Browser#new_identity]]\n"
+"<span class=\"application\">Tor Browser</span>|doc/anonymous_internet/Tor_Browser#new-identity]]\n"
 "está limitada al navegador.\n"
 
 #. type: Plain text
@@ -726,14 +706,14 @@ msgstr ""
 msgid ""
 "There is no <span class=\"guilabel\">New Identity</span> button for Tails as a\n"
 "whole.\n"
-msgstr ""
-"No hay un botón <span class=\"guilabel\">Nueva Identidad</span> para Tails "
-"en su totalidad.\n"
+msgstr "No hay un botón <span class=\"guilabel\">Nueva Identidad</span> para Tails en su totalidad.\n"
 
-#. type: Title =
+#. type: Plain text
 #, no-wrap
-msgid "Tails doesn't make your crappy passwords stronger\n"
-msgstr "Tails no hace más seguras tus malas contraseñas\n"
+msgid "<h1 id=\"passwords\">Tails doesn't make your crappy passwords stronger</h1>\n"
+msgstr ""
+"<h1 id=\"passwords\">Tails no hace más seguras tus contraseñas si son "
+"malas</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -758,10 +738,10 @@ msgstr ""
 "prácticas para crear mejores contraseñas, puedes leer (en inglés) [[!wikipedia\n"
 "Weak_password#Examples_of_weak_passwords desc=\"Wikipedia: Contraseñas Débiles\"]].\n"
 
-#. type: Title =
+#. type: Plain text
 #, no-wrap
-msgid "Tails is a work in progress\n"
-msgstr "Tails es un proyecto en proceso\n"
+msgid "<h1 id=\"wip\">Tails is a work in progress</h1>\n"
+msgstr "<h1 id=\"wip\">Tails es un proyecto en proceso</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -771,19 +751,48 @@ msgstr ""
 "Tails, así como todo el software que incluye, está en continuo desarrollo y "
 "puede contener errores de programación o agujeros de seguridad."
 
+#~ msgid "<a id=\"compromised_hardware\"></a>\n"
+#~ msgstr "<a id=\"compromised_hardware\"></a>\n"
+
+#~ msgid "<a id=\"untrusted_system\"></a>\n"
+#~ msgstr "<a id=\"untrusted_system\"></a>\n"
+
+#~ msgid "<a id=\"bios\"></a>\n"
+#~ msgstr "<a id=\"bios\"></a>\n"
+
+#~ msgid "<a id=\"exit_node\"></a>\n"
+#~ msgstr "<a id=\"exit_node\"></a>\n"
+
+#~ msgid "<a id=\"fingerprint\"></a>\n"
+#~ msgstr "<a id=\"fingerprint\"></a>\n"
+
+#, fuzzy
+#~| msgid "Man-in-the-middle attacks\n"
+#~ msgid "Man-in-the-middle attacks"
+#~ msgstr "Ataques de Man-in-the-middle\n"
+
+#, fuzzy
+#~| msgid "Confirmation attacks\n"
+#~ msgid "Confirmation attacks"
+#~ msgstr "Ataques de confirmación\n"
+
+#~ msgid "<a id=\"identities\"></a>\n"
+#~ msgstr "<a id=\"identities\"></a>\n"
+
 #~ msgid ""
 #~ "As explained in our documentation about\n"
-#~ "[[Tor Browser|anonymous_internet/Tor_Browser#new_identity]],\n"
+#~ "[[Tor Browser|anonymous_internet/Tor_Browser#new-identity]],\n"
 #~ "its **New identity** feature is not a perfect solution to separate\n"
 #~ "different contextual identities. And, as\n"
-#~ "[[explained in the FAQ|support/faq#new_identity]], Tails does not\n"
+#~ "[[explained in the FAQ|support/faq#new-identity]], Tails does not\n"
 #~ "provide a global <span class=\"guilabel\">New Identity</span>\n"
 #~ "feature. **Shutdown and restart Tails instead.**\n"
 #~ msgstr ""
 #~ "Como se explica en nuestra documentación acerca\n"
-#~ "de [[Tor Browser|anonymous_internet/Tor_Browser#new_identity]],\n"
-#~ "su función de **Nueva identidad** no es una solución perfecta para separar\n"
+#~ "de [[Tor Browser|anonymous_internet/Tor_Browser#new-identity]],\n"
+#~ "su función de **Nueva identidad** no es una solución perfecta para "
+#~ "separar\n"
 #~ "diferentes identidades contextuales. Y, como ha sido\n"
-#~ "[[explicado en el FAQ|support/faq#new_identity]], Tails no\n"
+#~ "[[explicado en el FAQ|support/faq#new-identity]], Tails no\n"
 #~ "provee una función de <span class=\"guilabel\">Nueva Identidad</span>\n"
 #~ "global. **Apaga y reinicia Tails.**\n"

@@ -7,20 +7,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-11-10 11:49+0000\n"
-"PO-Revision-Date: 2018-07-02 05:52+0000\n"
-"Last-Translator: qf <selinaf1917@yahoo.com>\n"
+"POT-Creation-Date: 2020-07-29 20:51+0000\n"
+"PO-Revision-Date: 2020-08-15 08:29+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.10.1\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Contributing to Tails\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -54,7 +59,7 @@ msgid ""
 "  <p>Every user can help others or provide developers with useful information.</p>\n"
 "  <ul>\n"
 "    <li>[[Report bugs|doc/first_steps/bug_reporting]]</li>\n"
-"    <li>[[Test experimental ISO images|contribute/how/testing]]</li>\n"
+"    <li>[[Test experimental Tails images|contribute/how/testing]]</li>\n"
 "    <li>[[Provide input to developers|contribute/how/input]]</li>\n"
 "    <li>[[Help other Tails users|contribute/how/help]]</li>\n"
 "  </ul>\n"
@@ -143,7 +148,8 @@ msgstr "  [[!img speaker.png link=no]]\n"
 msgid ""
 "  <p>Speakers can advocate Tails to all kinds of public.</p>\n"
 "  <ul>\n"
-"    <li>[[Talk at events|contribute/how/promote]]</li>\n"
+"    <li>[[Outreach material: logo, leaflets, stickers, etc.|contribute/how/promote]]</li>\n"
+"    <li>[[Press and media information|press]]</li>\n"
 "  </ul>\n"
 "</div>\n"
 "</div>\n"
@@ -228,7 +234,6 @@ msgid ""
 "\t<ol>\n"
 "\t\t<li class=\"L2\"><a href=\"#reference-documents\">Reference documents</a></li>\n"
 "\t\t<li class=\"L2\"><a href=\"#tools\">Tools for contributors</a></li>\n"
-"\t\t<li class=\"L2\"><a href=\"#mentors\">Mentors & guidance for new contributors</a></li>\n"
 "\t\t<li class=\"L2\"><a href=\"#release-cycle\">Release cycle</a></li>\n"
 "\t\t<li class=\"L2\"><a href=\"#upstream\">Relationship with upstream</a></li>\n"
 "\t\t<li class=\"L2\"><a href=\"#collective-process\">Collective process</a></li>\n"
@@ -263,9 +268,9 @@ msgid "<a id=\"reference-documents\"></a>\n"
 msgstr "<a id=\"reference-documents\"></a>\n"
 
 #. type: Title =
-#, no-wrap
-msgid "Reference documents\n"
-msgstr ""
+#, fuzzy, no-wrap
+msgid "Reference documents"
+msgstr "<a id=\"reference-documents\"></a>\n"
 
 #. type: Bullet: '  - '
 msgid "[[Mission and values|contribute/mission]]"
@@ -299,7 +304,7 @@ msgstr "<a id=\"tools\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Tools for contributors\n"
+msgid "Tools for contributors"
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -310,134 +315,29 @@ msgstr ""
 msgid "[[!tails_roadmap desc=\"Roadmap\"]]"
 msgstr ""
 
+#. type: Bullet: '  - '
+msgid ""
+"[[GitLab source code and bug tracker|contribute/working_together/GitLab]]"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "[[Starter tasks|starter_tasks]] for new contributors"
+msgstr ""
+
 #. type: Plain text
 #, no-wrap
 msgid ""
-"  - [[Redmine bug tracker|contribute/working_together/Redmine]]\n"
-"    - [[Starter tasks|starter_tasks]] for new contributors\n"
-"    - [Tasks](https://redmine.tails.boum.org/code/projects/tails/issues)\n"
-"      can be filtered by type of work (see links in the sidebar)\n"
 "  - [[Building a Tails image|contribute/build]]\n"
 "    - [[Build a local copy of the website|contribute/build/website]]\n"
 "    - [[Customize Tails|contribute/customize]]\n"
-"    - [Nightly ISO builds](http://nightly.tails.boum.org)\n"
+"    - [Nightly Tails image builds](https://nightly.tails.boum.org)\n"
+"    - [[Jenkins CI|contribute/working_together/roles/sysadmins/Jenkins]]\n"
 "  - Debian packages\n"
 "    - [[APT repository|contribute/APT_repository]], to store our custom Debian packages\n"
 "    - How we manage and upgrade the [[Linux kernel|contribute/Linux_kernel]].\n"
+"    - How we manage and upgrade [[contribute/tor]].\n"
 "  - [[Glossary for contributors|contribute/glossary]]\n"
 msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "<a id=\"mentors\"></a>\n"
-msgstr "<a id=\"mentors\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Mentors & guidance for new contributors\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Once you have found a first [[Starter task|starter_tasks]] to work on, you "
-"might need some guidance."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"Here is a list of mentors who can help with\n"
-"specific tasks. Feel free to talk to them if you plan to work on anything related to their\n"
-"field of expertise, for example\n"
-"by assigning them tickets on Redmine or <a href=\"#talk\">talking to us</a>\n"
-"using the usual communication channels.\n"
-msgstr ""
-
-#. type: Bullet: '  - '
-msgid "AppArmor: intrigeri, jvoisin, u"
-msgstr "AppArmor: intrigeri, jvoisin, u"
-
-#. type: Bullet: '  - '
-msgid "Build system (Vagrant, Rake): anonym"
-msgstr "Build system (Vagrant, Rake): anonym"
-
-#. type: Bullet: '  - '
-msgid "Debian related work: intrigeri, u"
-msgstr ""
-
-#. type: Bullet: '  - '
-msgid "Documentation: BitingBird, sajolida"
-msgstr ""
-
-#. type: Bullet: '  - '
-#, fuzzy
-msgid "*Onion Circuits* (Python): alan"
-msgstr "*Onion Circuits*: alan"
-
-#. type: Bullet: '  - '
-#, fuzzy
-msgid "*OpenPGP Applet* (Perl): nodens"
-msgstr "*OpenPGP Applet*: nodens"
-
-#. type: Bullet: '  - '
-msgid "Persistence setup (Perl): intrigeri, kurono"
-msgstr ""
-
-#. type: Bullet: '  - '
-msgid "Sysadmin: [[contact|contribute/how/sysadmin/#contact]]"
-msgstr ""
-
-#. type: Bullet: '  - '
-#, fuzzy
-msgid "*Tails Greeter* (Python): alan, intrigeri"
-msgstr "*Tails Greeter*: alan, intrigeri"
-
-#. type: Bullet: '  - '
-msgid "*Tails Installer* (Python): alan, kurono, u"
-msgstr ""
-
-#. type: Bullet: '  - '
-#, fuzzy
-msgid "*Tails Upgrader* (Perl): intrigeri"
-msgstr "*Tails Upgrader*: intrigeri"
-
-#. type: Bullet: '  - '
-msgid "*Tails Verification* (JavaScript): sajolida, anonym"
-msgstr ""
-
-#. type: Bullet: '  - '
-#, fuzzy
-msgid "Test suite (Gherkin, Ruby): anonym"
-msgstr "Test suite: anonym"
-
-#. type: Bullet: '  - '
-msgid "*Thunderbird* (Icedove): anonym"
-msgstr "*Thunderbird* (Icedove): anonym"
-
-#. type: Bullet: '  - '
-msgid "Tor configuration, time syncing, MAC spoofing: anonym"
-msgstr ""
-
-#. type: Bullet: '  - '
-msgid "*Tor Browser*: anonym"
-msgstr "*Tor Browser*: anonym"
-
-#. type: Bullet: '  - '
-msgid "Usability: sajolida, tchou"
-msgstr ""
-
-#. type: Bullet: '  - '
-msgid "*Unsafe Web Browser*: anonym"
-msgstr ""
-
-#. type: Bullet: '  - '
-msgid "Website: sajolida"
-msgstr ""
-
-#. type: Bullet: '  - '
-#, fuzzy
-msgid "*WhisperBack* (Python): alan"
-msgstr "*WhisperBack*: alan"
 
 #. type: Plain text
 #, no-wrap
@@ -446,7 +346,7 @@ msgstr "<a id=\"release-cycle\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Release cycle\n"
+msgid "Release cycle"
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -468,7 +368,7 @@ msgstr "<a id=\"upstream\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Relationship with upstream and derivatives\n"
+msgid "Relationship with upstream and derivatives"
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -489,9 +389,9 @@ msgid "<a id=\"collective-process\"></a>\n"
 msgstr "<a id=\"collective-process\"></a>\n"
 
 #. type: Title =
-#, no-wrap
-msgid "Collective process\n"
-msgstr ""
+#, fuzzy, no-wrap
+msgid "Collective process"
+msgstr "<a id=\"collective-process\"></a>\n"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -504,18 +404,7 @@ msgid "[[Code of conduct|contribute/working_together/code_of_conduct]]"
 msgstr ""
 
 #. type: Bullet: '  - '
-msgid "[[Social contract|contribute/working_together/social_contract]]"
-msgstr ""
-
-#. type: Bullet: '  - '
-msgid ""
-"[[Reimbursements for workers and regular contributors|contribute/"
-"reimbursements]]"
-msgstr ""
-
-#. type: Bullet: '  - '
-msgid ""
-"[[Sponsorship to attend events|contribute/sponsorship_to_attend_events]]"
+msgid "[[Social contract|doc/about/social_contract]]"
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -525,12 +414,17 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '  - '
-msgid "[[Document progress|contribute/working_together/document_progress]]"
+msgid ""
+"[[Document progress|contribute/working_together/GitLab#document-progress]]"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
+"  - Reimbursements\n"
+"    - [[Organizing a sprint|contribute/sprint]]\n"
+"    - [[Sponsorship to attend events on behalf of Tails|contribute/sponsorship_to_attend_events]]\n"
+"    - [[Hardware and other reimbursements|contribute/reimbursements]]\n"
 "  - Teams\n"
 "    - [[Accounting and management team|contribute/working_together/roles/accounting]]\n"
 "    - [[Foundations team|contribute/working_together/roles/foundations_team]]\n"
@@ -544,6 +438,8 @@ msgid ""
 "    - [[UX designers|contribute/working_together/roles/ux]]\n"
 "    - [[Verification extension\n"
 "      maintainers|contribute/working_together/roles/verification_extension]]\n"
+"  - Interfaces between roles and teams\n"
+"    - [[Developers and Release Managers|contribute/working_together/interfaces/developers_and_release_managers]]\n"
 "  - Roles for sponsor deliverables:\n"
 "      - [[Team manager|contribute/working_together/roles/sponsor_deliverables/team_manager]]\n"
 "      - [[Worker|contribute/working_together/roles/sponsor_deliverables/worker]]\n"
@@ -557,7 +453,7 @@ msgstr "<a id=\"talk\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Talk with us\n"
+msgid "Contact us"
 msgstr ""
 
 #. type: Plain text
@@ -565,3 +461,78 @@ msgid ""
 "To talk to other Tails contributors, subscribe to [[the relevant mailing "
 "lists|about/contact]]."
 msgstr ""
+
+#, fuzzy
+#| msgid "Tools for contributors\n"
+msgid "Mentors & guidance for new contributors"
+msgstr "Werkzeuge für Beitragende\n"
+
+msgid ""
+"Once you have found a first [[Starter task|starter_tasks]] to work on, you "
+"might need some guidance."
+msgstr ""
+
+#~ msgid "<a id=\"mentors\"></a>\n"
+#~ msgstr "<a id=\"mentors\"></a>\n"
+
+#, fuzzy
+#~ msgid "Talk with us"
+#~ msgstr "Mit uns reden\n"
+
+#, fuzzy
+#~ msgid "[[Organizing a sprint|contribute/sprint]]"
+#~ msgstr "[[Ziele und Werte|contribute/mission]]"
+
+#, fuzzy
+#~ msgid ""
+#~ "[[Contributors meetings|contribute/meetings]], and minutes from past "
+#~ "meetings"
+#~ msgstr "[[Treffen|contribute/meetings]] und Protokolle vergangener Treffen"
+
+#~ msgid "[[Blueprints|blueprint]]"
+#~ msgstr "[[Entwürfe|blueprint]]"
+
+#, fuzzy
+#~ msgid "AppArmor: intrigeri, jvoisin"
+#~ msgstr "AppArmor: intrigeri, jvoisin, u"
+
+#~ msgid "Build system (Vagrant, Rake): anonym"
+#~ msgstr "Build system (Vagrant, Rake): anonym"
+
+#, fuzzy
+#~ msgid "*Onion Circuits* (Python): alan"
+#~ msgstr "*Onion Circuits*: alan"
+
+#, fuzzy
+#~ msgid "*OpenPGP Applet* (Perl): nodens"
+#~ msgstr "*OpenPGP Applet*: nodens"
+
+#, fuzzy
+#~ msgid "Persistent Storage (Perl): intrigeri, kurono"
+#~ msgstr "*Tails Upgrader*: intrigeri"
+
+#, fuzzy
+#~ msgid "Welcome Screen (Python): alan, intrigeri"
+#~ msgstr "*Tails Greeter*: alan, intrigeri"
+
+#, fuzzy
+#~ msgid "*Tails Installer* (Python): alan, kurono"
+#~ msgstr "*WhisperBack*: alan"
+
+#, fuzzy
+#~ msgid "*Tails Upgrader* (Perl): intrigeri"
+#~ msgstr "*Tails Upgrader*: intrigeri"
+
+#, fuzzy
+#~ msgid "Test suite (Gherkin, Ruby): anonym"
+#~ msgstr "Test suite: anonym"
+
+#~ msgid "*Thunderbird* (Icedove): anonym"
+#~ msgstr "*Thunderbird* (Icedove): anonym"
+
+#~ msgid "*Tor Browser*: anonym"
+#~ msgstr "*Tor Browser*: anonym"
+
+#, fuzzy
+#~ msgid "*WhisperBack* (Python): alan"
+#~ msgstr "*WhisperBack*: alan"

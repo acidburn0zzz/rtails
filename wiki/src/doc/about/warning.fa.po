@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-08-29 15:15+0200\n"
+"POT-Creation-Date: 2020-08-14 22:57+0000\n"
 "PO-Revision-Date: 2015-10-15 12:19+0000\n"
 "Last-Translator: sprint5 <translation5@451f.org>\n"
 "Language-Team: Persian <http://weblate.451f.org:8889/projects/tails/warning/"
@@ -20,8 +20,9 @@ msgstr ""
 "X-Generator: Weblate 2.4-dev\n"
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!meta title=\"Warning\"]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!meta title=\"Warning\"]]\n"
+msgid "[[!meta title=\"Warnings and limitations\"]]\n"
 msgstr "[[!meta title=\"هشدار\"]]\n"
 
 #. type: Plain text
@@ -43,13 +44,9 @@ msgid "[[!toc levels=2]]\n"
 msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"compromised_hardware\"></a>\n"
-msgstr "<a id=\"compromised_hardware\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tails does not protect against compromised hardware\n"
+#, fuzzy, no-wrap
+#| msgid "Tails does not protect against compromised hardware\n"
+msgid "<h1 id=\"compromised_hardware\">Tails does not protect against compromised hardware</h1>\n"
 msgstr "تیلز شما را از دام‌های سخت‌افزاری حفظ نمی‌کند\n"
 
 #. type: Plain text
@@ -63,13 +60,9 @@ msgstr ""
 "امن نیست."
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"untrusted_system\"></a>\n"
-msgstr "<a id=\"untrusted_system\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tails can be compromised if installed or plugged in untrusted systems\n"
+#, fuzzy, no-wrap
+#| msgid "Tails can be compromised if installed or plugged in untrusted systems\n"
+msgid "<h1 id=\"untrusted_system\">Tails can be compromised if installed or plugged in untrusted systems</h1>\n"
 msgstr "نصب روی یک رایانهٔ غیرقابل‌اعتماد یا به اتصال آن تیلز را نامطمئن می‌سازد\n"
 
 #. type: Plain text
@@ -104,18 +97,14 @@ msgstr ""
 "دستگاه تیلز خود استفاده کنید."
 
 #. type: Plain text
-msgid "See the [[corresponding FAQ|support/faq#compromised_system]]."
+msgid "See the [[corresponding FAQ|support/faq#compromised-system]]."
 msgstr ""
-"رجوع کنید به  [[سوالات معمول در همین زمینه|support/faq#compromised_system]]."
+"رجوع کنید به  [[سوالات معمول در همین زمینه|support/faq#compromised-system]]."
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"bios\"></a>\n"
-msgstr "<a id=\"bios\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tails does not protect against BIOS or firmware attacks\n"
+#, fuzzy, no-wrap
+#| msgid "Tails does not protect against BIOS or firmware attacks\n"
+msgid "<h1 id=\"bios\">Tails does not protect against BIOS or firmware attacks</h1>\n"
 msgstr "تیلز شما را در برابر حملات سفت‌افزارها و بایوس محافظت نمی‌کند\n"
 
 #. type: Plain text
@@ -139,13 +128,9 @@ msgstr ""
 "youtube.com/watch?v=sNYsfUNegEA)."
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"exit_node\"></a>\n"
-msgstr "<a id=\"exit_node\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tor exit nodes can eavesdrop on communications\n"
+#, fuzzy, no-wrap
+#| msgid "Tor exit nodes can eavesdrop on communications\n"
+msgid "<h1 id=\"exit_node\">Tor exit nodes can eavesdrop on communications</h1>\n"
 msgstr "گره‌های خروجی تور می‌توانند ارتباطات را شنود کنند\n"
 
 #. type: Plain text
@@ -171,14 +156,22 @@ msgid "[[!img htw2-tails.png link=no alt=\"A Tor connection usually goes through
 msgstr "[[!img htw2-tails.png link=no alt=\"یک اتصال تور معمولاً از سه رله عبور می‌کند که رلهٔ اخر اتصال اصلی به مقصد نهایی را ایجاد می‌کند\"]]\n"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The last relay on this circuit, called the exit node, is the one that "
+#| "establishes the actual connection to the destination server. As Tor does "
+#| "not, and by design cannot, encrypt the traffic between an exit node and "
+#| "the destination server, **any exit node is in a position to capture any "
+#| "traffic passing through it**. See [Tor FAQ: Can exit nodes eavesdrop on "
+#| "communications?](https://www.torproject.org/docs/faq.html."
+#| "en#CanExitNodesEavesdrop)."
 msgid ""
 "The last relay on this circuit, called the exit node, is the one that "
 "establishes the actual connection to the destination server. As Tor does "
 "not, and by design cannot, encrypt the traffic between an exit node and the "
 "destination server, **any exit node is in a position to capture any traffic "
 "passing through it**. See [Tor FAQ: Can exit nodes eavesdrop on "
-"communications?](https://www.torproject.org/docs/faq.html."
-"en#CanExitNodesEavesdrop)."
+"communications?](https://support.torproject.org/https/https-1/)."
 msgstr ""
 "آخرین رله در این مدار گره خروجی نام دارد و نقطه‌ای است که ارتباط اصلی به سرور "
 "مقصد را ایجاد می‌کند. از آن‌جا که تور ترافیک بین یک گره خروجی و سرور مقصد را "
@@ -216,13 +209,9 @@ msgid ""
 msgstr "**تیلز شامل ابزارهای بسیاری است که به شما در رمزگذاری قوی** هنگام وب‌گردی، فرستادن رایانامه یا گفتگوهای آنلاین کمک می‌کنند؛ رجوع کنید به [[صفحهٔ دربارهٔ ما|/about#cryptography]].\n"
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"fingerprint\"></a>\n"
-msgstr "<a id=\"fingerprint\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tails makes it clear that you are using Tor and probably Tails\n"
+#, fuzzy, no-wrap
+#| msgid "Tails makes it clear that you are using Tor and probably Tails\n"
+msgid "<h1 id=\"fingerprint\">Tails makes it clear that you are using Tor and probably Tails</h1>\n"
 msgstr "تیلز مشخص می‌کند که در حال استفاده از تور و احتمالاً‌ تیلز هستید\n"
 
 #. type: Plain text
@@ -231,12 +220,12 @@ msgid ""
 "**Your Internet Service Provider (ISP) or your local network administrator**\n"
 "can see that you're connecting to a Tor relay, and not a normal web server for\n"
 "example. Using [[Tor bridges in certain\n"
-"conditions|first_steps/startup_options/bridge_mode]] can help you hide the fact\n"
+"conditions|first_steps/welcome_screen/bridge_mode]] can help you hide the fact\n"
 "that you are using Tor.\n"
 msgstr ""
 "**ارائه‌دهندهٔ خدمات اینترنتی یا مدیر شبکهٔ محلی شما** می‌تواند متوجه شود\n"
 "که شما به یک رلهٔ تور متصل شده‌اید و نه به یک سرور معمولی وب.\n"
-" [[استفاده از پل‌های تور در شرایطی خاص|first_steps/startup_options/bridge_mode]]\n"
+" [[استفاده از پل‌های تور در شرایطی خاص|first_steps/welcome_screen/bridge_mode]]\n"
 "می‌تواند به شما در پنهان کردن استفاده‌تان از تور \n"
 "کمک کند.\n"
 
@@ -252,7 +241,7 @@ msgid ""
 "**The destination server that you are contacting through Tor** can know whether your\n"
 "communication comes from a Tor exit node by consulting the publicly\n"
 "available list of exit nodes that might contact it. For example using the [Tor\n"
-"Bulk Exit List tool](https://check.torproject.org/cgi-bin/TorBulkExitList.py) from\n"
+"Bulk Exit List tool](https://check.torproject.org/torbulkexitlist) from\n"
 "the Tor Project.\n"
 msgstr ""
 "**سرور مقصد که از طریق تور به آن متصل می‌شوید** می‌تواند با مراجعه به\n"
@@ -279,14 +268,10 @@ msgstr ""
 "fingerprint]]"
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"man-in-the-middle\"></a>\n"
+#, fuzzy, no-wrap
+#| msgid "<a id=\"man-in-the-middle\"></a>\n"
+msgid "<h1 id=\"man-in-the-middle\">Man-in-the-middle attacks</h1>\n"
 msgstr "<a id=\"man-in-the-middle\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Man-in-the-middle attacks\n"
-msgstr "حملات فرد میانی\n"
 
 #. type: Plain text
 msgid ""
@@ -478,10 +463,10 @@ msgstr ""
 "هک‌های گواهی‌های دیجیتال و \n"
 "همدستی‌های مرورگرهای وب</a>.</p>\n"
 
-#. type: Title =
+#. type: Plain text
 #, no-wrap
-msgid "Confirmation attacks\n"
-msgstr "حمله‌های تأیید\n"
+msgid "<h1 id=\"confirmation\">Confirmation attacks</h1>\n"
+msgstr ""
 
 #. type: Plain text
 msgid ""
@@ -535,9 +520,10 @@ msgstr ""
 "href=\"https://blog.torproject.org/blog/one-cell-enough\">پروژهٔ تور:\n"
 "برای به خطر انداختن ناشناسی در تور یک سلول کافی است\"</a>.</p>\n"
 
-#. type: Title =
-#, no-wrap
-msgid "Tails doesn't encrypt your documents by default\n"
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "Tails doesn't encrypt your documents by default\n"
+msgid "<h1 id=\"encryption\">Tails doesn't encrypt your documents by default</h1>\n"
 msgstr "تیلز به طور پیش‌فرض اسناد شما را رمزگذاری نمی‌کند\n"
 
 #. type: Plain text
@@ -550,10 +536,10 @@ msgstr "تیلز به طور پیش‌فرض اسناد شما را رمزگذا
 #| "LUKS. It is likely that the files you may create will keep tracks that "
 #| "they were created using Tails."
 msgid ""
-"The documents that you might save on storage devices will not be encrypted "
-"by default, except in the [[encrypted persistent volume|doc/first_steps/"
-"persistence]].  But Tails provides you with tools to encrypt your documents, "
-"such as GnuPG, or encrypt your storage devices, such as LUKS."
+"The documents that you might save on storage devices are not encrypted by "
+"default, except in the [[Persistent Storage|doc/first_steps/persistence]], "
+"which is entirely encrypted.  But Tails provides you with tools to encrypt "
+"your documents, such as GnuPG, or encrypt your storage devices, such as LUKS."
 msgstr ""
 "اسنادی که ممکن است روی دستگاه‌های خود ذخیره کنید به طور پیش‌فرض رمزگذاری "
 "نمی‌شوند، مگر در [[درایو مانای رمزنگاری‌شده|doc/first_steps/persistence]]. اما "
@@ -563,24 +549,28 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"It is also likely that the files you may create will contain evidence that "
+"It is also likely that the files you might create will contain evidence that "
 "they were created using Tails."
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "**If you need to access the local hard-disks** of the computer you are using, be\n"
+#| "conscious that you might then leave trace of your activities with Tails on it.\n"
 msgid ""
 "**If you need to access the local hard-disks** of the computer you are using, be\n"
-"conscious that you might then leave trace of your activities with Tails on it.\n"
+"conscious that you might then leave traces of your activities with Tails on it.\n"
 msgstr ""
 "**اگر باید به سخت‌دیسک‌های داخلی رایانه‌تان دسترسی داشته باشید**\n"
 "آگاه باشید که ممکن است اثراتی از فعالیت‌های خود با تیلز روی آن‌ها به جا بگذارید.\n"
 
 #. type: Plain text
-#, no-wrap
-msgid ""
-"Tails doesn't clear the metadata of your documents for you and doesn't encrypt the Subject: and other headers of your encrypted email messages\n"
-"===========================================================================================\n"
+#, fuzzy, no-wrap
+#| msgid ""
+#| "Tails doesn't clear the metadata of your documents for you and doesn't encrypt the Subject: and other headers of your encrypted email messages\n"
+#| "===========================================================================================\n"
+msgid "<h1 id=\"metadata\">Tails doesn't clear the metadata of your documents for you and doesn't encrypt the Subject: and other headers of your encrypted email messages</h1>\n"
 msgstr ""
 "تیلز متاداده‌های اسناد شما را پاک نکرده و عنوان رایانامه‌های شما و دیگر سربرگ‌های رایانامهٔ رمزگذاری‌شدهٔ شما را رمزگذاری نمی‌کند\n"
 "===========================================================================================\n"
@@ -665,9 +655,10 @@ msgstr ""
 "که به شما برای انجام این کار کمک کند. برای نمونه تیلز دارای یک \n"
 "[جعبه‌ابزار ناشناس‌سازی متاداده](https://0xacab.org/jvoisin/mat2) است.\n"
 
-#. type: Title =
-#, no-wrap
-msgid "Tor doesn't protect you from a global adversary\n"
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "Tor doesn't protect you from a global adversary\n"
+msgid "<h1 id=\"global-adversary\">Tor doesn't protect you from a global adversary</h1>\n"
 msgstr "تور از شما در برابر یک دشمن جهانی محافظت نمی‌کند\n"
 
 #. type: Plain text
@@ -717,13 +708,9 @@ msgstr ""
 "۳. اهداف و پیش‌فرض‌های طراحی."
 
 #. type: Plain text
-#, no-wrap
-msgid "<a id=\"identities\"></a>\n"
-msgstr "<a id=\"identities\"></a>\n"
-
-#. type: Title =
-#, no-wrap
-msgid "Tails doesn't magically separate your different contextual identities\n"
+#, fuzzy, no-wrap
+#| msgid "Tails doesn't magically separate your different contextual identities\n"
+msgid "<h1 id=\"identities\">Tails doesn't magically separate your different contextual identities</h1>\n"
 msgstr "تیلز هویت‌های مختلف شما را با جادو و جنبل از هم جدا نمی‌کند\n"
 
 #. type: Plain text
@@ -799,7 +786,7 @@ msgstr "**راه‌حل هر دو تهدید خاموش کردن و راه‌ا�
 #, no-wrap
 msgid ""
 "The [[<span class=\"guilabel\">New Identity</span> feature of\n"
-"<span class=\"application\">Tor Browser</span>|doc/anonymous_internet/Tor_Browser#new_identity]]\n"
+"<span class=\"application\">Tor Browser</span>|doc/anonymous_internet/Tor_Browser#new-identity]]\n"
 "is limited to the browser.\n"
 msgstr ""
 
@@ -810,9 +797,10 @@ msgid ""
 "whole.\n"
 msgstr ""
 
-#. type: Title =
-#, no-wrap
-msgid "Tails doesn't make your crappy passwords stronger\n"
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "Tails doesn't make your crappy passwords stronger\n"
+msgid "<h1 id=\"passwords\">Tails doesn't make your crappy passwords stronger</h1>\n"
 msgstr "تیلز گذرواژه‌های آشغال شما را قوی‌تر نمی‌کند\n"
 
 #. type: Plain text
@@ -843,9 +831,10 @@ msgstr ""
 "و یاد بگیرید که چطور گذرواژه‌های قوی بسازید، می‌توانید [[!wikipedia\n"
 "Weak_password#Examples_of_weak_passwords desc=\"ویکی‌پدیا: گذرواژه‌های ضعیف\"]] را بخوانید.\n"
 
-#. type: Title =
-#, no-wrap
-msgid "Tails is a work in progress\n"
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "Tails is a work in progress\n"
+msgid "<h1 id=\"wip\">Tails is a work in progress</h1>\n"
 msgstr "تیلز کاری در حال توسعه است\n"
 
 #. type: Plain text
@@ -862,14 +851,52 @@ msgstr ""
 "برنامه‌نویسی یا حفره‌های امنیتی وجود داشته باشد. [[در جریان توسعهٔ تیلز باشید|"
 "download#stay_tuned]]."
 
+#~ msgid "<a id=\"compromised_hardware\"></a>\n"
+#~ msgstr "<a id=\"compromised_hardware\"></a>\n"
+
+#~ msgid "<a id=\"untrusted_system\"></a>\n"
+#~ msgstr "<a id=\"untrusted_system\"></a>\n"
+
+#~ msgid "<a id=\"bios\"></a>\n"
+#~ msgstr "<a id=\"bios\"></a>\n"
+
+#~ msgid "<a id=\"exit_node\"></a>\n"
+#~ msgstr "<a id=\"exit_node\"></a>\n"
+
+#~ msgid "<a id=\"fingerprint\"></a>\n"
+#~ msgstr "<a id=\"fingerprint\"></a>\n"
+
 #, fuzzy
-#~| msgid "As explained in our documentation about [[Vidalia|anonymous_internet/vidalia#new_identity]] and [[Tor Browser|anonymous_internet/Tor_Browser#new_identity]], their **New identity** features are not perfect solutions to separate different contextual identities. **Shutdown and restart Tails instead.**"
+#~| msgid "Man-in-the-middle attacks\n"
+#~ msgid "Man-in-the-middle attacks"
+#~ msgstr "حملات فرد میانی\n"
+
+#, fuzzy
+#~| msgid "Confirmation attacks\n"
+#~ msgid "Confirmation attacks"
+#~ msgstr "حمله‌های تأیید\n"
+
+#~ msgid "<a id=\"identities\"></a>\n"
+#~ msgstr "<a id=\"identities\"></a>\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "As explained in our documentation about [[Vidalia|anonymous_internet/"
+#~| "vidalia#new-identity]] and [[Tor Browser|anonymous_internet/"
+#~| "Tor_Browser#new-identity]], their **New identity** features are not "
+#~| "perfect solutions to separate different contextual identities. "
+#~| "**Shutdown and restart Tails instead.**"
 #~ msgid ""
 #~ "As explained in our documentation about\n"
-#~ "[[Tor Browser|anonymous_internet/Tor_Browser#new_identity]],\n"
+#~ "[[Tor Browser|anonymous_internet/Tor_Browser#new-identity]],\n"
 #~ "its **New identity** feature is not a perfect solution to separate\n"
 #~ "different contextual identities. And, as\n"
-#~ "[[explained in the FAQ|support/faq#new_identity]], Tails does not\n"
+#~ "[[explained in the FAQ|support/faq#new-identity]], Tails does not\n"
 #~ "provide a global <span class=\"guilabel\">New Identity</span>\n"
 #~ "feature. **Shutdown and restart Tails instead.**\n"
-#~ msgstr "همان‌طور که در سند ما راجع به [[ویدالیا|anonymous_internet/vidalia#new_identity]] و [[مرورگر تور|anonymous_internet/Tor_Browser#new_identity]] آمده، ویژگی‌های **هویت جدید** آن‌ها راه‌حل‌هایی بی‌نقص برای جدا کردن هویت‌های متفاوت شما نیستند. **در عوض تیلز را خاموش و دوباره راه‌اندازی کنید.**"
+#~ msgstr ""
+#~ "همان‌طور که در سند ما راجع به [[ویدالیا|anonymous_internet/"
+#~ "vidalia#new-identity]] و [[مرورگر تور|anonymous_internet/"
+#~ "Tor_Browser#new-identity]] آمده، ویژگی‌های **هویت جدید** آن‌ها راه‌حل‌هایی "
+#~ "بی‌نقص برای جدا کردن هویت‌های متفاوت شما نیستند. **در عوض تیلز را خاموش و "
+#~ "دوباره راه‌اندازی کنید.**"

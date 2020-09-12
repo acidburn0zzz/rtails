@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-01-18 14:46+0100\n"
-"PO-Revision-Date: 2020-01-11 13:26+0000\n"
+"POT-Creation-Date: 2020-09-06 15:47+0000\n"
+"PO-Revision-Date: 2020-02-12 11:27+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -58,11 +58,6 @@ msgstr "[[!toc levels=1]]\n"
 #, no-wrap
 msgid "Changes"
 msgstr "Changements"
-
-#. type: Title ##
-#, no-wrap
-msgid "New features"
-msgstr "Nouvelles fonctionnalités"
 
 #. type: Title ##
 #, no-wrap
@@ -127,7 +122,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Fixed problems"
-msgstr "Problèmes résolus"
+msgstr "Problèmes corrigés"
 
 #. type: Plain text
 msgid ""
@@ -150,8 +145,8 @@ msgid ""
 "For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
 "\"]]."
 msgstr ""
-"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog desc=\""
-"liste des changements\"]]."
+"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog desc="
+"\"liste des changements\"]]."
 
 #. type: Plain text
 #, no-wrap
@@ -175,19 +170,19 @@ msgstr ""
 #, no-wrap
 msgid ""
 "  To fix this issue, add `nomodeset` to the [[startup\n"
-"  options|doc/first_steps/startup_options/#boot_loader_menu]].\n"
+"  options|doc/advanced_topics/boot_options]].\n"
 msgstr ""
 "  Pour corriger ce problème, ajoutez `nomodeset` aux [[options\n"
-"  de démarrage|doc/first_steps/startup_options/#boot_loader_menu]].\n"
+"  de démarrage|doc/advanced_topics/boot_options]].\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "  If this workaround doesn't work, add `nomodeset xorg-driver=vesa` to\n"
-"  the [[startup options|doc/first_steps/startup_options/#boot_loader_menu]].\n"
+"  the [[startup options|doc/advanced_topics/boot_options]].\n"
 msgstr ""
 "  Si cette solution ne marche pas, ajoutez `nomodeset xorg-driver=vesa` aux\n"
-"  [[options de démarrage|doc/first_steps/startup_options/#boot_loader_menu]].\n"
+"  [[options de démarrage|doc/advanced_topics/boot_options]].\n"
 
 #. type: Plain text
 #, no-wrap
@@ -226,7 +221,8 @@ msgstr "Obtenir Tails 3.11"
 
 #. type: Plain text
 msgid "- To install, follow our [[installation instructions|install]]."
-msgstr "- Pour l'installer, suivez nos [[instructions d'installation|install]]."
+msgstr ""
+"- Pour l'installer, suivez nos [[instructions d'installation|install]]."
 
 #. type: Plain text
 msgid ""
@@ -273,3 +269,6 @@ msgstr ""
 "Nous avons besoin de votre aide et il y a de nombreuses manières de [[contribuer à\n"
 "Tails|contribute]] (<a href=\"https://tails.boum.org/donate/?r=3.11\">faire un don</a> est seulement l'une\n"
 "d'entre elles). Venez [[discuter avec nous|about/contact#tails-dev]] !\n"
+
+#~ msgid "New features"
+#~ msgstr "Nouvelles fonctionnalités"

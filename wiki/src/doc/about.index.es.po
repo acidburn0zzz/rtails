@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-07-18 19:06+0000\n"
-"PO-Revision-Date: 2019-08-24 06:21+0000\n"
-"Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
+"POT-Creation-Date: 2020-07-29 20:56+0000\n"
+"PO-Revision-Date: 2020-08-16 21:29+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/"
 "first_stepsindex/es/>\n"
 "Language: es\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. type: Bullet: '  - '
 msgid "[[!traillink System_requirements|about/requirements]]"
 msgstr "[[!traillink Requisitos_del_sistema|about/requirements]]"
 
 #. type: Bullet: '  - '
-msgid "[[!traillink Warnings!|about/warning]]"
-msgstr "[[!traillink ¡Advertencia!|about/warning]]"
+msgid "[[!traillink Warnings_and_limitations|about/warning]]"
+msgstr "[[!traillink Advertencias_y_limitaciones|about/warning]]"
 
 #. type: Bullet: '  - '
 msgid "[[!traillink Features_and_included_software|about/features]]"
@@ -40,6 +40,10 @@ msgid ""
 msgstr ""
 "[[!traillink ¿Puedo_ocultar_el_hecho_de_que_estoy_usando_Tails?|about/"
 "fingerprint]]"
+
+#. type: Bullet: '  - '
+msgid "[[!traillink Social_Contract|doc/about/social_contract]]"
+msgstr "[[!traillink Contrato_Social|about/social_contract]]"
 
 #. type: Bullet: '  - '
 msgid "[[!traillink Trusting_Tails|about/trust]]"
@@ -61,6 +65,11 @@ msgstr ""
 msgid "[[!traillink Finances|about/finances]]"
 msgstr "[[!traillink Finanzas|about/finances]]"
 
-#. type: Bullet: '  - '
-msgid "[[!traillink OpenPGP_keys|about/openpgp_keys]]"
-msgstr "[[!traillink Llaves_OpenPGP|about/openpgp_keys]]"
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  - [[!traillink Contact|about/contact]]\n"
+"    - [[!traillink OpenPGP_keys|about/openpgp_keys]]\n"
+msgstr ""
+"  - [[!traillink Contacta|about/contact]]\n"
+"    - [[!traillink Llaves_OpenPGP|about/openpgp_keys]]\n"

@@ -60,8 +60,8 @@ Use the equivalent of DocBook tags
 to style your documentation using CSS. 
 
   - <span class="code">span.application</span> for application names, for example:
-    - Code: `<span class="application">Tails Greeter</span>`
-    - Result: <span class="application">Tails Greeter</span>
+    - Code: `<span class="application">Welcome Screen</span>`
+    - Result: <span class="application">Welcome Screen</span>
   - <span class="code">span.button</span>  for button names, for example:
     - Code: `the <span class="button">Login</span> button`
     - Result: the <span class="button">Login</span> button
@@ -141,7 +141,7 @@ Screenshots
 
 We limit the number of screenshots in the documentation to the minimum.
 The GNOME Documentation Style Guide explains very well the
-[disadvantages of screenshots](https//developer.gnome.org/gdp-style-guide/2.32/gdp-style-guide.html#infodesign-10).
+[disadvantages of screenshots](https://developer.gnome.org/gdp-style-guide/2.32/gdp-style-guide.html#infodesign-10).
 
 When using screenshots of full windows, we include the window decoration
 and a border of blue background to clarify the context and the nature of

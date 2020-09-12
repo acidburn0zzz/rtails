@@ -4,39 +4,23 @@ Welcome, we're glad to see you interested in becoming a partner!
 It's thanks to our partners' substantial support that we are able to maintain
 and improve Tails.
 
-Become a partner
-================
-
-To be listed as a partner on our [[partner page|partners]], at least one of the
-criteria below must be met. A partner provides either:
-
-* A one-time donation
-* A recurring donation (for example yearly)
-* A grant or funding for [[some objectives on our roadmap|contribute/roadmap]]
-* An in-kind donation (hardware, equipment, travel sponsorship, etc.)
-
-<a id="benefits"></a>
-
 Benefits for partners
 =====================
 
-<!-- Keep this info in sync with fundraising.git:partners_donations/partners_first_email.mdwn.
+<!-- Keep this info in sync with fundraising.git:partners_donations/partners_first_email.mdwn. -->
 
-     start -->
+* Your logo will appear in our [[partners page|partners]].
 
-* Your logo will appear in the top section of our partners page:
-  <https://tails.boum.org/partners>.
+  Your logo will be in the "Current partners" section during 12 months, after
+  which we will move it to the "Past partners" section.
 
-  You can decide to be added as soon as we receive your donation or
-  at the beginning of the following year, if you prefer.
+  Send us your logo as a file, 100 pixels in height, JPG or PNG.
 
-  Partners from previous years will still be listed but less visible.
+  Partners are ranked by amount and reverse chronological order.
 
-  If possible, please send us your logo as file, minimum 85 pixels in
-  height, varying width, 72dpi, JPG or PNG.
+* Your homepage will be linked from our partners page during 12 months.
 
-* Your homepage will be linked from our partners page during the year of
-  your donation. Our website is very well ranked by search engines and
+  Our website is very well ranked by search engines and
   having your site linked from ours is beneficial for SEO.
 
   Our partners page is linked to from our homepage and donation pages.
@@ -51,13 +35,22 @@ Benefits for partners
   - Fit (women): S, M, and L
   - Straight (men): S, M, L, XL, and 2XL.
 
+Become a partner
+================
+
+To become a partner, you must make a monetary or in-kind donation of at
+least $1&#8239;000.
+
+In-kind donations can be for hardware, outreach material, and travel
+sponsorship.
+
 Your donation might be tax-deductible
 =====================================
 
 We have two non-profit fiscal sponsors:
 
 * The Center for Cultivation of Technology, a gGmbH in Germany.
-* RiseupLabs, a 501(c)(3) non-profit in the USA.
+* Riseup Labs, a 501(c)(3) non-profit in the USA.
 
 Please verify with your local fiscal administration which of them
 would make your donation tax-deductible.

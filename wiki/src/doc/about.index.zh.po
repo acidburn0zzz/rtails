@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-07-18 19:06+0000\n"
+"POT-Creation-Date: 2020-07-29 20:56+0000\n"
 "PO-Revision-Date: 2018-11-13 01:48+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,8 @@ msgid "[[!traillink System_requirements|about/requirements]]"
 msgstr "[[!traillink 系统需求|about/requirements]]"
 
 #. type: Bullet: '  - '
-msgid "[[!traillink Warnings!|about/warning]]"
+#, fuzzy
+msgid "[[!traillink Warnings_and_limitations|about/warning]]"
 msgstr "[[!traillink 警告!|about/warning]]"
 
 #. type: Bullet: '  - '
@@ -38,6 +39,11 @@ msgstr "[[!traillink 为什么_Tails_选择_Tor?|about/tor]]"
 msgid ""
 "[[!traillink Can_I_hide_the_fact_that_I_am_using_Tails?|about/fingerprint]]"
 msgstr "[[!traillink 我能否不让别人知道我在使用Tails?|about/fingerprint]]"
+
+#. type: Bullet: '  - '
+#, fuzzy
+msgid "[[!traillink Social_Contract|doc/about/social_contract]]"
+msgstr "[[!traillink 财务|about/finances]]"
 
 #. type: Bullet: '  - '
 msgid "[[!traillink Trusting_Tails|about/trust]]"
@@ -59,7 +65,9 @@ msgstr ""
 msgid "[[!traillink Finances|about/finances]]"
 msgstr "[[!traillink 财务|about/finances]]"
 
-#. type: Bullet: '  - '
-#, fuzzy
-msgid "[[!traillink OpenPGP_keys|about/openpgp_keys]]"
+#. type: Plain text
+#, fuzzy, no-wrap
+msgid ""
+"  - [[!traillink Contact|about/contact]]\n"
+"    - [[!traillink OpenPGP_keys|about/openpgp_keys]]\n"
 msgstr "[[!traillink 财务|about/finances]]"

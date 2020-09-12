@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2019-07-18 19:06+0000\n"
+"POT-Creation-Date: 2020-07-29 20:56+0000\n"
 "PO-Revision-Date: 2019-12-22 21:02+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,9 @@ msgid "[[!traillink System_requirements|about/requirements]]"
 msgstr "[[!traillink Requisitos_de_sistema|about/requirements]]"
 
 #. type: Bullet: '  - '
-msgid "[[!traillink Warnings!|about/warning]]"
+#, fuzzy
+#| msgid "[[!traillink Warnings!|about/warning]]"
+msgid "[[!traillink Warnings_and_limitations|about/warning]]"
 msgstr "[[!traillink Advertências!|about/warning]]"
 
 #. type: Bullet: '  - '
@@ -40,6 +42,12 @@ msgid ""
 msgstr ""
 "[[!traillink É_possível_ocultar_o_fato_de_que_estou_usando_Tails?|about/"
 "fingerprint]]"
+
+#. type: Bullet: '  - '
+#, fuzzy
+#| msgid "[[!traillink Finances|about/finances]]"
+msgid "[[!traillink Social_Contract|doc/about/social_contract]]"
+msgstr "[[!traillink Finanças|about/finances]]"
 
 #. type: Bullet: '  - '
 msgid "[[!traillink Trusting_Tails|about/trust]]"
@@ -61,8 +69,10 @@ msgstr ""
 msgid "[[!traillink Finances|about/finances]]"
 msgstr "[[!traillink Finanças|about/finances]]"
 
-#. type: Bullet: '  - '
-#, fuzzy
+#. type: Plain text
+#, fuzzy, no-wrap
 #| msgid "[[!traillink Finances|about/finances]]"
-msgid "[[!traillink OpenPGP_keys|about/openpgp_keys]]"
+msgid ""
+"  - [[!traillink Contact|about/contact]]\n"
+"    - [[!traillink OpenPGP_keys|about/openpgp_keys]]\n"
 msgstr "[[!traillink Finanças|about/finances]]"
